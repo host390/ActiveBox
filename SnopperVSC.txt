@@ -1,0 +1,1558 @@
+
+
+
+// рабочие снипперы
+{
+	"Внешний-отступ": {
+		"scope": "css,scss",
+		"prefix": "mm",
+		"body": [
+			"margin: $1px 0px 0px 0px;",
+		],
+		"description": "Внешний-отступ"
+	},
+
+	"margin-bottom": {
+		"scope": "css,scss",
+		"prefix": "mb",
+		"body": [
+			"margin: 0px 0px $1px 0px;",
+		],
+		"description": "Внешний-отступ"
+	},
+
+	"margin-top": {
+		"scope": "css,scss",
+		"prefix": "mt",
+		"body": [
+			"margin: $1px 0px 0px 0px;",
+		],
+		"description": "Внешний-отступ"
+	},
+
+	"margin-left": {
+		"scope": "css,scss",
+		"prefix": "ml",
+		"body": [
+			"margin: 0px 0px 0px $1px;",
+		],
+		"description": "Внешний-отступ"
+	},
+
+	"margin-right": {
+		"scope": "css,scss",
+		"prefix": "mr",
+		"body": [
+			"margin: 0px $1px 0px 0px;",
+		],
+		"description": "Внешний-отступ"
+	},
+
+	"margin right and left": {
+		"scope": "css,scss",
+		"prefix": "mrl",
+		"body": [
+			"padding: 0px $1px;",
+		],
+	},
+
+	"margin top and bottom": {
+		"scope": "css,scss",
+		"prefix": "mtb",
+		"body": [
+			"padding: $1px 0px;",
+		],
+	},
+
+
+
+
+	"Внутренний-отступ": {
+		"scope": "css,scss",
+		"prefix": "pp",
+		"body": [
+			"padding: $1px 0px 0px 0px;",
+		],
+		"description": "Внутренний-отступ"
+	},
+
+	"padding-bottom": {
+		"scope": "css,scss",
+		"prefix": "pb",
+		"body": [
+			"padding: 0px 0px $1px 0px;",
+		],
+		"description": "Внешний-отступ"
+	},
+
+	"padding-top": {
+		"scope": "css,scss",
+		"prefix": "pt",
+		"body": [
+			"padding: $1px 0px 0px 0px;",
+		],
+		"description": "Внешний-отступ"
+	},
+
+	"padding-left": {
+		"scope": "css,scss",
+		"prefix": "pl",
+		"body": [
+			"padding: 0px 0px 0px $1px;",
+		],
+		"description": "Внешний-отступ"
+	},
+
+	"padding-right": {
+		"scope": "css,scss",
+		"prefix": "pr",
+		"body": [
+			"padding: 0px $1px 0px 0px;",
+		],
+		"description": "Внешний-отступ"
+	},
+
+	"padding right and left": {
+		"scope": "css,scss",
+		"prefix": "prl",
+		"body": [
+			"padding: 0px $1px;",
+		],
+	},
+
+	"padding top and bottom": {
+		"scope": "css,scss",
+		"prefix": "ptb",
+		"body": [
+			"padding: $1px 0px;",
+		],
+	},
+
+
+	"before": {
+		"scope": "css,scss",
+		"prefix": "bef",
+		"body": [
+			"&::before {  ",
+			"	content: '';",
+			"	$1",
+			"} "
+		],
+		"description": "before"
+	},
+
+	"after": {
+		"scope": "css,scss",
+		"prefix": "aft",
+		"body": [
+			"&::after {  ",
+			"	content: '';",
+			"	$1",
+			"} "
+		],
+	},
+
+	"last-child": {
+		"scope": "css,scss",
+		"prefix": "last",
+		"body": [
+			"&:last-child {",
+			"	$1",
+			"} "
+		],
+	},
+
+	"first-child": {
+		"scope": "css,scss",
+		"prefix": "first",
+		"body": [
+			"&:first-child {",
+			"	$1",
+			"} "
+		],
+	},
+
+	"nth-child": {
+		"scope": "css,scss",
+		"prefix": "nth",
+		"body": [
+			"&:nth-child() {",
+			"	$1",
+			"} "
+		],
+	},
+
+	"hover": {
+		"scope": "css,scss",
+		"prefix": "hov",
+		"body": [
+			"&:hover {",
+			"	$1",
+			"} "
+		],
+	},
+
+	"hoverAdefuld": {
+		"scope": "css,scss",
+		"prefix": "had",
+		"body": [
+			"&:hover {",
+			"	text-decoration: underline;",
+			"	color: $1;",
+			"} "
+		],
+	},
+
+	"PositionAbsolute": {
+		"scope": "css,scss",
+		"prefix": "pa",
+		"body": [
+			"position: absolute;",
+			"top: 0;",
+			"left: 0;",
+			"width: 100%;"
+		],
+	},
+
+// Медиа
+
+	"media": {
+		"scope": "css,scss",
+		"prefix": "md",
+		"body": [
+			"@media (max-width: $1px) {",
+			"	$2",
+			"}"
+		],
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	"Беграунд-картнка": {
+		"scope": "css,scss",
+		"prefix": "bg",
+		"body": [
+			"background: url('$1') 0 0/auto auto no-repeat scroll;",
+			"$2"
+		],
+		"description": "Беграунд-картнка"
+	},
+
+	"Беграунд-цвет": {
+		"scope": "css,scss",
+		"prefix": "bcc",
+		"body": [
+			"background-color: $1;",
+			"$2"
+		],
+		"description": "Беграунд-цвет"
+	},
+
+	"рамка": {
+		"scope": "css,scss",
+		"prefix": "bs",
+		"body": [
+			"border: solid 1px #fff;",
+			"$1"
+		],
+		"description": "рамка"
+	},
+
+	"Блоки_по_центру": {
+		"scope": "css,scss",
+		"prefix": "mc",
+		"body": [
+			"margin: 0px auto 0px auto;",
+			"$1"
+		],
+		"description": "Блоки_по_центру"
+	},
+
+	"Закругление-бардера": {
+		"scope": "css,scss",
+		"prefix": "br",
+		"body": [
+			"border-radius: $1px;"
+		],
+		"description": "Закругление-бардера"
+	},
+
+	"min-height": {
+		"scope": "css,scss",
+		"prefix": "mh",
+		"body": [
+			"min-height: $1px;"
+		],
+		"description": "min-height"
+	},
+
+	"box-shadow": {
+		"scope": "css,scss",
+		"prefix": "boxs",
+		"body": [
+			"box-shadow: 10px 10px 10px 10px red;"
+		],
+	},
+
+	"transition": {
+		"scope": "css,scss",
+		"prefix": "tran",
+		"body": [
+			"transition: all 0.5s ease 0s;"
+		],
+	},
+
+	"animation": {
+		"scope": "css,scss",
+		"prefix": "anim",
+		"body": [
+			"animation:	name 5s linear infinite normal running 0s forwards;"
+		],
+	},
+
+	"@keyframes": {
+		"scope": "css,scss",
+		"prefix": "key",
+		"body": [
+			"@keyframes name {",
+			"	0% {",
+			"	}",
+			"	50% {",
+			"	}",
+			"	100% {",
+			"	}",
+			"}",
+		],
+	},
+
+	"transform": {
+		"scope": "css,scss",
+		"prefix": "tranf",
+		"body": [
+			"transform: translate(0px, 0px) rotate(0deg) scale(1, 1) skew(0deg, 0deg);",
+			"transform-origin: center;"
+		],
+	},
+
+	"transform3d": {
+		"scope": "css,scss",
+		"prefix": "tranf3",
+		"body": [
+			"transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotate3d(1,1,1,0deg) rotateZ(0deg);",
+			"/* для блока */",
+			"/* perspective: 0px;",
+			"perspective-origin: center center;",
+			"transform-style: flat; */",
+			"/* для элемента */",
+			"/* backface-visibility: visible; */"
+		],
+	},
+
+
+
+
+	// SCSS
+
+	"@import": {
+		"scope": "scss",
+		"prefix": "imp",
+		"body": [
+			"@import '$1';"
+		],
+		"description": "@import"
+	},
+
+
+
+	// HTML
+
+	"section_class": {
+		"scope": "html",
+		"prefix": "sc",
+		"body": [
+			"<section class='$1'></section>"
+		],
+		"description": "section_class"
+	},
+
+	"container": {
+		"scope": "html",
+		"prefix": "cont",
+		"body": [
+			"<div class='container'>$1</div>"
+		],
+		"description": "container"
+	},
+
+
+}
+
+
+
+
+// больште участки кода, которые только копировать
+
+//===<--МЕНЮ БУРГЕР-->=====================================================================================================================================================
+{
+	//HTML
+	<button class="menu__burger burger">
+		<div class="burger__box">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</button>
+
+	// или
+
+	<nav class="header__menu menu">
+		<button class="menu__burger burger">
+			<div class="burger__box">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</button>
+		
+		<ul class="menu__list">
+			<li><a href="#" class="menu__link menu__link_active">Features</a></li>
+			<li><a href="#" class="menu__link">Works</a></li>
+			<li><a href="#" class="menu__link">Our Team</a></li>
+			<li><a href="#" class="menu__link">Testimonials</a></li>
+			<li><a href="#" class="menu__link">Download</a></li>
+		</ul>
+	</nav>
+
+	//CSS
+	.menu {
+		&__burder {
+			display: none;
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		&__list {
+			display: flex;
+			justify-content: center;
+		}
+
+		&__link {
+			color: green;
+			&_active {
+				color: red;
+			}
+		}
+	}
+	@media (max-width: 700px) { // при каком складываем в бургер???
+		.menu {
+			justify-content: flex-end; 
+			// Анимация списка
+			&__list {
+				overflow: auto;
+				justify-content: flex-start;
+				flex-wrap: nowrap;
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				background-color: rgba($color: #000000, $alpha: 0.7);
+				height: 100%;
+				z-index: 10;
+				flex-direction: column;
+				margin: 0px 0px 0px 0px;
+				align-items: center;
+				transform: translate(0px, -100%) rotate(0deg) scale(1, 1) skew(0deg, 0deg);
+				transform-origin: center;
+				transition: all 0.5s cubic-bezier(.8,.3,.7,0) 0s;
+				li {
+					padding: 0px 0px 0px 0px;
+					width: 100%;
+	
+					&:first-child {
+						margin-top: auto;
+	
+						margin-left: 0px;
+	
+						padding-top: 63px !important;
+	
+						// margin-top: 75px;
+						a {
+							// margin-top: 75px; 
+						}
+					}
+					&:last-child {
+						padding-bottom: 60px !important;
+						margin-bottom: auto;
+						a {
+							// margin-bottom: 40px;
+						}
+					}
+				}
+				&_active {
+					transform: translate(0px, 0px) rotate(0deg) scale(1, 1) skew(0deg, 0deg);
+					transform-origin: center;
+				}
+			}
+			&__link {
+				margin: 5px 0px;
+				width: 100%;
+				font-size: 19px;
+				text-align: center;
+				padding: 20px 0px;
+			}
+	
+			// Анимация крестика
+			&__burger {
+				// display: none !important; 
+	
+				width: 50px;
+				height: 37px;
+				position: relative;
+				top: 0;
+				left: 0;
+				z-index: 12;
+	
+				opacity: 1;
+				visibility: visible;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				background-color: transparent;
+				cursor: pointer;
+				span {
+					transition: transform 0.3s cubic-bezier(.8,.5,.2,1.4) 0s; // для лесинки
+					// transition: transform 0.5s ease 0s; // классик
+					margin: 0px 0px 5px 0;
+					width: 40px;
+					height: 3px;
+					background-color: #bdbec7;
+					display: block;
+					&:last-child {
+						margin: 0px 0px 0px 0px;
+					}
+	
+					// виды меню -- лесинка
+					&:nth-child(2) {
+						width: 25px;
+					}
+					&:nth-child(3) {
+						width: 15px;
+					} 
+				}
+				&_active {
+					span {
+						transition: transform 0.3s cubic-bezier(.8,.5,.2,1.4) 0s; // для лесинки
+						// transition: transform 0.5s ease 0s; // классик
+	
+						margin: 0px 0px 0px 0px;
+						// &:nth-child(1) {
+						//     transform: rotate(45deg);
+						// }
+						// &:nth-child(2) {
+						//     display: none;
+						// } 
+						// &:nth-child(3) {
+						//     margin: -3px 0px 0px 0px;
+						//     transform: rotate(-45deg);
+						// }
+	
+						// виды меню -- лесинка
+						&:nth-child(1) {
+							transform: rotate(-45deg);
+						}
+						&:nth-child(2) {
+							display: none;
+						} 
+						&:nth-child(3) {
+							
+							// width: 40px;
+							// margin: 0px 0px 0px 0px;
+							// animation:	lin 0.5s linear 1 normal running 0s forwards;
+							margin: -3px 0px 0px 0px;
+							width: 100%;
+							// border-left: 1px solid #000;
+							transform: translate(0px, 0px) rotate(45deg) scale(1, 1) skew(0deg, 0deg);
+							// transform-origin: center;
+						}
+					}
+				}
+			}
+		}
+		.burger {
+			&__box {
+				display: flex;
+				justify-content: flex-end;
+				flex-direction: column;
+				align-items: flex-end;
+			}
+		}
+	}
+
+	//JS
+	// меню бургер 
+	let burgName = 'menu__burger', // введите имя класс бургера
+		listName = 'menu__list', // введите имя класс ul меню
+		burger = document.querySelector(`.${burgName}`), // находим оболочку бyргера
+		list = document.querySelector(`.${listName}`), // находим ul c навигацией
+		maxWidthMob = 700; // при каком складываем в бургер???
+
+	function menuBurger () {
+		
+		burger.addEventListener('click', function(event) { // ставим обработчик на бургер
+			burger.classList.toggle(`${burgName}_active`) // при нажатии на бургер появляется крестик (актив)
+			list.classList.toggle(`${listName}_active`) // и листу ul даётся класс актив
+
+			if (burger.classList.contains(`${burgName}_active`)) { // если нажали на меню то...
+				document.body.style.overflow = 'hidden'; // запрещяем прокрутку body
+
+				backBlack.style.display = 'block'; // врубаем чёрный бэграунд
+
+			} else { // если меню не активно то...
+				document.body.style.overflow = 'auto'; // разрешаем прокрутку меню
+
+				backBlack.style.display = 'none'; // вырубаем чёрный фон
+			};
+		});
+
+		// если экран резко переходит в моб, то мы врубаем свойства...
+		window.addEventListener('resize', function() { // следим за именением экрана
+			if (document.documentElement.clientWidth > maxWidthMob) { // если он меньше того, когда появляется бургер...
+				document.body.style.overflow = 'auto'; // разрешаем прокрутку
+
+				backBlack.style.display = 'none'; // вырубаем чёрный бэк
+			}
+			// если пользователь переходит из десктопа в моб при вклёчённом бургере 
+			else if (burger.classList.contains(`${burgName}_active`)) { // если бургер активен...
+				document.body.style.overflow = 'hidden'; // запрещяем прокрутку
+
+				backBlack.style.display = 'block'; // врубаем бэг
+			}
+			else { // ели чёт не то, то нечё не делаем
+				return false
+			}
+		}) 
+	}
+	menuBurger ();
+	// ==============================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--ВЕРТИКАЛЬНОЕ И ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ ЭЛЕМЕНТОВ В ХЕДЕРЕ-->=====================================================================================================================================================
+{
+	/*
+		!! Пока работает только для 2 рядов !!
+		Чтоб использовать скрипт надо:
+		1) Иметь меню нужного плана
+
+		Недочёты:
+		1) неучтены padding: bottom у hedera
+		2) всё обнавляется только при перезагрузки или при изсенении высоты экрана
+		3) проблема с падинг ботомами у ли: когда они переходят из десктоп в мобаил их нельзя изменить
+		4) 
+	*/
+
+	// вертикальное и горизонтальное выравнивание меню хедера
+
+	let nenuName = 'menu__list', // название ul меню
+		nameHeaderRow = 'header__row', // название контейнера со всем основным содержимым хедера
+		headerRow = document.querySelector(`.${nameHeaderRow}`); // находим хедер ров
+
+	let mainMenu = document.querySelector(`.${nenuName}`), // находим ul главного меню
+		firstChildLi = mainMenu.firstElementChild, // в этом меню находим 1-ый li
+		lastChildLi = mainMenu.lastElementChild, // и последный li
+		firstChildLiStyle = getComputedStyle(firstChildLi), // узнаём все стили у 1-ого li
+		lastChildLiStyle = getComputedStyle(lastChildLi), // узнаём все стили у последнего li
+		firstMarg = firstChildLiStyle.marginLeft, // узнаём margin-left у 1-ого li
+		lastMarg = lastChildLiStyle.marginRight; // узнаём margin-right у последнего li
+
+	// console.log ('firstMarg = ' + firstMarg + ' ' + " lastMarg = "+ lastMarg) // проверка 1
+
+	let mainMenuLiAll = mainMenu.querySelectorAll('li'), // находим все li меню хедера
+		headerBody = document.querySelector('.header__body'); // находим хедер боди --- возможно не надо !!!!
+
+	function tranNumb (str1, str2) { // функция интепритирует данные (пример: вход-'1234px' выход-'1234)
+		// let x = +(str1.match(/\d+\.\d+|\d+|/)); // переводим строку с px в число без px
+		// let y = +(str2.match(/\d+\.\d+|\d+|/)); // переводим строку с px в число без px
+		let x = +(str1.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
+			y = +(str2.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
+			sum;
+
+		sum = y - x; // вычитаем из 2 чила 1
+		if (sum < 0) { // если у нас нету 2 ряда то...
+			sum = 0; // сумма будет 0
+		};
+		// console.log ('x = ' + x + ' ' + " y = "+ y + ' sum = ' + sum) // проверка 2
+		lastChildLi.style.marginRight = sum + 'px'; // полученный результат даём последнему li
+	};
+	tranNumb(firstMarg, lastMarg); // srt1 это marginLeft 1-ого li, srt1 это margin-right последнего li
+
+	if (document.documentElement.clientWidth > 756)	{ // если у нас нету меню бургера то ...
+		lastChildLi.style.marginRight = 'auto'; // ставим последнему li margin-right: auto;
+		firstMarg = firstChildLiStyle.marginLeft; // находим макджин left у 1-ого li
+		lastMarg = lastChildLiStyle.marginRight; // находим марджин right у последнего li
+		tranNumb(firstMarg, lastMarg); // перезапускаем функцию с новыми данными
+		// console.log ('firstMarg = ' + firstMarg + ' ' + " lastMarg = "+ lastMarg) // проверка
+
+		// если высота меню равно высоте ссылки меню (если все элементы одинаковы) или высота меню - 15px 
+		// (это padding-buttom при возвращении из 2 слойного меню) равно также  высоте ссылки меню то...
+		if (mainMenu.offsetHeight == firstChildLi.firstChild.offsetHeight || mainMenu.offsetHeight - 15 == firstChildLi.firstChild.offsetHeight) { // если меню обычное, то...
+			// console.log ('1 ряд')
+			headerBody.style.paddingBottom = '38px'; // ставим дефолтный PB [tlthe]
+			headerRow.style.alignItems = 'center'; // центрируем лишки
+			for (let i = 0; i < mainMenuLiAll.length; i++) { // каждому li в меню
+				mainMenuLiAll[i].style.paddingBottom = '0px'; // убераем комперсирующий паддинг
+			};
+		} else { // если перешло в 2 ряда то...
+			// console.log ('2-9999 рядов')
+			headerBody.style.paddingBottom = '23px'; // меняем комперсирующий паддинг
+			headerRow.style.alignItems = 'flex-start'; // делаем li по центру
+			for (let i = 0; i < mainMenuLiAll.length; i++) { // и каждому li 
+				mainMenuLiAll[i].style.paddingBottom = '15px'; // добавляем нижний раддинг
+			};
+		};
+
+	} else { // если есть меню бургер то...
+		headerBody.style.paddingBottom = '0'; // возможно из-за этого что-то не так
+		headerRow.style.alignItems = 'center'; // центрируем лишки
+		for (let i = 0; i < mainMenuLiAll.length; i++) { // у каждого ли 	
+			mainMenuLiAll[i].style.paddingBottom = '0px'; // убераем отступы
+		};
+		lastChildLi.style.marginRight = '0'; // ставим последнему li margin-right: 0;
+	};
+
+	window.addEventListener('resize', function() { // следим за изменением ширины экрана
+		if (document.documentElement.clientWidth > 756)	{ // если у нас нету меню бургера то ...
+			lastChildLi.style.marginRight = 'auto'; // ставим последнему li margin-right: auto;
+			firstMarg = firstChildLiStyle.marginLeft; // находим макджин left у 1-ого li
+			lastMarg = lastChildLiStyle.marginRight; // находим марджин right у последнего li
+			tranNumb(firstMarg, lastMarg); // перезапускаем функцию с новыми данными
+			// console.log ('firstMarg = ' + firstMarg + ' ' + " lastMarg = "+ lastMarg) // проверка
+
+			// если высота меню равно высоте ссылки меню (если все элементы одинаковы) или высота меню - 15px 
+			// (это padding-buttom при возвращении из 2 слойного меню) равно также  высоте ссылки меню то...
+			if (mainMenu.offsetHeight == firstChildLi.firstChild.offsetHeight || mainMenu.offsetHeight - 15 == firstChildLi.firstChild.offsetHeight) { // если меню обычное, то...
+				// console.log ('1 ряд')
+				headerBody.style.paddingBottom = '38px'; // ставим дефолтный PB [tlthe]
+				headerRow.style.alignItems = 'center'; // центрируем лишки
+				for (let i = 0; i < mainMenuLiAll.length; i++) { // каждому li в меню
+					mainMenuLiAll[i].style.paddingBottom = '0px'; // убераем комперсирующий паддинг
+				}
+			} else { // если перешло в 2 ряда то...
+				// console.log ('2-9999 рядов')
+				headerBody.style.paddingBottom = '23px'; // меняем комперсирующий паддинг
+				headerRow.style.alignItems = 'flex-start'; // делаем li по центру
+				for (let i = 0; i < mainMenuLiAll.length; i++) { // и каждому li 
+					mainMenuLiAll[i].style.paddingBottom = '15px'; // добавляем нижний раддинг
+				};
+			};
+
+		} else { // если есть меню бургер то...
+			headerBody.style.paddingBottom = '0'; // возможно из-за этого что-то не так
+			headerRow.style.alignItems = 'center'; // центрируем лишки
+			for (let i = 0; i < mainMenuLiAll.length; i++) { // у каждого ли 	
+				mainMenuLiAll[i].style.paddingBottom = '0px'; // убераем отступы
+			};
+			lastChildLi.style.marginRight = '0'; // ставим последнему li margin-right: 0;
+		};
+	});
+}
+//========================================================================================================================================================
+
+
+//===<--ЧЕРНЫЙ БЭГРАУНД-->=====================================================================================================================================================
+{
+	//HTML
+	<div class="backblack"></div>
+
+	//CSS 
+	.backblack {
+		background-color: black;
+		opacity: 0.5;
+		position: fixed;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		min-height: 100%;
+		z-index: 29;
+		display: none;
+	}
+
+	//JS
+	// Чёрный беграунд ===========================================================================================
+	let backBlack = document.querySelector('.backblack') // находим чёрный бэграунд
+
+	function bacBlac() {	
+		backBlack.addEventListener('click', function() { // даём обработчик на него
+			burger.classList.remove(`${burgName}_active`);  // при нажатии дожны убераться все окна что мешают...
+			list.classList.remove(`${listName}_active`); // Надо сделать, но в следующем проекте...
+			document.body.style.overflow = 'auto';
+			backBlack.style.display = 'none';
+		});
+	};
+	bacBlac();
+	// ===========================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--ПЛАВНЫЙ СКРВЛЛ ЯКОРЕЙ И СТРЕЛКИ UP-->=====================================================================================================================================================
+{
+	// Плавный скролл на чистом JS ==================================================================================
+	/*
+		Чтоб использовать скрипт надо:
+		1) Установить href у ссылки (пример <a href="#home" class="">Home</a>)
+		2) Установить id секции (пример <section id='home'></section>)
+		3) heightFixedMedu ищется высота прикреплённого хедера
+	*/
+	function animScroll() {
+		let upA = document.querySelectorAll('a[href*="#"]'); // находим все ссылки начинающиеся на # (Это точно якори)
+
+		for (let i = 0; i < upA.length; i++) { // забускаем цикл по всем ссылкам
+			upA[i].addEventListener('click', function(event) { // Ставим обработчик на все якори
+
+				event.preventDefault(); // отрубаем действие по умолчанию
+				let href = this.getAttribute('href'); // получем href ссылки на которую кликнули
+				let elemntAnchor = document.querySelector(href); // находим элемент, на котором стоит этот якорь
+				// eсли это не якорь то не трогаем, хз как определить того чего нет :(
+
+				if (href == '#up') { //если в href ссылки добавить #up, то скролл дойдёт до начала
+					scrollUp() // вызываем соответствующую функцию
+				} else {
+                    if (window.pageYOffset > elemntAnchor.offsetTop) { // если экран ниже элемента то...
+                        scrollTop(elemntAnchor.offsetTop - heightFixedMedu); // вызываем соответствующую функцию и - высоту fixed menu
+                    } else if (window.pageYOffset < elemntAnchor.offsetTop) { //если экран выше элемента то...
+                        scrollBottom(elemntAnchor.offsetTop - heightFixedMedu); // вызываем соотвктствующую функцию и - высоту fixed menu
+                    } else { // если экран находится в одной координате с элементом то...
+                        window.scrollTo(0, elemntAnchor.offsetTop - heightFixedMedu); // экран становтся в координату элемента и - высоту fixed menu
+                    };
+                };
+			});
+		};
+
+		function scrollTop(elemntAnchor) { // функция вызывается если экран выше элемента
+			if (window.pageYOffset > elemntAnchor) { // если координата экрана больше координаты элемента то...
+				window.scrollTo(0, window.pageYOffset - 50); // скролим вверх по 50px за раз
+				setTimeout(scrollTop, 1, elemntAnchor); // ждём 1 милисекунду и повторяем функцию
+			} else { // если мы дошли до нужной координаты , то оставляем скролл на корде элемента
+				window.scrollTo(0, elemntAnchor);
+			};
+		};
+
+		function scrollBottom(elemntAnchor) { // функция вызывается если экран выше элемента
+			if (window.pageYOffset < elemntAnchor) { // если координата экрана меньше координаты элемента то...
+				window.scrollTo(0, window.pageYOffset + 50); // скролим вниз по 50px за раз
+				setTimeout(scrollBottom, 1, elemntAnchor); // ждём 1 милисекунду и повторяем функцию
+			} else { // если мы дошли до нужной координаты , то оставляем скролл на корде элемента
+				window.scrollTo(0, elemntAnchor);
+			};
+		};
+
+		function scrollUp() { // функция скролит экран в координату 0 0 (для стрелочки up)
+			if (window.pageYOffset > 0) {
+				window.scrollTo(0, window.pageYOffset - 50)
+				setTimeout(scrollUp, 1)
+			} else {
+				window.scrollTo(0, 0)
+			}
+		}
+	};
+	animScroll ();
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--ПЛАВНОЕ ПОЯЛВЕНИЕ UP-->=====================================================================================================================================================
+{
+	//HTML
+	<a href="#up" class="uparrow">
+        <img src="img/icons/up-arrow.svg" alt="up-arrow">
+    </a>
+
+	//CSS
+	.uparrow {
+		width: 45px;
+		height: 45px;
+		cursor: pointer;
+		position: fixed;
+		bottom: 40px;
+		z-index: 28;
+		right: 40px;
+		display: block;
+		visibility: hidden;
+		opacity: 0;
+		transition: all 0.3s ease-in-out 0s;
+		img {
+			max-width: 100%;
+		}
+	}
+
+	//JS
+	// Плавное появление и скрытие Стрелки вверх =========================================================================================
+	/*
+		Чтоб использовать скрипт надо:
+		1) Добавить HTML 
+		2) Добавить CSS
+		3) Настроить перемнную cordVis
+	*/
+	let upArrow = document.querySelector('a[href*="#up"]'), // находим эту стрелку
+	cordVis = 1000; // после какой координаты по Y появляемся? (отсчитываем от верхнего левого угла)
+
+	function visibUpArrow () {
+		window.addEventListener('scroll', function() { // отслеживаем скролл
+			if (window.pageYOffset > cordVis) { // если мы дошли до нужной точки то...
+				upArrow.style.cssText = ('visibility: visible; opacity: 1;'); // даём стили
+			} else { // если экран ещё выше координаты появления то...
+				upArrow.style.cssText = ('visibility: hidden; opacity: 0;'); // даём стили
+			};
+		});
+	};
+	visibUpArrow ();
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--IBG ЗАМЕНА HTML img КАРТИНОК НА CSS-->=====================================================================================================================================================
+{	
+	//CSS
+	.ibg {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		&__img {
+			width: 0;
+			height: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+			visibility: hidden;
+		} 
+	} 
+
+	//JS
+	// IBG =========================================================================================
+	/*
+		Чтоб использовать скрипт надо:
+		1) установить блоку с тегом img class="ibg"
+		2) Установить этому img class="ibg__img"
+		ПРИМЕР: 
+		<div class="Bg ibg">
+			<img src="img..." alt="" class="ibg__img">
+		</div>
+		2) Проверяем чтоб стояли CSS свойства
+	*/
+	function ibg () {
+		let allItems = document.querySelectorAll('.ibg'), // находим все контенеры с классом ibg
+			itemsImage, // переменная для картинок
+			src; // переменная для src
+		for (let i = 0; i < allItems.length; i++) { // проходим по всем элементам и ...
+			itemsImage = allItems[i].querySelector('img'); // находим в них картинку
+			src = itemsImage.getAttribute('src'); // узнаём их src
+			allItems[i].style.backgroundImage = `url(${src})`; // вставляем src в url background-image
+		};
+	};
+	ibg ();
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--ПРОЦЕНТНЫЕ КРУГИ-->=====================================================================================================================================================
+{
+	//HTML
+	<div class='circle'>
+        <div class='circle__before'></div>
+        <div class='circle__podlo'></div>
+        <div class='circle__valve' style="background-color: #3fe34f;"></div>
+        <div class='circle__hole'>
+            <div class='circle__percent'>40<span>%</span></div>
+        </div>
+        	<div class='circle__after' style="background-color: #3fe34f;"></div>
+    </div>
+
+	//CSS
+	$background_fone: #fff;
+	.circle {
+		position: relative;
+		border-radius: 50%;
+		overflow: hidden;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		width: 200px;
+		height: 200px;
+		background-color: #dfe8ed;
+		&__before {
+			z-index: 9;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 50%;
+			height: 100%;
+			visibility: visible;
+
+			background-color: #dfe8ed;
+			animation: 0.5s linear 1 normal running 0s forwards; // Половину полного
+		}
+
+		&__podlo {
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 50%;
+			height: 100%;
+			z-index: 7;
+			transform-origin: left center;
+
+			background-color: #dfe8ed;
+		}
+
+		&__valve {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 50%;
+			height: 100%;
+			transform: rotate(0deg);
+			animation:	circle__valve 1s linear 1 normal running 0s forwards; // Время всего заполнения
+			transform-origin: right center;
+			z-index: 6;
+
+			background-color: #eb7d4b;
+		}
+
+		&__hole {
+			position: relative;
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			text-align: center;
+			overflow: hidden;
+			z-index: 10;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			background-color: $background_fone;
+		}
+
+		&__percent {
+			font-size: 40px;
+		}
+
+		&__after {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 50%;
+			height: 100%;
+			transform: rotate(0deg);
+			transform-origin: center right;
+
+			background-color: #eb7d4b;
+			animation:	circle__after 0.5s linear 1 normal running 0s forwards; // Половину полного
+		}
+	}
+	@keyframes circle__before {
+		100% {
+			visibility: hidden;
+		}
+	}
+	@keyframes circle__valve {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+	@keyframes circle__after {
+		100% {
+			/* visibility: visible; */
+			transform: rotate(180deg);
+			z-index: 8;
+		}
+	}
+
+	//JS
+	// Процентные круги =========================================================================================
+	/*
+		Чтоб использовать скрипт надо:
+		1) Добавить блок с кругом в HTML
+		2) Добавить CSS стили
+		3) Написать % class='circle__percent' (он 0 до 100)
+		4) Скорость регулируется в CSS
+		5) Чтоб поменять цвет добавляем классу circle__valve и circle__after style="background-color: #30bae7;"
+	*/
+	let podlo = document.querySelectorAll('.circle__podlo'), // находим все элементы круга(-ов)
+	circleA = document.querySelectorAll('.circle__after'),
+	circleB = document.querySelectorAll('.circle__before'),
+	valve = document.querySelectorAll('.circle__valve'),
+	percent = document.querySelectorAll('.circle__percent'),
+	after = document.querySelectorAll('.circle__after');
+
+	function circlePercent () {
+		for (let i = 0; i < percent.length; i++) { // у каждого круга
+			let pres = percent[i].firstChild.textContent; // находим его процент
+			let deg = pres * 3.6; // переводим процент в градусы
+			podlo[i].style.transform = `rotate(${deg}deg)`; // добавляем стиль transform
+			if (deg < 180) { // если меньше 50%
+				circleB[i].style.zIndex = '9'; // раставляеv z-index
+				podlo[i].style.zIndex = '7';
+				circleA[i].style.setProperty('z-index', "6", "important");
+
+				valve[i].style.animationName = 'circle__valve'; // даём нужные анимации
+				after[i].style.animationName = 'circle__after';
+			} else if (deg > 360) { // если больше 100%
+				alert ('не надо > 100%'); // на это ещё не расчитано
+				return false;
+			} else if (deg >= 180) { // если больше или равно 50%
+				circleB[i].style.zIndex = '9'; // раставляеv z-index
+				valve[i].style.zIndex = '5';
+				podlo[i].style.zIndex = '6';
+				circleA[i].style.setProperty('z-index', "7", "important");
+
+				circleB[i].style.animationName = 'circle__before'; // даём нужные анимации
+				valve[i].style.animationName = 'circle__valve';
+				after[i].style.animationName = 'circle__after';
+			};
+		};
+	};
+	circlePercent ();
+
+	// МОЖНО ДОРОБОТАТЬ В СЛЕДУЮЩЕМ ПРОЕКТЕ, МОЖЕТ НАКОПЛЮСЬ ОПЫТА...
+	//появление анимации кругов при скроде до определённой координаты
+
+	// let circleRow = document.querySelector('.skills__row')
+	// let circleCord = circleRow.offsetTop +  (circleRow.offsetHeight - 20) / 2 // 20 ненужный padding
+	// let clienHeigt = document.documentElement.clientHeight
+
+	// if (window.pageYOffset + clienHeigt >= circleCord) {
+	//     // console.log ('давай') 
+	//     //Если вспомню то лучше выделить зону и если экран попадает на эту зону, то анимация срабатывает, но как это сделать??? %^% !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+	//     circlePercent()
+	// }
+	// window.addEventListener('scroll', function() {
+	//     if (window.pageYOffset + clienHeigt >= circleCord) {
+	//         // console.log ('давай')
+
+	//         circlePercent()
+	//     }
+	// })
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--МАИИМПУТ ИЛИ ИНПУСЫ С ПОВЕРХНОСНЫМИ СТИЛЯМИ-->=====================================================================================================================================================
+{
+	//HTML
+	<div class='myinput'>
+		<div class='myinput__placeholder'>
+			Your Email <span>*</span>
+		</div>
+		<input class='myinput__input' type='text' name='' placeholder='' id='name1'/>
+	</div>
+
+	//CSS
+	$myinput_height: 200px;
+	$myinput_width: 400px;
+	.myinput {
+		position: relative;
+		top: 0;
+		left: 0;
+
+		&__placeholder {
+			text-align: left;
+			z-index: 1;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 2px;
+			
+			// line-height: 100px;
+			line-height: $myinput_height;
+			// height: 100px;
+			height: $myinput_height;
+			// width: 400px;
+			width: $myinput_width;
+			border-radius: 4px;
+			padding: 0px 0px 0px 25px;
+			background-color: #273a71;
+			color: #ffffff;
+			font-family: "Titillium Web";
+			font-size: 18px;
+			font-weight: 400;
+			span {
+				color: #ff4444;
+				font-family: "Arial MT";
+				font-size: 16px;
+			}
+		}
+
+		&__input {
+			position: relative;
+			z-index: 2;
+			top: 0;
+			left: 0;
+			background-color: transparent;
+
+			// height: 100px;
+			height: $myinput_height;
+			// width: 400px;
+			width: $myinput_width;
+			line-height: 100px;
+			padding: 0px 25px;
+			border: 0;
+			color: #ffffff;
+			font-family: "Titillium Web";
+			font-size: 18px;
+			font-weight: 400;
+		}
+	}
+
+	//JS 
+	// Стили для placeholder в input =========================================================================================
+	/*
+		Чтоб использовать скрипт надо:
+		1) Копировать блок в HTML
+		2) Установить стилии CSS
+		3) Ширина, высота и все стили настраиваются в CSS
+	*/
+	function myInput () {
+		let myInput = document.querySelectorAll('.myinput'), // находим все блоки майинпут
+		inputPlaceholder = document.querySelectorAll('.myinput__placeholder'), // в них пласхолдер
+		input = document.querySelectorAll('.myinput__input'); // и сам тег импут
+
+		let arrPlac = []; // создаём массив куда поместим всё что находится в placeholder
+		for (let i = 0; i < myInput.length; i++) { // проходимя по каждому блоку майимпут
+			arrPlac.push(`${inputPlaceholder[i].innerHTML}`); // добавляем в массив контент placeholder
+			myInput[i].addEventListener('input', function() { // устанавливаем каждому омпуту обработчик 'input'
+				if (input[i].value != '') { // если пользоватьль что-то пишет то...
+					inputPlaceholder[i].innerHTML = ''; // быстро вырубаем содержимое placeholder
+				} else { // если пользоватьель ещё ничего не написал или всё стёр то...
+					inputPlaceholder[i].innerHTML = `${arrPlac[i]}`; // очень быстро вставляем собержимое placeholder
+				};
+			});
+		};
+	};
+	myInput ();
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--ПРИЦЕПЛЕНИЕ МЕНЮ ПРИ СКРОЛЛЕ ВНИЗ-->=====================================================================================================================================================
+{
+	// прицепление меню при скроле вниз =========================================================================================
+	function fixHed () {
+		let header = document.querySelector('header'), // находим хедер
+			hedCord = header.offsetTop; // находим верхную левую координату хедера
+		function fh (cordHed) { // функция проверки 
+			if (window.pageYOffset > cordHed) { // если верхняя координата окна больше координаты меню то...
+				header.style.cssText = 'position:fixed; top:0px;'; // прицкпляем heder сверху
+			} else { // если верхняя координата окна меньше координаты меню то...
+				header.style.cssText = 'position:absolute;'; // пользователь находится вверху
+			};
+		};
+		fh (hedCord) // передаём её в функцию
+		window.addEventListener('scroll', function() { // при прокрутки страницы
+			fh (hedCord); // обновляем состояние условия
+		});
+	};
+	fixHed();
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--ПEРEКЛЮЧEНИE АКТИВОВ У ХЕДЕРА-->=====================================================================================================================================================
+{
+	// Переключалка активных элементах у хедера при нажатии =========================================================================================
+	let headerMenu = document.querySelector('.header__menu') // находим меню хедера
+	function activMenuAitems () {
+		headerMenu.addEventListener('click', function(event) { // при клике на это меню...
+			headMenuActive (event.target, event.currentTarget); // передаём в функцию элемент куда нажали и на чём был обработчик
+		});
+		function headMenuActive(et, ec) { // запускаем проверочную функцию
+			if (et.tagName != 'A') return; // если это не сыллка, то не надо нам
+			if (ec.querySelector('.menu__link_active') == null) { // если изначально нет активов то...
+				event.preventDefault(); // вырубаем действие по умолчанию
+				et.classList.add('menu__link_active'); // даём нажатому актив
+			} else { // если изначально есть актив то...
+				ec.querySelector('.menu__link_active').classList.remove('menu__link_active'); // удаляем у него актив
+				event.preventDefault(); // вырубаем действие по умолчанию
+				et.classList.add('menu__link_active'); // даём класс актив
+			};
+		};
+	};
+	activMenuAitems();
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--ЗАМЕНА АКТИВО МЕНЮ ПРИ СКОЛЛЕ-->=====================================================================================================================================================
+{
+	// Подмена активов хедела при скроле к секции =========================================================================================
+	/*
+		Чтоб использовать скрипт надо:
+		1) Иметь меню нужного плана
+		2) поставить якорь на ссылку и на элемент
+		<a href="#home" class="menu__link">Home</a>
+		<div class='team' id='home'></div>
+	*/
+	let headerRow = document.querySelector('.header__row'), // находим оболочку меню которая даёт высоту при fixed
+	heightFixedMedu = headerRow.offsetHeight; // отслеживаем высоту fixed меню
+
+	function activMenuZone() {
+		let aHrefAll = document.querySelectorAll('.menu__list>li>a[href*="#"]'), // находим все ссылки главного меню
+			arrHref = [], // создаём массив для href всех ссылок
+			zoneAllArr = []; // создаём массив для зон
+
+		for (let i = 0; i < aHrefAll.length; i++) { // проходимся по каждой сслыки
+			arrHref.push(aHrefAll[i].getAttribute('href')); // помещяем в массив href
+			zoneAllArr.push(document.querySelector(arrHref[i])); // ниходим все зоны по хрефам ссылок
+		};
+		
+		window.addEventListener('scroll', function() { // при скролле...
+			heightFixedMedu = headerRow.offsetHeight; // обновляем высоту fixed меню
+			fullHeigth = window.pageYOffset + heightFixedMedu; // координата окна сверху +  высотра прекреплённого хедера
+		
+			for (let i = 0; i < aHrefAll.length; i++) { // проходимся по каждой координатной области зон
+				// если верхняя кордината экрана больше или равно верхней координаты какой либо зоны и если верхняя кордината экрана
+				// меньше или равно нижней координаты зоны то... (если мы попали в оду из зон)
+				if (fullHeigth >= zoneAllArr[i].offsetTop && fullHeigth <= zoneAllArr[i].offsetTop + zoneAllArr[i].offsetHeight) {
+					let linkAct = headerMenu.querySelector(`a[href*="${zoneAllArr[i].getAttribute('id')}"]`); // находим якорь этой зоны
+		
+					let linkLastAct = headerMenu.querySelector('.menu__link_active'); // находим последнюю активную зону в хедере
+					if (linkLastAct == null) { // если изначально не активных то...
+						linkAct.classList.add('menu__link_active'); // даём актив ссылки сейчасной зоны
+					} else { // если есть активные то...
+						linkLastAct.classList.remove('menu__link_active'); // удаляем последний актив
+						linkAct.classList.add('menu__link_active'); // даём актив ссылки сейчасной зоны
+					};
+				};
+			};
+		});
+	};
+	activMenuZone();
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--ПЕРЕКЛЮЧАЛКА КОНТЕНТА С МЕНЮ НА ВЕРХУ-->=====================================================================================================================================================
+{
+	// Переключалка контента с меню =========================================================================================
+	/* 
+		Чтоб использовать скрипт надо:
+		1) иметь меню с конпками или ссылками
+		2) ставить контент группами и у нах должна быть общая оболочка
+	*/
+	let navList = document.querySelector('.navbar__list'), // нходим оболочку переключалок
+		navItemsAll = navList.querySelectorAll('.navbar__link'), // находим все ссылки или кноки меню
+		contentRow = document.querySelector('.portfolio__body'), // находим большой контейнер со всеми контейнерами меню
+		portfolioRowAll = document.querySelectorAll('.portfolio__row'); // находим все конейнеры с содержимым
+
+	function contentswitchMenu() {
+		navList.addEventListener('click', function(event) { // при клике на один из пунктов
+			// alert(event.target.tagName)
+			if (event.target.tagName != 'A') return // если не ссылка, то не надо
+			event.preventDefault(); // отменяем дейстиве по умолчанию
+			linkActive(event.target, event.currentTarget); // запускаем функцию в которую передаём куда нажали и сам контейнер
+			for (let i = 0; i < navList.children.length; i++) { // проходимся по всем li контейнера конопок переключения
+				// если 1 из содержимых совпало с содержимым клика то... 
+				if (navItemsAll[i].textContent == event.target.textContent) {
+					portfolioRowActive(i); // мы передаём туда номер этого пункта меню
+				};
+			};
+		});
+		
+		function linkActive(et, ec) {
+			let prevesAcrive = ec.querySelector('.navbar__link_active'); // если есть активная менюшка то...
+			if (prevesAcrive) {
+				prevesAcrive.classList.remove('navbar__link_active'); // удаляем у нё класс актив
+				et.classList.add('navbar__link_active'); // даём актив нажатому
+			} else { // если нету...
+				et.classList.add('navbar__link_active'); // просто даём актив нажатому
+			};
+		};
+		
+		function portfolioRowActive(i) {
+			let activPortfolioRow = contentRow.querySelector('.portfolio__row_active'); // находим активный класс
+			if (portfolioRowAll[i] == undefined) { // если зона не создана то...
+				if (activPortfolioRow) { // проверяем есть ли активная зона
+					activPortfolioRow.classList.remove('portfolio__row_active'); // удалем у самого первого элемента класс актив
+					return false; // ничё не делаем
+				} else { // если нету активного то...
+					return false; // ничё не делаем
+				}
+			}
+			if (activPortfolioRow) { // если есть предыдущий актив то...
+				activPortfolioRow.classList.remove('portfolio__row_active'); // удалем у самого первого элемента класс актив
+				portfolioRowAll[i].classList.add('portfolio__row_active'); // добавляем текущему
+			} else { // если у предыдущего нету актива то...
+				if (portfolioRowAll[i]) { // проверяем существует ли эта зона вообще
+					portfolioRowAll[i].classList.add('portfolio__row_active'); // если да, то даём актив текущему
+				} else if (portfolioRowAll[i] == null) { // если зоны нету то...
+					return false; // ничё не делаем
+				} else { // на всякий случай 
+					return false; // тоже ничё не делаем
+				};
+			};
+		};
+	};
+	contentswitchMenu();
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+
+//===<--ВЫРАВНИВАНИЕ КОНТЕНТА В ФУЛЛСКРИНЕ ПО ЦЕНТРУ НЕ ЗАВИСЕМО ТО ПАДДИНГОВ - ТО ЧТО НАДО :)-->=====================================================================================================================================================
+{
+	/* 
+		Чтоб использовать скрипт надо:
+		1) лучше использовать с выравнивалкой
+		2) иметь фуллскрин или чёт тип того
+		3) может чёт ещё надо, хз :?
+
+		Недочёты:
+		1) знать высоту контента
+		2) может случайно зависнуть в небе - это связано с отрицательным margin
+		3) нужно знать точное пространнство для него
+		4) при фиксированним меню нельзя отступать то хедера, надо чё-то придумать ;) ...
+		5) хедер надо делать не абсолютным это большой минус, надо думать что с этим делать
+		6) надо знать чёткую высоту хереа, а то когда она уменьшается не то значение
+		7) можно убрать копипасту :()
+		8) чего-то может не хватать или надо запускать с выравнялкой
+		9) 
+	*/
+
+	// работа с бургер меню при том, когда они по центру
+	function tranNu(Mt, Mb, Pt, Pb) { // функция интепритирует данные (пример: вход-'1234px' выход-'1234)
+		let MtN = +(Mt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
+			MbN = +(Mb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
+			PtN = +(Pt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
+			PbN = +(Pb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)); // переводим строку с px в число без px
+
+		let t = PtN + MtN, //  находим высоту от контента с верху 
+			b = PbN + MbN, //  находим высоту от контента с низу 
+			sum = t + b, // складываем высоты
+			sum2 = sum / 2; // и делим на 2
+
+		if (MbN <= 0) { // если нижний мардин auto 0
+			if (MtN <= 0) { // проверяем : мардин топ меньше 0? Соприконулась ли граница с верху с топ падингом 
+				firstChildLi.style.marginTop = 0 + 'px'; // если да, то больше марджин топ не надо трогать
+			} else { // если нет, то...
+				//	!!!  НУЖНО ЗНАТЬ ВЫСОТУ САМОГО КОНТЕНТА БЕЗ МАРДЖИНОВ И ПАДДИНГОВ  !!!
+				// в скобке нужно вычитать хедер, чтобы высота экрана работала с контентом
+				// 105 это для контента... a + a + ....
+				
+				// вычетаем и всех высоты эрана высоту контента и делим ёё на 2 и отнимает падинг топ
+				firstChildLi.style.marginTop = (document.documentElement.clientHeight - 305) / 2 - PtN + 'px';
+			};
+		} else { // если ещё есть марджин, то...
+			firstChildLi.style.marginTop = sum2 - PtN  + 'px'; // даём первому центрирующий марджин
+		};
+	};
+
+	if (document.documentElement.clientWidth <= 756) { // если меню бургер, то...
+		let firstMarginTopLi = firstChildLiStyle.marginTop, // нахдим МТ
+			lastMarginBottomLi =  lastChildLiStyle.marginBottom, // нахдим МБ
+			firstPaddingTopLi = firstChildLiStyle.paddingTop, // нахдим ПТ
+			lastPaddingBottomLi = lastChildLiStyle.paddingBottom; // нахдим ПИ
+
+		// console.log ('marginTOP =' + firstMarginTopLi + '  ' + 'marginBottom' + lastMarginBottomLi)
+		tranNu(firstMarginTopLi, lastMarginBottomLi, firstPaddingTopLi, lastPaddingBottomLi);
+	} else { // если не меню бургер, то...
+		firstChildLi.style.marginTop = 0 + 'px'; // то не надо давать ему не нужный марджин топ
+	};
+	
+	// контент по центру
+	function tranBox(Mt, Mb, Pt, Pb) { // функция интепритирует данные (пример: вход-'1234px' выход-'1234)
+		let MtN = +(Mt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
+			MbN = +(Mb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
+			PtN = +(Pt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
+			PbN = +(Pb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)); // переводим строку с px в число без px
+
+		let t = PtN + MtN, //  находим высоту от контента с верху 
+			b = PbN + MbN, //  находим высоту от контента с низу 
+			sum = t + b, // складываем высоты
+			sum2 = sum / 2; // и делим на 2
+
+		if (MbN <= 0) { // если нижний мардин auto 0
+			if (MtN <= 0) { // проверяем : мардин топ меньше 0? Соприконулась ли граница с верху с топ падингом 
+				startBox.style.marginTop = 0 + 'px'; // если да, то больше марджин топ не надо трогать
+			} else { // если нет, то...
+				// 100 ЭТО ВЫСОТА ХЕДЕРА, ОН С НИМ КОНТАКТИРУЕТ
+
+				// вычетаем и всех высоты эрана высоту контента и делим ёё на 2 и отнимает падинг топ
+				startBox.style.marginTop = (document.documentElement.clientHeight - 100 - bodyHeigth) / 2 - PtN + 'px';
+			};
+		} else { // если ещё есть марджин, то...
+			startBox.style.marginTop = sum2 - PtN  + 'px'; // даём первому центрирующий марджин
+		};
+	};
+
+	let startBody = document.querySelector('.start__body'), // находим контейнер в котором будет только контент
+		bodyHeigth = startBody.offsetHeight; // узнаём его высоту
+
+	let startBox = document.querySelector('.start__box'), // находим контейнер с падингами и марджинами
+		startBoxStyle = getComputedStyle(startBox); // унаём у нето всё стили
+
+	let startBoxMarginTop = startBoxStyle.marginTop, // узнаём МТ
+		startBoxMarginBottom = startBoxStyle.marginBottom, // узнаём МБ
+		startBoxPaddingTop = startBoxStyle.paddingTop, // узнаём PT
+		startBoxPaddingBottom = startBoxStyle.paddingBottom;// узнаём PB
+
+	tranBox(startBoxMarginTop, startBoxMarginBottom, startBoxPaddingTop, startBoxPaddingBottom); // закидываем в печь
+
+	window.addEventListener('resize',function() { // следим за изменеием экрана
+		if (document.documentElement.clientWidth <= 756) { // если бургер, то...
+			firstMarginTopLi = firstChildLiStyle.marginTop; // обновляем данные по li
+			lastMarginBottomLi =  lastChildLiStyle.marginBottom;
+			firstPaddingTopLi = firstChildLiStyle.paddingTop;
+			lastPaddingBottomLi = lastChildLiStyle.paddingBottom;
+
+			// console.log ('marginTOP =' + firstMarginTopLi + '  ' + 'marginBottom' + lastMarginBottomLi)
+			tranNu(firstMarginTopLi, lastMarginBottomLi, firstPaddingTopLi, lastPaddingBottomLi);
+
+		} else { // если не бургер...
+			firstChildLi.style.marginTop = 0 + 'px'; // не надо марждин
+		};
+		
+		bodyHeigth = startBody.offsetHeight; // обновляем данные по блоку по центру...
+		startBoxMarginTop = startBoxStyle.marginTop;
+		startBoxMarginBottom = startBoxStyle.marginBottom;
+		startBoxPaddingTop = startBoxStyle.paddingTop;
+		startBoxPaddingBottom = startBoxStyle.paddingBottom;
+		tranBox(startBoxMarginTop, startBoxMarginBottom, startBoxPaddingTop, startBoxPaddingBottom);
+	});
+}
+//========================================================================================================================================================
+
+
