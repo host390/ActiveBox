@@ -1,0 +1,31 @@
+
+
+
+.backblack {
+    background-color: black;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 29;
+    display: none;
+}
+
+.uparrow {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    z-index: 28;
+    right: 40px;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out 0s;
+    img {
+        max-width: 100%;
+    }
+}
