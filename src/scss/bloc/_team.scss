@@ -1,0 +1,363 @@
+
+
+.team {
+    padding: 100px 0px 65px 0;
+    background-color: #fff;
+    &__column {
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px -15px;
+    }
+
+    &__piple {
+        padding: 0px 15px;
+        flex: 0 1 25%;
+        margin: 0px 0px 35px 0px;
+    }
+}
+
+
+.pipel-team {
+    text-align: left;
+
+    &__box {
+        max-width: 270px;
+    }
+
+    &__avatar {
+        img {
+            max-width: 100%;
+        }
+        margin-bottom: 30px;
+    }
+
+    &__name {
+        color: #2d3033;
+        font-family: Raleway;
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 16px;
+        line-height: 23px;
+    }
+
+    &__dol {
+        color: #e84545;
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 29px;
+        line-height: 17px;
+    }
+
+    &__text {
+        margin-bottom: 31px;
+        p {
+            color: #6c7279;
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            margin: 0px 0px 15px 0px;
+        }
+    }
+
+    &__mas {
+        
+    }
+}
+
+.mas-piple {
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -4px;
+    }
+
+    &__box {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #e8ecee;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 4px 4px 4px;
+        transition: all 0.4s ease 0s;
+        &:hover {
+            background-color: rgba($color: #e8ecee, $alpha: .5);
+        }
+        // img {
+        //     max-width: 100%;
+        // }
+        svg {
+            max-width: 100%;
+            height: 18px;
+            transition: all 0.4s ease 0s;
+            fill: #c6cacc;
+        } 
+    }
+}
+.mas-piple__box:hover svg {
+    transition: all 0.4s ease 0s;
+    fill: black;
+}
+
+@media (max-width: 960px) {
+    .team {
+        padding: 70px 0px 35px 0;
+        &__column {
+        }
+    
+        &__row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px -15px;
+        }
+    
+        &__piple {
+            padding: 0px 15px;
+            flex: 0 1 33.333333%;
+            margin: 0px 0px 35px 0px;
+        }
+    }
+    .team__piple:nth-child(3n+1) .pipel-team__box {
+        margin-left: auto;
+    }
+    .team__piple:nth-child(3n+2) .pipel-team__box {
+        margin: auto;
+    }
+
+    .pipel-team {
+        text-align: left;
+    
+        &__box {
+            
+        }
+    
+        &__avatar {
+            margin-bottom: 26px;
+            
+        }
+    
+        &__name {
+            font-size: 22px;
+            margin-bottom: 14px;
+            line-height: 23px;
+        }
+    
+        &__dol {
+            font-size: 13px;
+            margin-bottom: 24px;
+            line-height: 17px;
+        }
+    
+        &__text {
+            margin-bottom: 26px;
+            p {
+                font-size: 14px;
+                line-height: 21px;
+                margin: 0px 0px 13px 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 750px) {
+    .team {
+        padding: 50px 0px 20px 0;
+        &__column {
+            // padding: 0px 10%;
+        }
+    
+        &__row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px -15px;
+        }
+    
+        &__piple {
+            padding: 0px 18px;
+            flex: 0 1 50%;
+            margin: 0px 0px 30px 0px;
+            &:nth-child(odd) {
+                
+            } 
+        }
+    }
+
+    .pipel-team {
+        text-align: left;
+
+        &__box {
+            max-width: 270px;
+            
+        }
+
+        &__avatar {
+            // text-align: center;
+            img {
+                max-width: 100%;
+            }
+            margin-bottom: 30px;
+        }
+    
+        &__name {
+            margin-bottom: 16px;
+        }
+    
+        &__dol {
+            margin-bottom: 29px;
+        }
+    
+        &__text {
+            margin-bottom: 31px;
+            p {
+                margin: 0px 0px 15px 0px;
+            }
+        }
+    
+        &__mas {
+            
+        }
+    }
+
+    .pipel-team {
+        text-align: left;
+    
+        &__box {
+            
+        }
+    
+        &__avatar {
+            margin-bottom: 23px;
+            
+        }
+    
+        &__name {
+            font-size: 22px;
+            margin-bottom: 11px;
+            line-height: 23px;
+        }
+    
+        &__dol {
+            font-size: 13px;
+            margin-bottom: 18px;
+            line-height: 17px;
+        }
+    
+        &__text {
+            margin-bottom: 20px;
+            p {
+                font-size: 14px;
+                line-height: 21px;
+                margin: 0px 0px 8px 0px;
+            }
+        }
+    }
+    
+    .team__piple:nth-child(3n+1) .pipel-team__box {
+        margin-left: 0;
+    }
+    .team__piple:nth-child(3n+2) .pipel-team__box {
+        margin: 0;
+    }
+    .team__piple:nth-child(odd) .pipel-team__box {
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .team {
+        padding: 50px 0px 20px 0;
+        &__column {
+            // padding: 0px 10%;
+        }
+    
+        &__row {
+            display: flex;
+            flex-wrap: wrap;
+            // margin: 0px -18px;
+        }
+    
+        &__piple {
+            // padding: 0px 18px;
+            flex: 0 1 100%;
+            margin: 0px 0px 30px 0px;
+        }
+    }
+    .pipel-team {
+        text-align: left;
+
+        &__box {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        &__avatar {
+            // text-align: center;
+            img {
+                max-width: 100%;
+            }
+            margin-bottom: 30px;
+        }
+    
+        &__name {
+            margin-bottom: 16px;
+        }
+    
+        &__dol {
+            margin-bottom: 29px;
+        }
+    
+        &__text {
+            margin-bottom: 31px;
+            p {
+                margin: 0px 0px 15px 0px;
+            }
+        }
+    
+        &__mas {
+            
+        }
+    }
+
+    .pipel-team {
+        text-align: left;
+    
+        &__box {
+            
+        }
+    
+        &__avatar {
+            margin-bottom: 23px;
+            
+        }
+    
+        &__name {
+            font-size: 22px;
+            margin-bottom: 11px;
+            line-height: 23px;
+        }
+    
+        &__dol {
+            font-size: 13px;
+            margin-bottom: 16px;
+            line-height: 17px;
+        }
+    
+        &__text {
+            margin-bottom: 20px;
+            p {
+                font-size: 14px;
+                line-height: 21px;
+                margin: 0px 0px 8px 0px;
+            }
+        }
+    }
+    
+}

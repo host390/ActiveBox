@@ -145,7 +145,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		6) надо знать чёткую высоту хереа, а то когда она уменьшается не то значение
 		7) можно убрать копипасту :()
 		8) чего-то может не хватать или надо запускать с выравнялкой
-		9) 
+		9) надо согласовывать со следующим контентом
+		10) ПРИ ПРОСТОМ УМЕНЬШЕНИИ ЭКРАНА БРАУЗЕРА ВСЁ ЛОМАЕТСЯЯЯЯЯЯЯ !!!!!!!! :(
+		11) 
+		)
 	*/
 
 	// работа с бургер меню при том, когда они по центру
@@ -251,7 +254,24 @@ document.addEventListener('DOMContentLoaded', function() {
 		tranBox(startBoxMarginTop, startBoxMarginBottom, startBoxPaddingTop, startBoxPaddingBottom);
 	});
 
+	// НОВШЕСТВА !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	let content = document.querySelector('.content')
+	let fullScrin = document.querySelector('.start__fullscrin')
+	
+	if (document.documentElement.clientHeight < fullScrin.offsetHeight) {
+		content.style.top = fullScrin.offsetHeight + 'px'
+	} else {
+		content.style.top = '100%'
+	}
 
+	window.addEventListener('resize', function() {
+		if (document.documentElement.clientHeight < fullScrin.offsetHeight) {
+			content.style.top = fullScrin.offsetHeight + 'px'
+		} else {
+			content.style.top = '100%'
+		}
+	}); 
+	
 
 
 	// меню бургер 

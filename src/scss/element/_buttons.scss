@@ -2,14 +2,21 @@
 
 
 
+
 .button {
-    height: 46px;
     background-color: #e84545;
     color: #ffffff;
     font-family: "Raleway";
     font-size: 13px;
     font-weight: 700;
-    padding: 0px 50px;
-    line-height: 46px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-transform: uppercase;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 20px;
+    transition: all 0.3s ease 0s;
+    &:hover {
+        background-color: #c52e2e;
+    }
 }

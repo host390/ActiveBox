@@ -2,7 +2,43 @@
 
 
 .title {
-    color: #ffffff;
-    font-size: 40px;
+    color: #2d3033;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.subtitle {
+    color: #2d3033;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+    .title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 620px) {
+    .title {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+        line-height: 21px;
+    }
 }
 

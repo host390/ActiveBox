@@ -1,0 +1,250 @@
+
+
+.features {
+    padding: 125px 0px 51px 0;
+    background-color: #fff;
+    &__column {
+        padding: 0px 50px;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0px -47px;
+        // padding: 0px 45px;
+    }
+
+    &__function {
+        // flex: 0 1 33.333%;
+        padding: 0px 47px;
+        // margin: 0px 45px;
+        flex: 0 1 33.333%;
+        margin-bottom: 74px;
+        
+    }
+    // КАК ИЗБАВИТЬСЯ ОТ ЭФФЕКТА МАРДЖИНАААААААА ????????? :()
+    
+}
+
+.function {
+    
+    // &__wrap {
+    //     // padding: 0px 50px;
+    //     width: 291px;
+    //     max-width: 291px;
+    //     min-width: 291px;
+    // }
+
+    text-align: center;
+    &__iamge {
+        margin-bottom: 34px;
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &__titile {
+        margin-bottom: 25px;
+        color: #2d3033;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        p {
+            color: #6c7279;
+            font-family: Raleway;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+
+            margin: 0px 0px 25px 0px;
+        }
+        
+    }
+}
+
+@media (max-width: 1190px) {
+    .features {
+        padding: 95px 0px 45px 0;
+		&__column {
+            padding: 0px 40px;
+		}
+
+		&__row {
+            margin: 0px -30px;
+		}
+
+		&__function {
+            padding: 0px 30px;
+            margin-bottom: 50px;
+		}
+    }
+
+    .function {
+
+        &__iamge {
+            margin-bottom: 30px;
+        }
+
+        &__titile {
+            margin-bottom: 23px;
+        }
+
+        &__text {
+            font-size: 14px;
+            p {
+                margin: 0px 0px 22px 0px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .features {
+        padding: 70px 0px 25px 0;
+		&__column {
+            padding: 0px 30px;
+		}
+		&__row {
+            margin: 0px -25px;
+		}
+		&__function {
+            padding: 0px 25px;
+            margin-bottom: 45px;
+		}
+    }
+
+    .function {
+
+        &__iamge {
+            margin-bottom: 26px;
+        }
+
+        &__titile {
+            margin-bottom: 22px;
+        }
+
+        &__text {
+            font-size: 13px;
+            p {
+                margin: 0px 0px 18px 0px;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 800px) {
+    .features {
+        padding: 60px 0px 15px 0;
+		&__column {
+            padding: 0px 40px;
+		}
+
+		&__row {
+            margin: 0px -29px;
+		}
+
+		&__function {
+            padding: 0px 29px;
+            margin-bottom: 45px;
+            flex: 0 1 50%;
+		}
+    }
+
+    .function {
+
+        &__iamge {
+            margin-bottom: 26px;
+        }
+
+        &__titile {
+            margin-bottom: 22px;
+        }
+
+        &__text {
+            font-size: 14px;
+            p {
+                margin: 0px 0px 15px 0px;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .features {
+        padding: 45px 0px 5px 0;
+		&__column {
+            padding: 0px 15px;
+		}
+
+		&__row {
+            margin: 0px -23px;
+		}
+
+		&__function {
+            padding: 0px 23px;
+            margin-bottom: 40px;
+            flex: 0 1 50%;
+		}
+    }
+
+    .function {
+
+        &__iamge {
+            margin-bottom: 23px;
+        }
+
+        &__titile {
+            margin-bottom: 20px;
+        }
+
+        &__text {
+            font-size: 13px;
+        }
+    }
+}
+
+
+@media (max-width: 500px) {
+    .features {
+        padding: 40px 0px 0px 0;
+		&__column {
+            padding: 0px 11%;
+		}
+
+		&__row {
+            margin: 0px 0px;
+		}
+
+		&__function {
+            padding: 0px 0px;
+            margin-bottom: 40px;
+            flex: 0 1 100%;
+		}
+    }
+
+    .function {
+
+        &__iamge {
+            margin-bottom: 23px;
+        }
+
+        &__titile {
+            margin-bottom: 20px;
+        }
+
+        &__text {
+            font-size: 14px;
+            p {
+                margin: 0px 0px 13px 0px;
+            }
+        }
+    }
+}

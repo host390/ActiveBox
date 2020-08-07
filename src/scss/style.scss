@@ -8,9 +8,9 @@
 @import 'settings/fonts';
 
 // Шрифты с Google Fonts >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap');
 
 // Ускоряющие классы >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 @import 'settings/sс';
@@ -20,7 +20,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #6c7279;
 
-    height: 3000px;
+    // height: 3000px;
 
     // -webkit-font-smoothing: antialiased;
 }
@@ -39,15 +39,13 @@ body {
 }
 
 // Основной блок >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-// .page {
-//     // width: 100%;
-//     // height: 100%;
-//     // display: flex;
-//     // flex-direction: column;
-//     // position: absolute;
-//     // top: 0;
-//     // left: 0;
-// }
+.content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 // .main-screen {
 //     flex: 1 0 100%;
 //     position: relative;
@@ -80,6 +78,11 @@ body {
 @import 'bloc/header';
 
 @import 'bloc/start';
+@import 'bloc/features';
+@import 'bloc/works';
+@import 'bloc/team';
+@import 'bloc/clients';
+@import 'bloc/download';
 
 @import 'bloc/footer';
 
