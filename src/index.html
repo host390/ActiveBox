@@ -5,11 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ActiveBox</title>
     <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon//favicon-16x16.png">
+    <link rel="manifest" href="img/favicon//site.webmanifest">
+    <link rel="mask-icon" href="img/favicon//safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="theme-color" content="#ffffff">
+    
 </head>
 <body>
     <!-- 
-        После выполнения секции:
-        чтоб идти дальше сделай норм адаптив!!!!!!
+        4) залить на гит
     -->
 
 
@@ -55,12 +64,11 @@
                                     </button>
 
                                     <ul class="menu__list">
-                                        <li><a href="#" class="menu__link menu__link_active">Features</a></li>
-                                        <li><a href="#" class="menu__link">Works</a></li>
-                                        <li><a href="#" class="menu__link">Our Team</a></li>
-                                        <li><a href="#" class="menu__link">Testimonials</a></li>
-                                        <li><a href="#" class="menu__link">Download</a></li>
-
+                                        <li><a href="#features" class="menu__link menu__link_active">Features</a></li>
+                                        <li><a href="#works" class="menu__link">Works</a></li>
+                                        <li><a href="#team" class="menu__link">Our Team</a></li>
+                                        <li><a href="#clients" class="menu__link">Testimonials</a></li>
+                                        <li><a href="#download" class="menu__link">Download</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -89,7 +97,7 @@
 
         <div class="content">
 
-            <section class='features'>
+            <section id='features' class='features'>
                 <div class='container'>
                     <div class="features__column">
                         <div class="features__row">
@@ -172,7 +180,7 @@
                 </div>
             </section>
 
-            <section class='works'>
+            <section id="works" class='works'>
                 <div class="works__column">
 
                     <div class="works__row">
@@ -348,7 +356,7 @@
                 </div>
             </section>
 
-            <section class='team'>
+            <section id="team" class='team'>
                 <div class='container'>
                     <div class="team__column">
                         <div class="team__row">
@@ -506,8 +514,8 @@
                 </div>
             </section>
             
-            <section class='clients'>
-                <div class="clients__row">
+            <section id='clients' class='clients'>
+                <!-- <div class="clients__row">
                     <div class="clients__right ibg">
                         <img src="img/slider/slaid_1.jpg" alt="1" class="ibg__img">
                     </div>
@@ -522,12 +530,49 @@
                             <div class="slider-clients__dots"></div>
                         </div>
                     </div>
+                </div> -->
+
+                <div class="clients__slider slider">
+                        <div class="slider__item">
+                            <div class="slider__right ibg">
+                                <img src="img/slider/slaid_1.jpg" alt="1" class="ibg__img">
+                            </div>
+                            <div class="slider__left">
+                                <div class="slider__comment comment-slider">
+                                    <div class="comment-slider__text">
+                                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                                    </div>
+                                    <div class="comment-slider__subtext">
+                                        Susan Sims, Interaction Designer at XYZ
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        
+
+                    <div class="slider__item">
+                        <div class="slider__right ibg">
+                            <img src="img/bg/main_bg.jpg" alt="1" class="ibg__img">
+                        </div>
+                        <div class="slider__left">
+                            <div class="slider__comment comment-slider">
+                                <div class="comment-slider__text">
+                                    “Integer is dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                                    
+                                </div>
+                                <div class="comment-slider__subtext">
+                                    Susan Sims, Interaction Designer at XYZ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
                 
             </section>
 
-            <div class="download">
+            <div id="download" class="download">
                 <div class='container'>
                     <div class="download__wrapper">
                         <div class="download__title title">Are You Ready to Start? Download Now For Free!</div>
@@ -608,7 +653,10 @@
 
     </div>
 
+    
 
     <script src="js/script.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
 </body>
 </html>

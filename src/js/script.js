@@ -321,10 +321,140 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 		}) 
 	}
+
 	menuBurger ();
+
+
+	// прицепление меню при скроле вниз
+	sectionFixed = document.querySelector('.start__fullscrin'), // надо от чего-то отталкиваться
+	sectionFixedCord = sectionFixed.offsetHeight; // находим верхнюю корду чего-то
+
+	function fixHed () {
+		let header = document.querySelector('header'), // находим хедер
+			sectionFixed = document.querySelector('.start__fullscrin'), // надо от чего-то отталкиваться
+			sectionFixedCord = sectionFixed.offsetHeight; // находим верхнюю корду чего-то
+
+		function fixedOff () {
+			header.classList.remove('header_fixed-off'); // удаляем класс появления
+		};
+		
+		let currIn = false; // изначально нам не надо уберать шапку
+
+		function fixHedGo() {
+			if (document.documentElement.clientWidth > 756) { // если не меню бургер
+				if (window.pageYOffset >= sectionFixedCord - 35) { // если крyтим в низ
+					currIn = true; // шапка появилась
+					header.classList.add('header_fixed-in'); // добавляем класс актива
+					header.classList.remove('header_fixed-off'); // убераем класс не актива
+				} else { // если на верху
+					header.classList.remove('header_fixed-in'); // удаляем класс актива
+					if (currIn) { // если мы побывали в низу 
+						// console.log ('eas')
+						header.classList.add('header_fixed-off'); // добавляем класс не актива
+						setTimeout(fixedOff, 300); // запускаем функцию появления статик хедера в начале
+						currIn = false; // обновляем переменную
+					};
+				};
+			} else { // если меню бургер
+				header.classList.remove('header_fixed-in'); // убрать анимацию
+			};
+		};
+
+		window.addEventListener('resize', function() {
+			sectionFixedCord = sectionFixed.offsetHeight; // обновляем данные
+			fixHedGo();
+		})
+
+		window.addEventListener('scroll', function() {
+			fixHedGo()
+			// console.log (window.pageYOffset)
+			// console.log (sectionFixedCord)
+		});
+	};
+	fixHed();
+	
+	
+	// window.addEventListener('scroll', function() {
+	// 	console.log (window.pageYOffset)
+	// })
+
+	// Плавный скролл на чистом JS
+	/*
+		Чтоб использовать скрипт надо:
+		1) Установить href у ссылки (пример <a href="#home" class="">Home</a>)
+		2) Установить id секции (пример <section id='home'></section>)
+		3) heightFixedMedu ищется высота прикреплённого хедера
+	*/
+	heightFixedMedu = 35;
+
+	function animScroll() {
+		let upA = document.querySelectorAll('a[href*="#"]'); // находим все ссылки начинающиеся на # (Это точно якори)
+
+		for (let i = 0; i < upA.length; i++) { // забускаем цикл по всем ссылкам
+			upA[i].addEventListener('click', function(event) { // Ставим обработчик на все якори
+
+				event.preventDefault(); // отрубаем действие по умолчанию
+				let href = this.getAttribute('href'); // получем href ссылки на которую кликнули
+				let elemntAnchor = document.querySelector(href); // находим элемент, на котором стоит этот якорь
+				// eсли это не якорь то не трогаем, хз как определить того чего нет :(
+
+				// console.log (`zone ${elemntAnchor.offsetTop + sectionFixedCord}` ) // НУЖНО ДОБАВИТЬ ФУЛЛ СКРИН КАК ТО В + ОТСЧЁТ ОТ НЕГО ДОЛЖЕН ИДТИ
+
+				if (href == '#up') { //если в href ссылки добавить #up, то скролл дойдёт до начала
+					scrollUp() // вызываем соответствующую функцию
+				} else {
+                    if (window.pageYOffset > elemntAnchor.offsetTop + sectionFixedCord) { // если экран ниже элемента то...
+                        scrollTop(elemntAnchor.offsetTop + sectionFixedCord - heightFixedMedu); // вызываем соответствующую функцию и - высоту fixed menu
+                    } else if (window.pageYOffset < elemntAnchor.offsetTop + sectionFixedCord) { //если экран выше элемента то...
+                        scrollBottom(elemntAnchor.offsetTop + sectionFixedCord - heightFixedMedu); // вызываем соотвктствующую функцию и - высоту fixed menu
+                    } else { // если экран находится в одной координате с элементом то...
+                        window.scrollTo(0, elemntAnchor.offsetTop + sectionFixedCord); // экран становтся в координату элемента и - высоту fixed menu
+                    };
+                };
+			});
+		};
+
+		function scrollTop(elemntAnchor) { // функция вызывается если экран выше элемента
+			if (window.pageYOffset > elemntAnchor) { // если координата экрана больше координаты элемента то...
+				window.scrollTo(0, window.pageYOffset - 50); // скролим вверх по 50px за раз
+				setTimeout(scrollTop, 1, elemntAnchor); // ждём 1 милисекунду и повторяем функцию
+			} else { // если мы дошли до нужной координаты , то оставляем скролл на корде элемента
+				window.scrollTo(0, elemntAnchor);
+			};
+		};
+
+		function scrollBottom(elemntAnchor) { // функция вызывается если экран выше элемента
+			if (window.pageYOffset < elemntAnchor) { // если координата экрана меньше координаты элемента то...
+				window.scrollTo(0, window.pageYOffset + 50); // скролим вниз по 50px за раз
+				setTimeout(scrollBottom, 1, elemntAnchor); // ждём 1 милисекунду и повторяем функцию
+			} else { // если мы дошли до нужной координаты , то оставляем скролл на корде элемента
+				window.scrollTo(0, elemntAnchor);
+			};
+		};
+
+		function scrollUp() { // функция скролит экран в координату 0 0 (для стрелочки up)
+			if (window.pageYOffset > 0) {
+				window.scrollTo(0, window.pageYOffset - 50)
+				setTimeout(scrollUp, 1)
+			} else {
+				window.scrollTo(0, 0)
+			}
+		}
+	};
+	animScroll ();
 
 
 	
 
+
+	
+	$('.slider').slick({
+		arrows: false, // вкл выкл стрелки
+		dots: true, // вкл выкл точки
+		infinite: true, // можно листать бесконечно
+		slidesToShow: 1, // сколько показывать слайдов
+		slidesToScroll: 1, //  сколько скролить слайдов
+		fade: true,
+	});
 
 });

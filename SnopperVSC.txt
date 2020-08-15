@@ -1,15 +1,15 @@
 
 
 
-// рабочие снипперы
+// СЂР°Р±РѕС‡РёРµ СЃРЅРёРїРїРµСЂС‹
 {
-	"Внешний-отступ": {
+	"Р’РЅРµС€РЅРёР№-РѕС‚СЃС‚СѓРї": {
 		"scope": "css,scss",
 		"prefix": "mm",
 		"body": [
 			"margin: $1px 0px 0px 0px;",
 		],
-		"description": "Внешний-отступ"
+		"description": "Р’РЅРµС€РЅРёР№-РѕС‚СЃС‚СѓРї"
 	},
 
 	"margin-bottom": {
@@ -18,7 +18,7 @@
 		"body": [
 			"margin: 0px 0px $1px 0px;",
 		],
-		"description": "Внешний-отступ"
+		"description": "Р’РЅРµС€РЅРёР№-РѕС‚СЃС‚СѓРї"
 	},
 
 	"margin-top": {
@@ -27,7 +27,7 @@
 		"body": [
 			"margin: $1px 0px 0px 0px;",
 		],
-		"description": "Внешний-отступ"
+		"description": "Р’РЅРµС€РЅРёР№-РѕС‚СЃС‚СѓРї"
 	},
 
 	"margin-left": {
@@ -36,7 +36,7 @@
 		"body": [
 			"margin: 0px 0px 0px $1px;",
 		],
-		"description": "Внешний-отступ"
+		"description": "Р’РЅРµС€РЅРёР№-РѕС‚СЃС‚СѓРї"
 	},
 
 	"margin-right": {
@@ -45,7 +45,7 @@
 		"body": [
 			"margin: 0px $1px 0px 0px;",
 		],
-		"description": "Внешний-отступ"
+		"description": "Р’РЅРµС€РЅРёР№-РѕС‚СЃС‚СѓРї"
 	},
 
 	"margin right and left": {
@@ -67,13 +67,13 @@
 
 
 
-	"Внутренний-отступ": {
+	"Р’РЅСѓС‚СЂРµРЅРЅРёР№-РѕС‚СЃС‚СѓРї": {
 		"scope": "css,scss",
 		"prefix": "pp",
 		"body": [
 			"padding: $1px 0px 0px 0px;",
 		],
-		"description": "Внутренний-отступ"
+		"description": "Р’РЅСѓС‚СЂРµРЅРЅРёР№-РѕС‚СЃС‚СѓРї"
 	},
 
 	"padding-bottom": {
@@ -82,7 +82,7 @@
 		"body": [
 			"padding: 0px 0px $1px 0px;",
 		],
-		"description": "Внешний-отступ"
+		"description": "Р’РЅРµС€РЅРёР№-РѕС‚СЃС‚СѓРї"
 	},
 
 	"padding-top": {
@@ -91,7 +91,7 @@
 		"body": [
 			"padding: $1px 0px 0px 0px;",
 		],
-		"description": "Внешний-отступ"
+		"description": "Р’РЅРµС€РЅРёР№-РѕС‚СЃС‚СѓРї"
 	},
 
 	"padding-left": {
@@ -100,7 +100,7 @@
 		"body": [
 			"padding: 0px 0px 0px $1px;",
 		],
-		"description": "Внешний-отступ"
+		"description": "Р’РЅРµС€РЅРёР№-РѕС‚СЃС‚СѓРї"
 	},
 
 	"padding-right": {
@@ -109,7 +109,7 @@
 		"body": [
 			"padding: 0px $1px 0px 0px;",
 		],
-		"description": "Внешний-отступ"
+		"description": "Р’РЅРµС€РЅРёР№-РѕС‚СЃС‚СѓРї"
 	},
 
 	"padding right and left": {
@@ -214,7 +214,7 @@
 		],
 	},
 
-// Медиа
+// РњРµРґРёР°
 
 	"media": {
 		"scope": "css,scss",
@@ -244,53 +244,53 @@
 
 	
 
-	"Беграунд-картнка": {
+	"Р‘РµРіСЂР°СѓРЅРґ-РєР°СЂС‚РЅРєР°": {
 		"scope": "css,scss",
 		"prefix": "bg",
 		"body": [
 			"background: url('$1') 0 0/auto auto no-repeat scroll;",
 			"$2"
 		],
-		"description": "Беграунд-картнка"
+		"description": "Р‘РµРіСЂР°СѓРЅРґ-РєР°СЂС‚РЅРєР°"
 	},
 
-	"Беграунд-цвет": {
+	"Р‘РµРіСЂР°СѓРЅРґ-С†РІРµС‚": {
 		"scope": "css,scss",
 		"prefix": "bcc",
 		"body": [
 			"background-color: $1;",
 			"$2"
 		],
-		"description": "Беграунд-цвет"
+		"description": "Р‘РµРіСЂР°СѓРЅРґ-С†РІРµС‚"
 	},
 
-	"рамка": {
+	"СЂР°РјРєР°": {
 		"scope": "css,scss",
 		"prefix": "bs",
 		"body": [
 			"border: solid 1px #fff;",
 			"$1"
 		],
-		"description": "рамка"
+		"description": "СЂР°РјРєР°"
 	},
 
-	"Блоки_по_центру": {
+	"Р‘Р»РѕРєРё_РїРѕ_С†РµРЅС‚СЂСѓ": {
 		"scope": "css,scss",
 		"prefix": "mc",
 		"body": [
 			"margin: 0px auto 0px auto;",
 			"$1"
 		],
-		"description": "Блоки_по_центру"
+		"description": "Р‘Р»РѕРєРё_РїРѕ_С†РµРЅС‚СЂСѓ"
 	},
 
-	"Закругление-бардера": {
+	"Р—Р°РєСЂСѓРіР»РµРЅРёРµ-Р±Р°СЂРґРµСЂР°": {
 		"scope": "css,scss",
 		"prefix": "br",
 		"body": [
 			"border-radius: $1px;"
 		],
-		"description": "Закругление-бардера"
+		"description": "Р—Р°РєСЂСѓРіР»РµРЅРёРµ-Р±Р°СЂРґРµСЂР°"
 	},
 
 	"min-height": {
@@ -355,11 +355,11 @@
 		"prefix": "tranf3",
 		"body": [
 			"transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotate3d(1,1,1,0deg) rotateZ(0deg);",
-			"/* для блока */",
+			"/* РґР»СЏ Р±Р»РѕРєР° */",
 			"/* perspective: 0px;",
 			"perspective-origin: center center;",
 			"transform-style: flat; */",
-			"/* для элемента */",
+			"/* РґР»СЏ СЌР»РµРјРµРЅС‚Р° */",
 			"/* backface-visibility: visible; */"
 		],
 	},
@@ -406,9 +406,13 @@
 
 
 
-// больште участки кода, которые только копировать
+// Р±РѕР»СЊС€С‚Рµ СѓС‡Р°СЃС‚РєРё РєРѕРґР°, РєРѕС‚РѕСЂС‹Рµ С‚РѕР»СЊРєРѕ РєРѕРїРёСЂРѕРІР°С‚СЊ
 
-//===<--МЕНЮ БУРГЕР-->=====================================================================================================================================================
+
+/*РЎРќРРџР•Р Р« Р”Р›РЇ РҐР•Р”Р•Р Рђ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/ 
+
+
+//===<--РњР•РќР® Р‘РЈР Р“Р•Р -->=====================================================================================================================================================
 {
 	//HTML
 	<button class="menu__burger burger">
@@ -419,7 +423,7 @@
 		</div>
 	</button>
 
-	// или
+	// РёР»Рё
 
 	<nav class="header__menu menu">
 		<button class="menu__burger burger">
@@ -459,10 +463,10 @@
 			}
 		}
 	}
-	@media (max-width: 700px) { // при каком складываем в бургер???
+	@media (max-width: 700px) { // РїСЂРё РєР°РєРѕРј СЃРєР»Р°РґС‹РІР°РµРј РІ Р±СѓСЂРіРµСЂ???
 		.menu {
 			justify-content: flex-end; 
-			// Анимация списка
+			// РђРЅРёРјР°С†РёСЏ СЃРїРёСЃРєР°
 			&__list {
 				overflow: auto;
 				justify-content: flex-start;
@@ -517,7 +521,7 @@
 				padding: 20px 0px;
 			}
 	
-			// Анимация крестика
+			// РђРЅРёРјР°С†РёСЏ РєСЂРµСЃС‚РёРєР°
 			&__burger {
 				// display: none !important; 
 	
@@ -537,8 +541,8 @@
 				background-color: transparent;
 				cursor: pointer;
 				span {
-					transition: transform 0.3s cubic-bezier(.8,.5,.2,1.4) 0s; // для лесинки
-					// transition: transform 0.5s ease 0s; // классик
+					transition: transform 0.3s cubic-bezier(.8,.5,.2,1.4) 0s; // РґР»СЏ Р»РµСЃРёРЅРєРё
+					// transition: transform 0.5s ease 0s; // РєР»Р°СЃСЃРёРє
 					margin: 0px 0px 5px 0;
 					width: 40px;
 					height: 3px;
@@ -548,7 +552,7 @@
 						margin: 0px 0px 0px 0px;
 					}
 	
-					// виды меню -- лесинка
+					// РІРёРґС‹ РјРµРЅСЋ -- Р»РµСЃРёРЅРєР°
 					&:nth-child(2) {
 						width: 25px;
 					}
@@ -558,8 +562,8 @@
 				}
 				&_active {
 					span {
-						transition: transform 0.3s cubic-bezier(.8,.5,.2,1.4) 0s; // для лесинки
-						// transition: transform 0.5s ease 0s; // классик
+						transition: transform 0.3s cubic-bezier(.8,.5,.2,1.4) 0s; // РґР»СЏ Р»РµСЃРёРЅРєРё
+						// transition: transform 0.5s ease 0s; // РєР»Р°СЃСЃРёРє
 	
 						margin: 0px 0px 0px 0px;
 						// &:nth-child(1) {
@@ -573,7 +577,7 @@
 						//     transform: rotate(-45deg);
 						// }
 	
-						// виды меню -- лесинка
+						// РІРёРґС‹ РјРµРЅСЋ -- Р»РµСЃРёРЅРєР°
 						&:nth-child(1) {
 							transform: rotate(-45deg);
 						}
@@ -606,45 +610,45 @@
 	}
 
 	//JS
-	// меню бургер 
-	let burgName = 'menu__burger', // введите имя класс бургера
-		listName = 'menu__list', // введите имя класс ul меню
-		burger = document.querySelector(`.${burgName}`), // находим оболочку бyргера
-		list = document.querySelector(`.${listName}`), // находим ul c навигацией
-		maxWidthMob = 700; // при каком складываем в бургер???
+	// РјРµРЅСЋ Р±СѓСЂРіРµСЂ 
+	let burgName = 'menu__burger', // РІРІРµРґРёС‚Рµ РёРјСЏ РєР»Р°СЃСЃ Р±СѓСЂРіРµСЂР°
+		listName = 'menu__list', // РІРІРµРґРёС‚Рµ РёРјСЏ РєР»Р°СЃСЃ ul РјРµРЅСЋ
+		burger = document.querySelector(`.${burgName}`), // РЅР°С…РѕРґРёРј РѕР±РѕР»РѕС‡РєСѓ Р±yСЂРіРµСЂР°
+		list = document.querySelector(`.${listName}`), // РЅР°С…РѕРґРёРј ul c РЅР°РІРёРіР°С†РёРµР№
+		maxWidthMob = 700; // РїСЂРё РєР°РєРѕРј СЃРєР»Р°РґС‹РІР°РµРј РІ Р±СѓСЂРіРµСЂ???
 
 	function menuBurger () {
 		
-		burger.addEventListener('click', function(event) { // ставим обработчик на бургер
-			burger.classList.toggle(`${burgName}_active`) // при нажатии на бургер появляется крестик (актив)
-			list.classList.toggle(`${listName}_active`) // и листу ul даётся класс актив
+		burger.addEventListener('click', function(event) { // СЃС‚Р°РІРёРј РѕР±СЂР°Р±РѕС‚С‡РёРє РЅР° Р±СѓСЂРіРµСЂ
+			burger.classList.toggle(`${burgName}_active`) // РїСЂРё РЅР°Р¶Р°С‚РёРё РЅР° Р±СѓСЂРіРµСЂ РїРѕСЏРІР»СЏРµС‚СЃСЏ РєСЂРµСЃС‚РёРє (Р°РєС‚РёРІ)
+			list.classList.toggle(`${listName}_active`) // Рё Р»РёСЃС‚Сѓ ul РґР°С‘С‚СЃСЏ РєР»Р°СЃСЃ Р°РєС‚РёРІ
 
-			if (burger.classList.contains(`${burgName}_active`)) { // если нажали на меню то...
-				document.body.style.overflow = 'hidden'; // запрещяем прокрутку body
+			if (burger.classList.contains(`${burgName}_active`)) { // РµСЃР»Рё РЅР°Р¶Р°Р»Рё РЅР° РјРµРЅСЋ С‚Рѕ...
+				document.body.style.overflow = 'hidden'; // Р·Р°РїСЂРµС‰СЏРµРј РїСЂРѕРєСЂСѓС‚РєСѓ body
 
-				backBlack.style.display = 'block'; // врубаем чёрный бэграунд
+				backBlack.style.display = 'block'; // РІСЂСѓР±Р°РµРј С‡С‘СЂРЅС‹Р№ Р±СЌРіСЂР°СѓРЅРґ
 
-			} else { // если меню не активно то...
-				document.body.style.overflow = 'auto'; // разрешаем прокрутку меню
+			} else { // РµСЃР»Рё РјРµРЅСЋ РЅРµ Р°РєС‚РёРІРЅРѕ С‚Рѕ...
+				document.body.style.overflow = 'auto'; // СЂР°Р·СЂРµС€Р°РµРј РїСЂРѕРєСЂСѓС‚РєСѓ РјРµРЅСЋ
 
-				backBlack.style.display = 'none'; // вырубаем чёрный фон
+				backBlack.style.display = 'none'; // РІС‹СЂСѓР±Р°РµРј С‡С‘СЂРЅС‹Р№ С„РѕРЅ
 			};
 		});
 
-		// если экран резко переходит в моб, то мы врубаем свойства...
-		window.addEventListener('resize', function() { // следим за именением экрана
-			if (document.documentElement.clientWidth > maxWidthMob) { // если он меньше того, когда появляется бургер...
-				document.body.style.overflow = 'auto'; // разрешаем прокрутку
+		// РµСЃР»Рё СЌРєСЂР°РЅ СЂРµР·РєРѕ РїРµСЂРµС…РѕРґРёС‚ РІ РјРѕР±, С‚Рѕ РјС‹ РІСЂСѓР±Р°РµРј СЃРІРѕР№СЃС‚РІР°...
+		window.addEventListener('resize', function() { // СЃР»РµРґРёРј Р·Р° РёРјРµРЅРµРЅРёРµРј СЌРєСЂР°РЅР°
+			if (document.documentElement.clientWidth > maxWidthMob) { // РµСЃР»Рё РѕРЅ РјРµРЅСЊС€Рµ С‚РѕРіРѕ, РєРѕРіРґР° РїРѕСЏРІР»СЏРµС‚СЃСЏ Р±СѓСЂРіРµСЂ...
+				document.body.style.overflow = 'auto'; // СЂР°Р·СЂРµС€Р°РµРј РїСЂРѕРєСЂСѓС‚РєСѓ
 
-				backBlack.style.display = 'none'; // вырубаем чёрный бэк
+				backBlack.style.display = 'none'; // РІС‹СЂСѓР±Р°РµРј С‡С‘СЂРЅС‹Р№ Р±СЌРє
 			}
-			// если пользователь переходит из десктопа в моб при вклёчённом бургере 
-			else if (burger.classList.contains(`${burgName}_active`)) { // если бургер активен...
-				document.body.style.overflow = 'hidden'; // запрещяем прокрутку
+			// РµСЃР»Рё РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РїРµСЂРµС…РѕРґРёС‚ РёР· РґРµСЃРєС‚РѕРїР° РІ РјРѕР± РїСЂРё РІРєР»С‘С‡С‘РЅРЅРѕРј Р±СѓСЂРіРµСЂРµ 
+			else if (burger.classList.contains(`${burgName}_active`)) { // РµСЃР»Рё Р±СѓСЂРіРµСЂ Р°РєС‚РёРІРµРЅ...
+				document.body.style.overflow = 'hidden'; // Р·Р°РїСЂРµС‰СЏРµРј РїСЂРѕРєСЂСѓС‚РєСѓ
 
-				backBlack.style.display = 'block'; // врубаем бэг
+				backBlack.style.display = 'block'; // РІСЂСѓР±Р°РµРј Р±СЌРі
 			}
-			else { // ели чёт не то, то нечё не делаем
+			else { // РµР»Рё С‡С‘С‚ РЅРµ С‚Рѕ, С‚Рѕ РЅРµС‡С‘ РЅРµ РґРµР»Р°РµРј
 				return false
 			}
 		}) 
@@ -654,130 +658,345 @@
 }
 //========================================================================================================================================================
 
-
-//===<--ВЕРТИКАЛЬНОЕ И ГОРИЗОНТАЛЬНОЕ ВЫРАВНИВАНИЕ ЭЛЕМЕНТОВ В ХЕДЕРЕ-->=====================================================================================================================================================
+//===<--Р’Р•Р РўРРљРђР›Р¬РќРћР• Р Р“РћР РР—РћРќРўРђР›Р¬РќРћР• Р’Р«Р РђР’РќРР’РђРќРР• Р­Р›Р•РњР•РќРўРћР’ Р’ РҐР•Р”Р•Р Р•-->=====================================================================================================================================================
 {
 	/*
-		!! Пока работает только для 2 рядов !!
-		Чтоб использовать скрипт надо:
-		1) Иметь меню нужного плана
+		!! РџРѕРєР° СЂР°Р±РѕС‚Р°РµС‚ С‚РѕР»СЊРєРѕ РґР»СЏ 2 СЂСЏРґРѕРІ !!
+		Р§С‚РѕР± РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРєСЂРёРїС‚ РЅР°РґРѕ:
+		1) РРјРµС‚СЊ РјРµРЅСЋ РЅСѓР¶РЅРѕРіРѕ РїР»Р°РЅР°
 
-		Недочёты:
-		1) неучтены padding: bottom у hedera
-		2) всё обнавляется только при перезагрузки или при изсенении высоты экрана
-		3) проблема с падинг ботомами у ли: когда они переходят из десктоп в мобаил их нельзя изменить
+		РќРµРґРѕС‡С‘С‚С‹:
+		1) РЅРµСѓС‡С‚РµРЅС‹ padding: bottom Сѓ hedera
+		2) РІСЃС‘ РѕР±РЅР°РІР»СЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РїСЂРё РїРµСЂРµР·Р°РіСЂСѓР·РєРё РёР»Рё РїСЂРё РёР·СЃРµРЅРµРЅРёРё РІС‹СЃРѕС‚С‹ СЌРєСЂР°РЅР°
+		3) РїСЂРѕР±Р»РµРјР° СЃ РїР°РґРёРЅРі Р±РѕС‚РѕРјР°РјРё Сѓ Р»Рё: РєРѕРіРґР° РѕРЅРё РїРµСЂРµС…РѕРґСЏС‚ РёР· РґРµСЃРєС‚РѕРї РІ РјРѕР±Р°РёР» РёС… РЅРµР»СЊР·СЏ РёР·РјРµРЅРёС‚СЊ
 		4) 
 	*/
 
-	// вертикальное и горизонтальное выравнивание меню хедера
+	// РІРµСЂС‚РёРєР°Р»СЊРЅРѕРµ Рё РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅРѕРµ РІС‹СЂР°РІРЅРёРІР°РЅРёРµ РјРµРЅСЋ С…РµРґРµСЂР°
 
-	let nenuName = 'menu__list', // название ul меню
-		nameHeaderRow = 'header__row', // название контейнера со всем основным содержимым хедера
-		headerRow = document.querySelector(`.${nameHeaderRow}`); // находим хедер ров
+	let nenuName = 'menu__list', // РЅР°Р·РІР°РЅРёРµ ul РјРµРЅСЋ
+		nameHeaderRow = 'header__row', // РЅР°Р·РІР°РЅРёРµ РєРѕРЅС‚РµР№РЅРµСЂР° СЃРѕ РІСЃРµРј РѕСЃРЅРѕРІРЅС‹Рј СЃРѕРґРµСЂР¶РёРјС‹Рј С…РµРґРµСЂР°
+		headerRow = document.querySelector(`.${nameHeaderRow}`); // РЅР°С…РѕРґРёРј С…РµРґРµСЂ СЂРѕРІ
 
-	let mainMenu = document.querySelector(`.${nenuName}`), // находим ul главного меню
-		firstChildLi = mainMenu.firstElementChild, // в этом меню находим 1-ый li
-		lastChildLi = mainMenu.lastElementChild, // и последный li
-		firstChildLiStyle = getComputedStyle(firstChildLi), // узнаём все стили у 1-ого li
-		lastChildLiStyle = getComputedStyle(lastChildLi), // узнаём все стили у последнего li
-		firstMarg = firstChildLiStyle.marginLeft, // узнаём margin-left у 1-ого li
-		lastMarg = lastChildLiStyle.marginRight; // узнаём margin-right у последнего li
+	let mainMenu = document.querySelector(`.${nenuName}`), // РЅР°С…РѕРґРёРј ul РіР»Р°РІРЅРѕРіРѕ РјРµРЅСЋ
+		firstChildLi = mainMenu.firstElementChild, // РІ СЌС‚РѕРј РјРµРЅСЋ РЅР°С…РѕРґРёРј 1-С‹Р№ li
+		lastChildLi = mainMenu.lastElementChild, // Рё РїРѕСЃР»РµРґРЅС‹Р№ li
+		firstChildLiStyle = getComputedStyle(firstChildLi), // СѓР·РЅР°С‘Рј РІСЃРµ СЃС‚РёР»Рё Сѓ 1-РѕРіРѕ li
+		lastChildLiStyle = getComputedStyle(lastChildLi), // СѓР·РЅР°С‘Рј РІСЃРµ СЃС‚РёР»Рё Сѓ РїРѕСЃР»РµРґРЅРµРіРѕ li
+		firstMarg = firstChildLiStyle.marginLeft, // СѓР·РЅР°С‘Рј margin-left Сѓ 1-РѕРіРѕ li
+		lastMarg = lastChildLiStyle.marginRight; // СѓР·РЅР°С‘Рј margin-right Сѓ РїРѕСЃР»РµРґРЅРµРіРѕ li
 
-	// console.log ('firstMarg = ' + firstMarg + ' ' + " lastMarg = "+ lastMarg) // проверка 1
+	// console.log ('firstMarg = ' + firstMarg + ' ' + " lastMarg = "+ lastMarg) // РїСЂРѕРІРµСЂРєР° 1
 
-	let mainMenuLiAll = mainMenu.querySelectorAll('li'), // находим все li меню хедера
-		headerBody = document.querySelector('.header__body'); // находим хедер боди --- возможно не надо !!!!
+	let mainMenuLiAll = mainMenu.querySelectorAll('li'), // РЅР°С…РѕРґРёРј РІСЃРµ li РјРµРЅСЋ С…РµРґРµСЂР°
+		headerBody = document.querySelector('.header__body'); // РЅР°С…РѕРґРёРј С…РµРґРµСЂ Р±РѕРґРё --- РІРѕР·РјРѕР¶РЅРѕ РЅРµ РЅР°РґРѕ !!!!
 
-	function tranNumb (str1, str2) { // функция интепритирует данные (пример: вход-'1234px' выход-'1234)
-		// let x = +(str1.match(/\d+\.\d+|\d+|/)); // переводим строку с px в число без px
-		// let y = +(str2.match(/\d+\.\d+|\d+|/)); // переводим строку с px в число без px
-		let x = +(str1.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
-			y = +(str2.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
+	function tranNumb (str1, str2) { // С„СѓРЅРєС†РёСЏ РёРЅС‚РµРїСЂРёС‚РёСЂСѓРµС‚ РґР°РЅРЅС‹Рµ (РїСЂРёРјРµСЂ: РІС…РѕРґ-'1234px' РІС‹С…РѕРґ-'1234)
+		// let x = +(str1.match(/\d+\.\d+|\d+|/)); // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
+		// let y = +(str2.match(/\d+\.\d+|\d+|/)); // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
+		let x = +(str1.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
+			y = +(str2.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
 			sum;
 
-		sum = y - x; // вычитаем из 2 чила 1
-		if (sum < 0) { // если у нас нету 2 ряда то...
-			sum = 0; // сумма будет 0
+		sum = y - x; // РІС‹С‡РёС‚Р°РµРј РёР· 2 С‡РёР»Р° 1
+		if (sum < 0) { // РµСЃР»Рё Сѓ РЅР°СЃ РЅРµС‚Сѓ 2 СЂСЏРґР° С‚Рѕ...
+			sum = 0; // СЃСѓРјРјР° Р±СѓРґРµС‚ 0
 		};
-		// console.log ('x = ' + x + ' ' + " y = "+ y + ' sum = ' + sum) // проверка 2
-		lastChildLi.style.marginRight = sum + 'px'; // полученный результат даём последнему li
+		// console.log ('x = ' + x + ' ' + " y = "+ y + ' sum = ' + sum) // РїСЂРѕРІРµСЂРєР° 2
+		lastChildLi.style.marginRight = sum + 'px'; // РїРѕР»СѓС‡РµРЅРЅС‹Р№ СЂРµР·СѓР»СЊС‚Р°С‚ РґР°С‘Рј РїРѕСЃР»РµРґРЅРµРјСѓ li
 	};
-	tranNumb(firstMarg, lastMarg); // srt1 это marginLeft 1-ого li, srt1 это margin-right последнего li
+	tranNumb(firstMarg, lastMarg); // srt1 СЌС‚Рѕ marginLeft 1-РѕРіРѕ li, srt1 СЌС‚Рѕ margin-right РїРѕСЃР»РµРґРЅРµРіРѕ li
 
-	if (document.documentElement.clientWidth > 756)	{ // если у нас нету меню бургера то ...
-		lastChildLi.style.marginRight = 'auto'; // ставим последнему li margin-right: auto;
-		firstMarg = firstChildLiStyle.marginLeft; // находим макджин left у 1-ого li
-		lastMarg = lastChildLiStyle.marginRight; // находим марджин right у последнего li
-		tranNumb(firstMarg, lastMarg); // перезапускаем функцию с новыми данными
-		// console.log ('firstMarg = ' + firstMarg + ' ' + " lastMarg = "+ lastMarg) // проверка
+	if (document.documentElement.clientWidth > 756)	{ // РµСЃР»Рё Сѓ РЅР°СЃ РЅРµС‚Сѓ РјРµРЅСЋ Р±СѓСЂРіРµСЂР° С‚Рѕ ...
+		lastChildLi.style.marginRight = 'auto'; // СЃС‚Р°РІРёРј РїРѕСЃР»РµРґРЅРµРјСѓ li margin-right: auto;
+		firstMarg = firstChildLiStyle.marginLeft; // РЅР°С…РѕРґРёРј РјР°РєРґР¶РёРЅ left Сѓ 1-РѕРіРѕ li
+		lastMarg = lastChildLiStyle.marginRight; // РЅР°С…РѕРґРёРј РјР°СЂРґР¶РёРЅ right Сѓ РїРѕСЃР»РµРґРЅРµРіРѕ li
+		tranNumb(firstMarg, lastMarg); // РїРµСЂРµР·Р°РїСѓСЃРєР°РµРј С„СѓРЅРєС†РёСЋ СЃ РЅРѕРІС‹РјРё РґР°РЅРЅС‹РјРё
+		// console.log ('firstMarg = ' + firstMarg + ' ' + " lastMarg = "+ lastMarg) // РїСЂРѕРІРµСЂРєР°
 
-		// если высота меню равно высоте ссылки меню (если все элементы одинаковы) или высота меню - 15px 
-		// (это padding-buttom при возвращении из 2 слойного меню) равно также  высоте ссылки меню то...
-		if (mainMenu.offsetHeight == firstChildLi.firstChild.offsetHeight || mainMenu.offsetHeight - 15 == firstChildLi.firstChild.offsetHeight) { // если меню обычное, то...
-			// console.log ('1 ряд')
-			headerBody.style.paddingBottom = '38px'; // ставим дефолтный PB [tlthe]
-			headerRow.style.alignItems = 'center'; // центрируем лишки
-			for (let i = 0; i < mainMenuLiAll.length; i++) { // каждому li в меню
-				mainMenuLiAll[i].style.paddingBottom = '0px'; // убераем комперсирующий паддинг
+		// РµСЃР»Рё РІС‹СЃРѕС‚Р° РјРµРЅСЋ СЂР°РІРЅРѕ РІС‹СЃРѕС‚Рµ СЃСЃС‹Р»РєРё РјРµРЅСЋ (РµСЃР»Рё РІСЃРµ СЌР»РµРјРµРЅС‚С‹ РѕРґРёРЅР°РєРѕРІС‹) РёР»Рё РІС‹СЃРѕС‚Р° РјРµРЅСЋ - 15px 
+		// (СЌС‚Рѕ padding-buttom РїСЂРё РІРѕР·РІСЂР°С‰РµРЅРёРё РёР· 2 СЃР»РѕР№РЅРѕРіРѕ РјРµРЅСЋ) СЂР°РІРЅРѕ С‚Р°РєР¶Рµ  РІС‹СЃРѕС‚Рµ СЃСЃС‹Р»РєРё РјРµРЅСЋ С‚Рѕ...
+		if (mainMenu.offsetHeight == firstChildLi.firstChild.offsetHeight || mainMenu.offsetHeight - 15 == firstChildLi.firstChild.offsetHeight) { // РµСЃР»Рё РјРµРЅСЋ РѕР±С‹С‡РЅРѕРµ, С‚Рѕ...
+			// console.log ('1 СЂСЏРґ')
+			headerBody.style.paddingBottom = '38px'; // СЃС‚Р°РІРёРј РґРµС„РѕР»С‚РЅС‹Р№ PB [tlthe]
+			headerRow.style.alignItems = 'center'; // С†РµРЅС‚СЂРёСЂСѓРµРј Р»РёС€РєРё
+			for (let i = 0; i < mainMenuLiAll.length; i++) { // РєР°Р¶РґРѕРјСѓ li РІ РјРµРЅСЋ
+				mainMenuLiAll[i].style.paddingBottom = '0px'; // СѓР±РµСЂР°РµРј РєРѕРјРїРµСЂСЃРёСЂСѓСЋС‰РёР№ РїР°РґРґРёРЅРі
 			};
-		} else { // если перешло в 2 ряда то...
-			// console.log ('2-9999 рядов')
-			headerBody.style.paddingBottom = '23px'; // меняем комперсирующий паддинг
-			headerRow.style.alignItems = 'flex-start'; // делаем li по центру
-			for (let i = 0; i < mainMenuLiAll.length; i++) { // и каждому li 
-				mainMenuLiAll[i].style.paddingBottom = '15px'; // добавляем нижний раддинг
+		} else { // РµСЃР»Рё РїРµСЂРµС€Р»Рѕ РІ 2 СЂСЏРґР° С‚Рѕ...
+			// console.log ('2-9999 СЂСЏРґРѕРІ')
+			headerBody.style.paddingBottom = '23px'; // РјРµРЅСЏРµРј РєРѕРјРїРµСЂСЃРёСЂСѓСЋС‰РёР№ РїР°РґРґРёРЅРі
+			headerRow.style.alignItems = 'flex-start'; // РґРµР»Р°РµРј li РїРѕ С†РµРЅС‚СЂСѓ
+			for (let i = 0; i < mainMenuLiAll.length; i++) { // Рё РєР°Р¶РґРѕРјСѓ li 
+				mainMenuLiAll[i].style.paddingBottom = '15px'; // РґРѕР±Р°РІР»СЏРµРј РЅРёР¶РЅРёР№ СЂР°РґРґРёРЅРі
 			};
 		};
 
-	} else { // если есть меню бургер то...
-		headerBody.style.paddingBottom = '0'; // возможно из-за этого что-то не так
-		headerRow.style.alignItems = 'center'; // центрируем лишки
-		for (let i = 0; i < mainMenuLiAll.length; i++) { // у каждого ли 	
-			mainMenuLiAll[i].style.paddingBottom = '0px'; // убераем отступы
+	} else { // РµСЃР»Рё РµСЃС‚СЊ РјРµРЅСЋ Р±СѓСЂРіРµСЂ С‚Рѕ...
+		headerBody.style.paddingBottom = '0'; // РІРѕР·РјРѕР¶РЅРѕ РёР·-Р·Р° СЌС‚РѕРіРѕ С‡С‚Рѕ-С‚Рѕ РЅРµ С‚Р°Рє
+		headerRow.style.alignItems = 'center'; // С†РµРЅС‚СЂРёСЂСѓРµРј Р»РёС€РєРё
+		for (let i = 0; i < mainMenuLiAll.length; i++) { // Сѓ РєР°Р¶РґРѕРіРѕ Р»Рё 	
+			mainMenuLiAll[i].style.paddingBottom = '0px'; // СѓР±РµСЂР°РµРј РѕС‚СЃС‚СѓРїС‹
 		};
-		lastChildLi.style.marginRight = '0'; // ставим последнему li margin-right: 0;
+		lastChildLi.style.marginRight = '0'; // СЃС‚Р°РІРёРј РїРѕСЃР»РµРґРЅРµРјСѓ li margin-right: 0;
 	};
 
-	window.addEventListener('resize', function() { // следим за изменением ширины экрана
-		if (document.documentElement.clientWidth > 756)	{ // если у нас нету меню бургера то ...
-			lastChildLi.style.marginRight = 'auto'; // ставим последнему li margin-right: auto;
-			firstMarg = firstChildLiStyle.marginLeft; // находим макджин left у 1-ого li
-			lastMarg = lastChildLiStyle.marginRight; // находим марджин right у последнего li
-			tranNumb(firstMarg, lastMarg); // перезапускаем функцию с новыми данными
-			// console.log ('firstMarg = ' + firstMarg + ' ' + " lastMarg = "+ lastMarg) // проверка
+	window.addEventListener('resize', function() { // СЃР»РµРґРёРј Р·Р° РёР·РјРµРЅРµРЅРёРµРј С€РёСЂРёРЅС‹ СЌРєСЂР°РЅР°
+		if (document.documentElement.clientWidth > 756)	{ // РµСЃР»Рё Сѓ РЅР°СЃ РЅРµС‚Сѓ РјРµРЅСЋ Р±СѓСЂРіРµСЂР° С‚Рѕ ...
+			lastChildLi.style.marginRight = 'auto'; // СЃС‚Р°РІРёРј РїРѕСЃР»РµРґРЅРµРјСѓ li margin-right: auto;
+			firstMarg = firstChildLiStyle.marginLeft; // РЅР°С…РѕРґРёРј РјР°РєРґР¶РёРЅ left Сѓ 1-РѕРіРѕ li
+			lastMarg = lastChildLiStyle.marginRight; // РЅР°С…РѕРґРёРј РјР°СЂРґР¶РёРЅ right Сѓ РїРѕСЃР»РµРґРЅРµРіРѕ li
+			tranNumb(firstMarg, lastMarg); // РїРµСЂРµР·Р°РїСѓСЃРєР°РµРј С„СѓРЅРєС†РёСЋ СЃ РЅРѕРІС‹РјРё РґР°РЅРЅС‹РјРё
+			// console.log ('firstMarg = ' + firstMarg + ' ' + " lastMarg = "+ lastMarg) // РїСЂРѕРІРµСЂРєР°
 
-			// если высота меню равно высоте ссылки меню (если все элементы одинаковы) или высота меню - 15px 
-			// (это padding-buttom при возвращении из 2 слойного меню) равно также  высоте ссылки меню то...
-			if (mainMenu.offsetHeight == firstChildLi.firstChild.offsetHeight || mainMenu.offsetHeight - 15 == firstChildLi.firstChild.offsetHeight) { // если меню обычное, то...
-				// console.log ('1 ряд')
-				headerBody.style.paddingBottom = '38px'; // ставим дефолтный PB [tlthe]
-				headerRow.style.alignItems = 'center'; // центрируем лишки
-				for (let i = 0; i < mainMenuLiAll.length; i++) { // каждому li в меню
-					mainMenuLiAll[i].style.paddingBottom = '0px'; // убераем комперсирующий паддинг
+			// РµСЃР»Рё РІС‹СЃРѕС‚Р° РјРµРЅСЋ СЂР°РІРЅРѕ РІС‹СЃРѕС‚Рµ СЃСЃС‹Р»РєРё РјРµРЅСЋ (РµСЃР»Рё РІСЃРµ СЌР»РµРјРµРЅС‚С‹ РѕРґРёРЅР°РєРѕРІС‹) РёР»Рё РІС‹СЃРѕС‚Р° РјРµРЅСЋ - 15px 
+			// (СЌС‚Рѕ padding-buttom РїСЂРё РІРѕР·РІСЂР°С‰РµРЅРёРё РёР· 2 СЃР»РѕР№РЅРѕРіРѕ РјРµРЅСЋ) СЂР°РІРЅРѕ С‚Р°РєР¶Рµ  РІС‹СЃРѕС‚Рµ СЃСЃС‹Р»РєРё РјРµРЅСЋ С‚Рѕ...
+			if (mainMenu.offsetHeight == firstChildLi.firstChild.offsetHeight || mainMenu.offsetHeight - 15 == firstChildLi.firstChild.offsetHeight) { // РµСЃР»Рё РјРµРЅСЋ РѕР±С‹С‡РЅРѕРµ, С‚Рѕ...
+				// console.log ('1 СЂСЏРґ')
+				headerBody.style.paddingBottom = '38px'; // СЃС‚Р°РІРёРј РґРµС„РѕР»С‚РЅС‹Р№ PB [tlthe]
+				headerRow.style.alignItems = 'center'; // С†РµРЅС‚СЂРёСЂСѓРµРј Р»РёС€РєРё
+				for (let i = 0; i < mainMenuLiAll.length; i++) { // РєР°Р¶РґРѕРјСѓ li РІ РјРµРЅСЋ
+					mainMenuLiAll[i].style.paddingBottom = '0px'; // СѓР±РµСЂР°РµРј РєРѕРјРїРµСЂСЃРёСЂСѓСЋС‰РёР№ РїР°РґРґРёРЅРі
 				}
-			} else { // если перешло в 2 ряда то...
-				// console.log ('2-9999 рядов')
-				headerBody.style.paddingBottom = '23px'; // меняем комперсирующий паддинг
-				headerRow.style.alignItems = 'flex-start'; // делаем li по центру
-				for (let i = 0; i < mainMenuLiAll.length; i++) { // и каждому li 
-					mainMenuLiAll[i].style.paddingBottom = '15px'; // добавляем нижний раддинг
+			} else { // РµСЃР»Рё РїРµСЂРµС€Р»Рѕ РІ 2 СЂСЏРґР° С‚Рѕ...
+				// console.log ('2-9999 СЂСЏРґРѕРІ')
+				headerBody.style.paddingBottom = '23px'; // РјРµРЅСЏРµРј РєРѕРјРїРµСЂСЃРёСЂСѓСЋС‰РёР№ РїР°РґРґРёРЅРі
+				headerRow.style.alignItems = 'flex-start'; // РґРµР»Р°РµРј li РїРѕ С†РµРЅС‚СЂСѓ
+				for (let i = 0; i < mainMenuLiAll.length; i++) { // Рё РєР°Р¶РґРѕРјСѓ li 
+					mainMenuLiAll[i].style.paddingBottom = '15px'; // РґРѕР±Р°РІР»СЏРµРј РЅРёР¶РЅРёР№ СЂР°РґРґРёРЅРі
 				};
 			};
 
-		} else { // если есть меню бургер то...
-			headerBody.style.paddingBottom = '0'; // возможно из-за этого что-то не так
-			headerRow.style.alignItems = 'center'; // центрируем лишки
-			for (let i = 0; i < mainMenuLiAll.length; i++) { // у каждого ли 	
-				mainMenuLiAll[i].style.paddingBottom = '0px'; // убераем отступы
+		} else { // РµСЃР»Рё РµСЃС‚СЊ РјРµРЅСЋ Р±СѓСЂРіРµСЂ С‚Рѕ...
+			headerBody.style.paddingBottom = '0'; // РІРѕР·РјРѕР¶РЅРѕ РёР·-Р·Р° СЌС‚РѕРіРѕ С‡С‚Рѕ-С‚Рѕ РЅРµ С‚Р°Рє
+			headerRow.style.alignItems = 'center'; // С†РµРЅС‚СЂРёСЂСѓРµРј Р»РёС€РєРё
+			for (let i = 0; i < mainMenuLiAll.length; i++) { // Сѓ РєР°Р¶РґРѕРіРѕ Р»Рё 	
+				mainMenuLiAll[i].style.paddingBottom = '0px'; // СѓР±РµСЂР°РµРј РѕС‚СЃС‚СѓРїС‹
 			};
-			lastChildLi.style.marginRight = '0'; // ставим последнему li margin-right: 0;
+			lastChildLi.style.marginRight = '0'; // СЃС‚Р°РІРёРј РїРѕСЃР»РµРґРЅРµРјСѓ li margin-right: 0;
 		};
 	});
 }
 //========================================================================================================================================================
 
+//===<--animScroll-->=====================================================================================================================================================
+{
+	// РџР»Р°РІРЅС‹Р№ СЃРєСЂРѕР»Р» РЅР° С‡РёСЃС‚РѕРј JS
+	/*
+		Р§С‚РѕР± РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРєСЂРёРїС‚ РЅР°РґРѕ:
+		1) РЈСЃС‚Р°РЅРѕРІРёС‚СЊ href Сѓ СЃСЃС‹Р»РєРё (РїСЂРёРјРµСЂ <a href="#home" class="">Home</a>)
+		2) РЈСЃС‚Р°РЅРѕРІРёС‚СЊ id СЃРµРєС†РёРё (РїСЂРёРјРµСЂ <section id='home'></section>)
+		3) heightFixedMedu РёС‰РµС‚СЃСЏ РІС‹СЃРѕС‚Р° РїСЂРёРєСЂРµРїР»С‘РЅРЅРѕРіРѕ С…РµРґРµСЂР°
 
-//===<--ЧЕРНЫЙ БЭГРАУНД-->=====================================================================================================================================================
+		/* РџР•Р Р•Р”Р•Р›РђРўР¬: РЎР”Р•Р›РђРўР¬ РќР• РЇРљРћР РЇРњР Рђ Р”РђРўРђ РђРўР РР‘РЈРўРђРњР */
+	*/
+	function animScroll() {
+		let upA = document.querySelectorAll('a[href*="#"]'); // РЅР°С…РѕРґРёРј РІСЃРµ СЃСЃС‹Р»РєРё РЅР°С‡РёРЅР°СЋС‰РёРµСЃСЏ РЅР° # (Р­С‚Рѕ С‚РѕС‡РЅРѕ СЏРєРѕСЂРё)
+
+		for (let i = 0; i < upA.length; i++) { // Р·Р°Р±СѓСЃРєР°РµРј С†РёРєР» РїРѕ РІСЃРµРј СЃСЃС‹Р»РєР°Рј
+			upA[i].addEventListener('click', function(event) { // РЎС‚Р°РІРёРј РѕР±СЂР°Р±РѕС‚С‡РёРє РЅР° РІСЃРµ СЏРєРѕСЂРё
+
+				event.preventDefault(); // РѕС‚СЂСѓР±Р°РµРј РґРµР№СЃС‚РІРёРµ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
+				let href = this.getAttribute('href'); // РїРѕР»СѓС‡РµРј href СЃСЃС‹Р»РєРё РЅР° РєРѕС‚РѕСЂСѓСЋ РєР»РёРєРЅСѓР»Рё
+				let elemntAnchor = document.querySelector(href); // РЅР°С…РѕРґРёРј СЌР»РµРјРµРЅС‚, РЅР° РєРѕС‚РѕСЂРѕРј СЃС‚РѕРёС‚ СЌС‚РѕС‚ СЏРєРѕСЂСЊ
+				// eСЃР»Рё СЌС‚Рѕ РЅРµ СЏРєРѕСЂСЊ С‚Рѕ РЅРµ С‚СЂРѕРіР°РµРј, С…Р· РєР°Рє РѕРїСЂРµРґРµР»РёС‚СЊ С‚РѕРіРѕ С‡РµРіРѕ РЅРµС‚ :(
+
+				if (href == '#up') { //РµСЃР»Рё РІ href СЃСЃС‹Р»РєРё РґРѕР±Р°РІРёС‚СЊ #up, С‚Рѕ СЃРєСЂРѕР»Р» РґРѕР№РґС‘С‚ РґРѕ РЅР°С‡Р°Р»Р°
+					scrollUp() // РІС‹Р·С‹РІР°РµРј СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰СѓСЋ С„СѓРЅРєС†РёСЋ
+				} else {
+                    if (window.pageYOffset > elemntAnchor.offsetTop) { // РµСЃР»Рё СЌРєСЂР°РЅ РЅРёР¶Рµ СЌР»РµРјРµРЅС‚Р° С‚Рѕ...
+                        scrollTop(elemntAnchor.offsetTop - heightFixedMedu); // РІС‹Р·С‹РІР°РµРј СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰СѓСЋ С„СѓРЅРєС†РёСЋ Рё - РІС‹СЃРѕС‚Сѓ fixed menu
+                    } else if (window.pageYOffset < elemntAnchor.offsetTop) { //РµСЃР»Рё СЌРєСЂР°РЅ РІС‹С€Рµ СЌР»РµРјРµРЅС‚Р° С‚Рѕ...
+                        scrollBottom(elemntAnchor.offsetTop - heightFixedMedu); // РІС‹Р·С‹РІР°РµРј СЃРѕРѕС‚РІРєС‚СЃС‚РІСѓСЋС‰СѓСЋ С„СѓРЅРєС†РёСЋ Рё - РІС‹СЃРѕС‚Сѓ fixed menu
+                    } else { // РµСЃР»Рё СЌРєСЂР°РЅ РЅР°С…РѕРґРёС‚СЃСЏ РІ РѕРґРЅРѕР№ РєРѕРѕСЂРґРёРЅР°С‚Рµ СЃ СЌР»РµРјРµРЅС‚РѕРј С‚Рѕ...
+                        window.scrollTo(0, elemntAnchor.offsetTop - heightFixedMedu); // СЌРєСЂР°РЅ СЃС‚Р°РЅРѕРІС‚СЃСЏ РІ РєРѕРѕСЂРґРёРЅР°С‚Сѓ СЌР»РµРјРµРЅС‚Р° Рё - РІС‹СЃРѕС‚Сѓ fixed menu
+                    };
+                };
+			});
+		};
+
+		function scrollTop(elemntAnchor) { // С„СѓРЅРєС†РёСЏ РІС‹Р·С‹РІР°РµС‚СЃСЏ РµСЃР»Рё СЌРєСЂР°РЅ РІС‹С€Рµ СЌР»РµРјРµРЅС‚Р°
+			if (window.pageYOffset > elemntAnchor) { // РµСЃР»Рё РєРѕРѕСЂРґРёРЅР°С‚Р° СЌРєСЂР°РЅР° Р±РѕР»СЊС€Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ СЌР»РµРјРµРЅС‚Р° С‚Рѕ...
+				window.scrollTo(0, window.pageYOffset - 50); // СЃРєСЂРѕР»РёРј РІРІРµСЂС… РїРѕ 50px Р·Р° СЂР°Р·
+				setTimeout(scrollTop, 1, elemntAnchor); // Р¶РґС‘Рј 1 РјРёР»РёСЃРµРєСѓРЅРґСѓ Рё РїРѕРІС‚РѕСЂСЏРµРј С„СѓРЅРєС†РёСЋ
+			} else { // РµСЃР»Рё РјС‹ РґРѕС€Р»Рё РґРѕ РЅСѓР¶РЅРѕР№ РєРѕРѕСЂРґРёРЅР°С‚С‹ , С‚Рѕ РѕСЃС‚Р°РІР»СЏРµРј СЃРєСЂРѕР»Р» РЅР° РєРѕСЂРґРµ СЌР»РµРјРµРЅС‚Р°
+				window.scrollTo(0, elemntAnchor);
+			};
+		};
+
+		function scrollBottom(elemntAnchor) { // С„СѓРЅРєС†РёСЏ РІС‹Р·С‹РІР°РµС‚СЃСЏ РµСЃР»Рё СЌРєСЂР°РЅ РІС‹С€Рµ СЌР»РµРјРµРЅС‚Р°
+			if (window.pageYOffset < elemntAnchor) { // РµСЃР»Рё РєРѕРѕСЂРґРёРЅР°С‚Р° СЌРєСЂР°РЅР° РјРµРЅСЊС€Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ СЌР»РµРјРµРЅС‚Р° С‚Рѕ...
+				window.scrollTo(0, window.pageYOffset + 50); // СЃРєСЂРѕР»РёРј РІРЅРёР· РїРѕ 50px Р·Р° СЂР°Р·
+				setTimeout(scrollBottom, 1, elemntAnchor); // Р¶РґС‘Рј 1 РјРёР»РёСЃРµРєСѓРЅРґСѓ Рё РїРѕРІС‚РѕСЂСЏРµРј С„СѓРЅРєС†РёСЋ
+			} else { // РµСЃР»Рё РјС‹ РґРѕС€Р»Рё РґРѕ РЅСѓР¶РЅРѕР№ РєРѕРѕСЂРґРёРЅР°С‚С‹ , С‚Рѕ РѕСЃС‚Р°РІР»СЏРµРј СЃРєСЂРѕР»Р» РЅР° РєРѕСЂРґРµ СЌР»РµРјРµРЅС‚Р°
+				window.scrollTo(0, elemntAnchor);
+			};
+		};
+
+		function scrollUp() { // С„СѓРЅРєС†РёСЏ СЃРєСЂРѕР»РёС‚ СЌРєСЂР°РЅ РІ РєРѕРѕСЂРґРёРЅР°С‚Сѓ 0 0 (РґР»СЏ СЃС‚СЂРµР»РѕС‡РєРё up)
+			if (window.pageYOffset > 0) {
+				window.scrollTo(0, window.pageYOffset - 50)
+				setTimeout(scrollUp, 1)
+			} else {
+				window.scrollTo(0, 0)
+			}
+		}
+	};
+	animScroll ();
+
+}
+//========================================================================================================================================================
+
+//===<--fixHed-->=====================================================================================================================================================
+{
+	/*
+		1) РџРµСЂРІС‹Р№ СЃРєСЂРёРїС‚ РґР»СЏ С„РёРєСЃРёСЂРѕРІР°РЅРёСЏ РјРµРЅСЋ СЃСЂР°Р·Сѓ РїСЂРё СЃРєСЂРѕР»Рµ
+		2) Р’С‚РѕСЂРѕР№ СЃРєСЂРёРїС‚ РґР»СЏ С„РёРєСЃРёСЂРІР°РЅРёСЏ РјРµРЅСЋ С‡РµСЂРµР· РѕРїСЂРµРґРµР»С‘РЅРЅС‹Р№ СЃРєСЂРѕР»Р»
+	*/
+
+	//1
+	function fixHed () {
+		let header = document.querySelector('header'), // РЅР°С…РѕРґРёРј С…РµРґРµСЂ
+			hedCord = header.offsetTop; // РЅР°С…РѕРґРёРј РІРµСЂС…РЅСѓСЋ Р»РµРІСѓСЋ РєРѕРѕСЂРґРёРЅР°С‚Сѓ С…РµРґРµСЂР°
+		function fh (cordHed) { // С„СѓРЅРєС†РёСЏ РїСЂРѕРІРµСЂРєРё 
+			if (window.pageYOffset > cordHed) { // РµСЃР»Рё РІРµСЂС…РЅСЏСЏ РєРѕРѕСЂРґРёРЅР°С‚Р° РѕРєРЅР° Р±РѕР»СЊС€Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ РјРµРЅСЋ С‚Рѕ...
+				header.style.cssText = 'position:fixed; top:0px;'; // РїСЂРёС†РєРїР»СЏРµРј heder СЃРІРµСЂС…Сѓ
+			} else { // РµСЃР»Рё РІРµСЂС…РЅСЏСЏ РєРѕРѕСЂРґРёРЅР°С‚Р° РѕРєРЅР° РјРµРЅСЊС€Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ РјРµРЅСЋ С‚Рѕ...
+				header.style.cssText = 'position:absolute;'; // РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ РЅР°С…РѕРґРёС‚СЃСЏ РІРІРµСЂС…Сѓ
+			};
+		};
+		fh (hedCord) // РїРµСЂРµРґР°С‘Рј РµС‘ РІ С„СѓРЅРєС†РёСЋ
+		window.addEventListener('scroll', function() { // РїСЂРё РїСЂРѕРєСЂСѓС‚РєРё СЃС‚СЂР°РЅРёС†С‹
+			fh (hedCord); // РѕР±РЅРѕРІР»СЏРµРј СЃРѕСЃС‚РѕСЏРЅРёРµ СѓСЃР»РѕРІРёСЏ
+		});
+	};
+	fixHed();
+	// 2
+	function fixHed () {
+		let header = document.querySelector('header'), // РЅР°С…РѕРґРёРј С…РµРґРµСЂ
+			sectionFixed = document.querySelector('.start__fullscrin'), // РЅР°РґРѕ РѕС‚ С‡РµРіРѕ-С‚Рѕ РѕС‚С‚Р°Р»РєРёРІР°С‚СЊСЃСЏ
+			sectionFixedCord = sectionFixed.offsetHeight; // РЅР°С…РѕРґРёРј РІРµСЂС…РЅСЋСЋ РєРѕСЂРґСѓ С‡РµРіРѕ-С‚Рѕ
+
+		function fixedOff () {
+			header.classList.remove('header_fixed-off'); // СѓРґР°Р»СЏРµРј РєР»Р°СЃСЃ РїРѕСЏРІР»РµРЅРёСЏ
+		};
+		
+		let currIn = false; // РёР·РЅР°С‡Р°Р»СЊРЅРѕ РЅР°Рј РЅРµ РЅР°РґРѕ СѓР±РµСЂР°С‚СЊ С€Р°РїРєСѓ
+
+		function fixHedGo() {
+			if (document.documentElement.clientWidth > 756) { // РµСЃР»Рё РЅРµ РјРµРЅСЋ Р±СѓСЂРіРµСЂ
+				if (window.pageYOffset >= sectionFixedCord - 35) { // РµСЃР»Рё РєСЂyС‚РёРј РІ РЅРёР·
+					currIn = true; // С€Р°РїРєР° РїРѕСЏРІРёР»Р°СЃСЊ
+					header.classList.add('header_fixed-in'); // РґРѕР±Р°РІР»СЏРµРј РєР»Р°СЃСЃ Р°РєС‚РёРІР°
+					header.classList.remove('header_fixed-off'); // СѓР±РµСЂР°РµРј РєР»Р°СЃСЃ РЅРµ Р°РєС‚РёРІР°
+				} else { // РµСЃР»Рё РЅР° РІРµСЂС…Сѓ
+					header.classList.remove('header_fixed-in'); // СѓРґР°Р»СЏРµРј РєР»Р°СЃСЃ Р°РєС‚РёРІР°
+					if (currIn) { // РµСЃР»Рё РјС‹ РїРѕР±С‹РІР°Р»Рё РІ РЅРёР·Сѓ 
+						// console.log ('eas')
+						header.classList.add('header_fixed-off'); // РґРѕР±Р°РІР»СЏРµРј РєР»Р°СЃСЃ РЅРµ Р°РєС‚РёРІР°
+						setTimeout(fixedOff, 300); // Р·Р°РїСѓСЃРєР°РµРј С„СѓРЅРєС†РёСЋ РїРѕСЏРІР»РµРЅРёСЏ СЃС‚Р°С‚РёРє С…РµРґРµСЂР° РІ РЅР°С‡Р°Р»Рµ
+						currIn = false; // РѕР±РЅРѕРІР»СЏРµРј РїРµСЂРµРјРµРЅРЅСѓСЋ
+					};
+				};
+			} else { // РµСЃР»Рё РјРµРЅСЋ Р±СѓСЂРіРµСЂ
+				header.classList.remove('header_fixed-in'); // СѓР±СЂР°С‚СЊ Р°РЅРёРјР°С†РёСЋ
+			};
+		};
+
+		window.addEventListener('resize', function() {
+			sectionFixedCord = sectionFixed.offsetHeight; // РѕР±РЅРѕРІР»СЏРµРј РґР°РЅРЅС‹Рµ
+			fixHedGo();
+		})
+
+		window.addEventListener('scroll', function() {
+			fixHedGo()
+			// console.log (window.pageYOffset)
+			// console.log (sectionFixedCord)
+		});
+	};
+	fixHed();
+
+}
+//========================================================================================================================================================
+
+//===<--РџEР EРљР›Р®Р§EРќРE РђРљРўРР’РћР’ РЈ РҐР•Р”Р•Р Рђ-->=====================================================================================================================================================
+{
+	// РџРµСЂРµРєР»СЋС‡Р°Р»РєР° Р°РєС‚РёРІРЅС‹С… СЌР»РµРјРµРЅС‚Р°С… Сѓ С…РµРґРµСЂР° РїСЂРё РЅР°Р¶Р°С‚РёРё =========================================================================================
+	let headerMenu = document.querySelector('.header__menu') // РЅР°С…РѕРґРёРј РјРµРЅСЋ С…РµРґРµСЂР°
+	function activMenuAitems () {
+		headerMenu.addEventListener('click', function(event) { // РїСЂРё РєР»РёРєРµ РЅР° СЌС‚Рѕ РјРµРЅСЋ...
+			headMenuActive (event.target, event.currentTarget); // РїРµСЂРµРґР°С‘Рј РІ С„СѓРЅРєС†РёСЋ СЌР»РµРјРµРЅС‚ РєСѓРґР° РЅР°Р¶Р°Р»Рё Рё РЅР° С‡С‘Рј Р±С‹Р» РѕР±СЂР°Р±РѕС‚С‡РёРє
+		});
+		function headMenuActive(et, ec) { // Р·Р°РїСѓСЃРєР°РµРј РїСЂРѕРІРµСЂРѕС‡РЅСѓСЋ С„СѓРЅРєС†РёСЋ
+			if (et.tagName != 'A') return; // РµСЃР»Рё СЌС‚Рѕ РЅРµ СЃС‹Р»Р»РєР°, С‚Рѕ РЅРµ РЅР°РґРѕ РЅР°Рј
+			if (ec.querySelector('.menu__link_active') == null) { // РµСЃР»Рё РёР·РЅР°С‡Р°Р»СЊРЅРѕ РЅРµС‚ Р°РєС‚РёРІРѕРІ С‚Рѕ...
+				event.preventDefault(); // РІС‹СЂСѓР±Р°РµРј РґРµР№СЃС‚РІРёРµ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
+				et.classList.add('menu__link_active'); // РґР°С‘Рј РЅР°Р¶Р°С‚РѕРјСѓ Р°РєС‚РёРІ
+			} else { // РµСЃР»Рё РёР·РЅР°С‡Р°Р»СЊРЅРѕ РµСЃС‚СЊ Р°РєС‚РёРІ С‚Рѕ...
+				ec.querySelector('.menu__link_active').classList.remove('menu__link_active'); // СѓРґР°Р»СЏРµРј Сѓ РЅРµРіРѕ Р°РєС‚РёРІ
+				event.preventDefault(); // РІС‹СЂСѓР±Р°РµРј РґРµР№СЃС‚РІРёРµ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
+				et.classList.add('menu__link_active'); // РґР°С‘Рј РєР»Р°СЃСЃ Р°РєС‚РёРІ
+			};
+		};
+	};
+	activMenuAitems();
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+//===<--Р—РђРњР•РќРђ РђРљРўРР’Рћ РњР•РќР® РџР Р РЎРљРћР›Р›Р• РҐР•Р”Р•Р Рђ-->=====================================================================================================================================================
+{
+	// РџРѕРґРјРµРЅР° Р°РєС‚РёРІРѕРІ С…РµРґРµР»Р° РїСЂРё СЃРєСЂРѕР»Рµ Рє СЃРµРєС†РёРё =========================================================================================
+	/*
+		Р§С‚РѕР± РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРєСЂРёРїС‚ РЅР°РґРѕ:
+		1) РРјРµС‚СЊ РјРµРЅСЋ РЅСѓР¶РЅРѕРіРѕ РїР»Р°РЅР°
+		2) РїРѕСЃС‚Р°РІРёС‚СЊ СЏРєРѕСЂСЊ РЅР° СЃСЃС‹Р»РєСѓ Рё РЅР° СЌР»РµРјРµРЅС‚
+		<a href="#home" class="menu__link">Home</a>
+		<div class='team' id='home'></div>
+	*/
+	let headerRow = document.querySelector('.header__row'), // РЅР°С…РѕРґРёРј РѕР±РѕР»РѕС‡РєСѓ РјРµРЅСЋ РєРѕС‚РѕСЂР°СЏ РґР°С‘С‚ РІС‹СЃРѕС‚Сѓ РїСЂРё fixed
+	heightFixedMedu = headerRow.offsetHeight; // РѕС‚СЃР»РµР¶РёРІР°РµРј РІС‹СЃРѕС‚Сѓ fixed РјРµРЅСЋ
+
+	function activMenuZone() {
+		let aHrefAll = document.querySelectorAll('.menu__list>li>a[href*="#"]'), // РЅР°С…РѕРґРёРј РІСЃРµ СЃСЃС‹Р»РєРё РіР»Р°РІРЅРѕРіРѕ РјРµРЅСЋ
+			arrHref = [], // СЃРѕР·РґР°С‘Рј РјР°СЃСЃРёРІ РґР»СЏ href РІСЃРµС… СЃСЃС‹Р»РѕРє
+			zoneAllArr = []; // СЃРѕР·РґР°С‘Рј РјР°СЃСЃРёРІ РґР»СЏ Р·РѕРЅ
+
+		for (let i = 0; i < aHrefAll.length; i++) { // РїСЂРѕС…РѕРґРёРјСЃСЏ РїРѕ РєР°Р¶РґРѕР№ СЃСЃР»С‹РєРё
+			arrHref.push(aHrefAll[i].getAttribute('href')); // РїРѕРјРµС‰СЏРµРј РІ РјР°СЃСЃРёРІ href
+			zoneAllArr.push(document.querySelector(arrHref[i])); // РЅРёС…РѕРґРёРј РІСЃРµ Р·РѕРЅС‹ РїРѕ С…СЂРµС„Р°Рј СЃСЃС‹Р»РѕРє
+		};
+		
+		window.addEventListener('scroll', function() { // РїСЂРё СЃРєСЂРѕР»Р»Рµ...
+			heightFixedMedu = headerRow.offsetHeight; // РѕР±РЅРѕРІР»СЏРµРј РІС‹СЃРѕС‚Сѓ fixed РјРµРЅСЋ
+			fullHeigth = window.pageYOffset + heightFixedMedu; // РєРѕРѕСЂРґРёРЅР°С‚Р° РѕРєРЅР° СЃРІРµСЂС…Сѓ +  РІС‹СЃРѕС‚СЂР° РїСЂРµРєСЂРµРїР»С‘РЅРЅРѕРіРѕ С…РµРґРµСЂР°
+		
+			for (let i = 0; i < aHrefAll.length; i++) { // РїСЂРѕС…РѕРґРёРјСЃСЏ РїРѕ РєР°Р¶РґРѕР№ РєРѕРѕСЂРґРёРЅР°С‚РЅРѕР№ РѕР±Р»Р°СЃС‚Рё Р·РѕРЅ
+				// РµСЃР»Рё РІРµСЂС…РЅСЏСЏ РєРѕСЂРґРёРЅР°С‚Р° СЌРєСЂР°РЅР° Р±РѕР»СЊС€Рµ РёР»Рё СЂР°РІРЅРѕ РІРµСЂС…РЅРµР№ РєРѕРѕСЂРґРёРЅР°С‚С‹ РєР°РєРѕР№ Р»РёР±Рѕ Р·РѕРЅС‹ Рё РµСЃР»Рё РІРµСЂС…РЅСЏСЏ РєРѕСЂРґРёРЅР°С‚Р° СЌРєСЂР°РЅР°
+				// РјРµРЅСЊС€Рµ РёР»Рё СЂР°РІРЅРѕ РЅРёР¶РЅРµР№ РєРѕРѕСЂРґРёРЅР°С‚С‹ Р·РѕРЅС‹ С‚Рѕ... (РµСЃР»Рё РјС‹ РїРѕРїР°Р»Рё РІ РѕРґСѓ РёР· Р·РѕРЅ)
+				if (fullHeigth >= zoneAllArr[i].offsetTop && fullHeigth <= zoneAllArr[i].offsetTop + zoneAllArr[i].offsetHeight) {
+					let linkAct = headerMenu.querySelector(`a[href*="${zoneAllArr[i].getAttribute('id')}"]`); // РЅР°С…РѕРґРёРј СЏРєРѕСЂСЊ СЌС‚РѕР№ Р·РѕРЅС‹
+		
+					let linkLastAct = headerMenu.querySelector('.menu__link_active'); // РЅР°С…РѕРґРёРј РїРѕСЃР»РµРґРЅСЋСЋ Р°РєС‚РёРІРЅСѓСЋ Р·РѕРЅСѓ РІ С…РµРґРµСЂРµ
+					if (linkLastAct == null) { // РµСЃР»Рё РёР·РЅР°С‡Р°Р»СЊРЅРѕ РЅРµ Р°РєС‚РёРІРЅС‹С… С‚Рѕ...
+						linkAct.classList.add('menu__link_active'); // РґР°С‘Рј Р°РєС‚РёРІ СЃСЃС‹Р»РєРё СЃРµР№С‡Р°СЃРЅРѕР№ Р·РѕРЅС‹
+					} else { // РµСЃР»Рё РµСЃС‚СЊ Р°РєС‚РёРІРЅС‹Рµ С‚Рѕ...
+						linkLastAct.classList.remove('menu__link_active'); // СѓРґР°Р»СЏРµРј РїРѕСЃР»РµРґРЅРёР№ Р°РєС‚РёРІ
+						linkAct.classList.add('menu__link_active'); // РґР°С‘Рј Р°РєС‚РёРІ СЃСЃС‹Р»РєРё СЃРµР№С‡Р°СЃРЅРѕР№ Р·РѕРЅС‹
+					};
+				};
+			};
+		});
+	};
+	activMenuZone();
+	// ==========================================================================================================
+}
+//========================================================================================================================================================
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/ 
+
+
+//===<--Р§Р•Р РќР«Р™ Р‘Р­Р“Р РђРЈРќР”-->=====================================================================================================================================================
 {
 	//HTML
 	<div class="backblack"></div>
@@ -796,13 +1015,13 @@
 	}
 
 	//JS
-	// Чёрный беграунд ===========================================================================================
-	let backBlack = document.querySelector('.backblack') // находим чёрный бэграунд
+	// Р§С‘СЂРЅС‹Р№ Р±РµРіСЂР°СѓРЅРґ ===========================================================================================
+	let backBlack = document.querySelector('.backblack') // РЅР°С…РѕРґРёРј С‡С‘СЂРЅС‹Р№ Р±СЌРіСЂР°СѓРЅРґ
 
 	function bacBlac() {	
-		backBlack.addEventListener('click', function() { // даём обработчик на него
-			burger.classList.remove(`${burgName}_active`);  // при нажатии дожны убераться все окна что мешают...
-			list.classList.remove(`${listName}_active`); // Надо сделать, но в следующем проекте...
+		backBlack.addEventListener('click', function() { // РґР°С‘Рј РѕР±СЂР°Р±РѕС‚С‡РёРє РЅР° РЅРµРіРѕ
+			burger.classList.remove(`${burgName}_active`);  // РїСЂРё РЅР°Р¶Р°С‚РёРё РґРѕР¶РЅС‹ СѓР±РµСЂР°С‚СЊСЃСЏ РІСЃРµ РѕРєРЅР° С‡С‚Рѕ РјРµС€Р°СЋС‚...
+			list.classList.remove(`${listName}_active`); // РќР°РґРѕ СЃРґРµР»Р°С‚СЊ, РЅРѕ РІ СЃР»РµРґСѓСЋС‰РµРј РїСЂРѕРµРєС‚Рµ...
 			document.body.style.overflow = 'auto';
 			backBlack.style.display = 'none';
 		});
@@ -812,75 +1031,7 @@
 }
 //========================================================================================================================================================
 
-
-//===<--ПЛАВНЫЙ СКРВЛЛ ЯКОРЕЙ И СТРЕЛКИ UP-->=====================================================================================================================================================
-{
-	// Плавный скролл на чистом JS ==================================================================================
-	/*
-		Чтоб использовать скрипт надо:
-		1) Установить href у ссылки (пример <a href="#home" class="">Home</a>)
-		2) Установить id секции (пример <section id='home'></section>)
-		3) heightFixedMedu ищется высота прикреплённого хедера
-	*/
-	function animScroll() {
-		let upA = document.querySelectorAll('a[href*="#"]'); // находим все ссылки начинающиеся на # (Это точно якори)
-
-		for (let i = 0; i < upA.length; i++) { // забускаем цикл по всем ссылкам
-			upA[i].addEventListener('click', function(event) { // Ставим обработчик на все якори
-
-				event.preventDefault(); // отрубаем действие по умолчанию
-				let href = this.getAttribute('href'); // получем href ссылки на которую кликнули
-				let elemntAnchor = document.querySelector(href); // находим элемент, на котором стоит этот якорь
-				// eсли это не якорь то не трогаем, хз как определить того чего нет :(
-
-				if (href == '#up') { //если в href ссылки добавить #up, то скролл дойдёт до начала
-					scrollUp() // вызываем соответствующую функцию
-				} else {
-                    if (window.pageYOffset > elemntAnchor.offsetTop) { // если экран ниже элемента то...
-                        scrollTop(elemntAnchor.offsetTop - heightFixedMedu); // вызываем соответствующую функцию и - высоту fixed menu
-                    } else if (window.pageYOffset < elemntAnchor.offsetTop) { //если экран выше элемента то...
-                        scrollBottom(elemntAnchor.offsetTop - heightFixedMedu); // вызываем соотвктствующую функцию и - высоту fixed menu
-                    } else { // если экран находится в одной координате с элементом то...
-                        window.scrollTo(0, elemntAnchor.offsetTop - heightFixedMedu); // экран становтся в координату элемента и - высоту fixed menu
-                    };
-                };
-			});
-		};
-
-		function scrollTop(elemntAnchor) { // функция вызывается если экран выше элемента
-			if (window.pageYOffset > elemntAnchor) { // если координата экрана больше координаты элемента то...
-				window.scrollTo(0, window.pageYOffset - 50); // скролим вверх по 50px за раз
-				setTimeout(scrollTop, 1, elemntAnchor); // ждём 1 милисекунду и повторяем функцию
-			} else { // если мы дошли до нужной координаты , то оставляем скролл на корде элемента
-				window.scrollTo(0, elemntAnchor);
-			};
-		};
-
-		function scrollBottom(elemntAnchor) { // функция вызывается если экран выше элемента
-			if (window.pageYOffset < elemntAnchor) { // если координата экрана меньше координаты элемента то...
-				window.scrollTo(0, window.pageYOffset + 50); // скролим вниз по 50px за раз
-				setTimeout(scrollBottom, 1, elemntAnchor); // ждём 1 милисекунду и повторяем функцию
-			} else { // если мы дошли до нужной координаты , то оставляем скролл на корде элемента
-				window.scrollTo(0, elemntAnchor);
-			};
-		};
-
-		function scrollUp() { // функция скролит экран в координату 0 0 (для стрелочки up)
-			if (window.pageYOffset > 0) {
-				window.scrollTo(0, window.pageYOffset - 50)
-				setTimeout(scrollUp, 1)
-			} else {
-				window.scrollTo(0, 0)
-			}
-		}
-	};
-	animScroll ();
-	// ==========================================================================================================
-}
-//========================================================================================================================================================
-
-
-//===<--ПЛАВНОЕ ПОЯЛВЕНИЕ UP-->=====================================================================================================================================================
+//===<--РџР›РђР’РќРћР• РџРћРЇР›Р’Р•РќРР• UP-->=====================================================================================================================================================
 {
 	//HTML
 	<a href="#up" class="uparrow">
@@ -906,22 +1057,22 @@
 	}
 
 	//JS
-	// Плавное появление и скрытие Стрелки вверх =========================================================================================
+	// РџР»Р°РІРЅРѕРµ РїРѕСЏРІР»РµРЅРёРµ Рё СЃРєСЂС‹С‚РёРµ РЎС‚СЂРµР»РєРё РІРІРµСЂС… =========================================================================================
 	/*
-		Чтоб использовать скрипт надо:
-		1) Добавить HTML 
-		2) Добавить CSS
-		3) Настроить перемнную cordVis
+		Р§С‚РѕР± РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРєСЂРёРїС‚ РЅР°РґРѕ:
+		1) Р”РѕР±Р°РІРёС‚СЊ HTML 
+		2) Р”РѕР±Р°РІРёС‚СЊ CSS
+		3) РќР°СЃС‚СЂРѕРёС‚СЊ РїРµСЂРµРјРЅРЅСѓСЋ cordVis
 	*/
-	let upArrow = document.querySelector('a[href*="#up"]'), // находим эту стрелку
-	cordVis = 1000; // после какой координаты по Y появляемся? (отсчитываем от верхнего левого угла)
+	let upArrow = document.querySelector('a[href*="#up"]'), // РЅР°С…РѕРґРёРј СЌС‚Сѓ СЃС‚СЂРµР»РєСѓ
+	cordVis = 1000; // РїРѕСЃР»Рµ РєР°РєРѕР№ РєРѕРѕСЂРґРёРЅР°С‚С‹ РїРѕ Y РїРѕСЏРІР»СЏРµРјСЃСЏ? (РѕС‚СЃС‡РёС‚С‹РІР°РµРј РѕС‚ РІРµСЂС…РЅРµРіРѕ Р»РµРІРѕРіРѕ СѓРіР»Р°)
 
 	function visibUpArrow () {
-		window.addEventListener('scroll', function() { // отслеживаем скролл
-			if (window.pageYOffset > cordVis) { // если мы дошли до нужной точки то...
-				upArrow.style.cssText = ('visibility: visible; opacity: 1;'); // даём стили
-			} else { // если экран ещё выше координаты появления то...
-				upArrow.style.cssText = ('visibility: hidden; opacity: 0;'); // даём стили
+		window.addEventListener('scroll', function() { // РѕС‚СЃР»РµР¶РёРІР°РµРј СЃРєСЂРѕР»Р»
+			if (window.pageYOffset > cordVis) { // РµСЃР»Рё РјС‹ РґРѕС€Р»Рё РґРѕ РЅСѓР¶РЅРѕР№ С‚РѕС‡РєРё С‚Рѕ...
+				upArrow.style.cssText = ('visibility: visible; opacity: 1;'); // РґР°С‘Рј СЃС‚РёР»Рё
+			} else { // РµСЃР»Рё СЌРєСЂР°РЅ РµС‰С‘ РІС‹С€Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ РїРѕСЏРІР»РµРЅРёСЏ С‚Рѕ...
+				upArrow.style.cssText = ('visibility: hidden; opacity: 0;'); // РґР°С‘Рј СЃС‚РёР»Рё
 			};
 		});
 	};
@@ -930,8 +1081,7 @@
 }
 //========================================================================================================================================================
 
-
-//===<--IBG ЗАМЕНА HTML img КАРТИНОК НА CSS-->=====================================================================================================================================================
+//===<--IBG Р—РђРњР•РќРђ HTML img РљРђР РўРРќРћРљ РќРђ CSS-->=====================================================================================================================================================
 {	
 	//CSS
 	.ibg {
@@ -953,23 +1103,23 @@
 	//JS
 	// IBG =========================================================================================
 	/*
-		Чтоб использовать скрипт надо:
-		1) установить блоку с тегом img class="ibg"
-		2) Установить этому img class="ibg__img"
-		ПРИМЕР: 
+		Р§С‚РѕР± РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРєСЂРёРїС‚ РЅР°РґРѕ:
+		1) СѓСЃС‚Р°РЅРѕРІРёС‚СЊ Р±Р»РѕРєСѓ СЃ С‚РµРіРѕРј img class="ibg"
+		2) РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЌС‚РѕРјСѓ img class="ibg__img"
+		РџР РРњР•Р : 
 		<div class="Bg ibg">
 			<img src="img..." alt="" class="ibg__img">
 		</div>
-		2) Проверяем чтоб стояли CSS свойства
+		2) РџСЂРѕРІРµСЂСЏРµРј С‡С‚РѕР± СЃС‚РѕСЏР»Рё CSS СЃРІРѕР№СЃС‚РІР°
 	*/
 	function ibg () {
-		let allItems = document.querySelectorAll('.ibg'), // находим все контенеры с классом ibg
-			itemsImage, // переменная для картинок
-			src; // переменная для src
-		for (let i = 0; i < allItems.length; i++) { // проходим по всем элементам и ...
-			itemsImage = allItems[i].querySelector('img'); // находим в них картинку
-			src = itemsImage.getAttribute('src'); // узнаём их src
-			allItems[i].style.backgroundImage = `url(${src})`; // вставляем src в url background-image
+		let allItems = document.querySelectorAll('.ibg'), // РЅР°С…РѕРґРёРј РІСЃРµ РєРѕРЅС‚РµРЅРµСЂС‹ СЃ РєР»Р°СЃСЃРѕРј ibg
+			itemsImage, // РїРµСЂРµРјРµРЅРЅР°СЏ РґР»СЏ РєР°СЂС‚РёРЅРѕРє
+			src; // РїРµСЂРµРјРµРЅРЅР°СЏ РґР»СЏ src
+		for (let i = 0; i < allItems.length; i++) { // РїСЂРѕС…РѕРґРёРј РїРѕ РІСЃРµРј СЌР»РµРјРµРЅС‚Р°Рј Рё ...
+			itemsImage = allItems[i].querySelector('img'); // РЅР°С…РѕРґРёРј РІ РЅРёС… РєР°СЂС‚РёРЅРєСѓ
+			src = itemsImage.getAttribute('src'); // СѓР·РЅР°С‘Рј РёС… src
+			allItems[i].style.backgroundImage = `url(${src})`; // РІСЃС‚Р°РІР»СЏРµРј src РІ url background-image
 		};
 	};
 	ibg ();
@@ -977,8 +1127,7 @@
 }
 //========================================================================================================================================================
 
-
-//===<--ПРОЦЕНТНЫЕ КРУГИ-->=====================================================================================================================================================
+//===<--РџР РћР¦Р•РќРўРќР«Р• РљР РЈР“Р-->=====================================================================================================================================================
 {
 	//HTML
 	<div class='circle'>
@@ -1014,7 +1163,7 @@
 			visibility: visible;
 
 			background-color: #dfe8ed;
-			animation: 0.5s linear 1 normal running 0s forwards; // Половину полного
+			animation: 0.5s linear 1 normal running 0s forwards; // РџРѕР»РѕРІРёРЅСѓ РїРѕР»РЅРѕРіРѕ
 		}
 
 		&__podlo {
@@ -1036,7 +1185,7 @@
 			width: 50%;
 			height: 100%;
 			transform: rotate(0deg);
-			animation:	circle__valve 1s linear 1 normal running 0s forwards; // Время всего заполнения
+			animation:	circle__valve 1s linear 1 normal running 0s forwards; // Р’СЂРµРјСЏ РІСЃРµРіРѕ Р·Р°РїРѕР»РЅРµРЅРёСЏ
 			transform-origin: right center;
 			z-index: 6;
 
@@ -1072,7 +1221,7 @@
 			transform-origin: center right;
 
 			background-color: #eb7d4b;
-			animation:	circle__after 0.5s linear 1 normal running 0s forwards; // Половину полного
+			animation:	circle__after 0.5s linear 1 normal running 0s forwards; // РџРѕР»РѕРІРёРЅСѓ РїРѕР»РЅРѕРіРѕ
 		}
 	}
 	@keyframes circle__before {
@@ -1097,16 +1246,16 @@
 	}
 
 	//JS
-	// Процентные круги =========================================================================================
+	// РџСЂРѕС†РµРЅС‚РЅС‹Рµ РєСЂСѓРіРё =========================================================================================
 	/*
-		Чтоб использовать скрипт надо:
-		1) Добавить блок с кругом в HTML
-		2) Добавить CSS стили
-		3) Написать % class='circle__percent' (он 0 до 100)
-		4) Скорость регулируется в CSS
-		5) Чтоб поменять цвет добавляем классу circle__valve и circle__after style="background-color: #30bae7;"
+		Р§С‚РѕР± РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРєСЂРёРїС‚ РЅР°РґРѕ:
+		1) Р”РѕР±Р°РІРёС‚СЊ Р±Р»РѕРє СЃ РєСЂСѓРіРѕРј РІ HTML
+		2) Р”РѕР±Р°РІРёС‚СЊ CSS СЃС‚РёР»Рё
+		3) РќР°РїРёСЃР°С‚СЊ % class='circle__percent' (РѕРЅ 0 РґРѕ 100)
+		4) РЎРєРѕСЂРѕСЃС‚СЊ СЂРµРіСѓР»РёСЂСѓРµС‚СЃСЏ РІ CSS
+		5) Р§С‚РѕР± РїРѕРјРµРЅСЏС‚СЊ С†РІРµС‚ РґРѕР±Р°РІР»СЏРµРј РєР»Р°СЃСЃСѓ circle__valve Рё circle__after style="background-color: #30bae7;"
 	*/
-	let podlo = document.querySelectorAll('.circle__podlo'), // находим все элементы круга(-ов)
+	let podlo = document.querySelectorAll('.circle__podlo'), // РЅР°С…РѕРґРёРј РІСЃРµ СЌР»РµРјРµРЅС‚С‹ РєСЂСѓРіР°(-РѕРІ)
 	circleA = document.querySelectorAll('.circle__after'),
 	circleB = document.querySelectorAll('.circle__before'),
 	valve = document.querySelectorAll('.circle__valve'),
@@ -1114,27 +1263,27 @@
 	after = document.querySelectorAll('.circle__after');
 
 	function circlePercent () {
-		for (let i = 0; i < percent.length; i++) { // у каждого круга
-			let pres = percent[i].firstChild.textContent; // находим его процент
-			let deg = pres * 3.6; // переводим процент в градусы
-			podlo[i].style.transform = `rotate(${deg}deg)`; // добавляем стиль transform
-			if (deg < 180) { // если меньше 50%
-				circleB[i].style.zIndex = '9'; // раставляеv z-index
+		for (let i = 0; i < percent.length; i++) { // Сѓ РєР°Р¶РґРѕРіРѕ РєСЂСѓРіР°
+			let pres = percent[i].firstChild.textContent; // РЅР°С…РѕРґРёРј РµРіРѕ РїСЂРѕС†РµРЅС‚
+			let deg = pres * 3.6; // РїРµСЂРµРІРѕРґРёРј РїСЂРѕС†РµРЅС‚ РІ РіСЂР°РґСѓСЃС‹
+			podlo[i].style.transform = `rotate(${deg}deg)`; // РґРѕР±Р°РІР»СЏРµРј СЃС‚РёР»СЊ transform
+			if (deg < 180) { // РµСЃР»Рё РјРµРЅСЊС€Рµ 50%
+				circleB[i].style.zIndex = '9'; // СЂР°СЃС‚Р°РІР»СЏРµv z-index
 				podlo[i].style.zIndex = '7';
 				circleA[i].style.setProperty('z-index', "6", "important");
 
-				valve[i].style.animationName = 'circle__valve'; // даём нужные анимации
+				valve[i].style.animationName = 'circle__valve'; // РґР°С‘Рј РЅСѓР¶РЅС‹Рµ Р°РЅРёРјР°С†РёРё
 				after[i].style.animationName = 'circle__after';
-			} else if (deg > 360) { // если больше 100%
-				alert ('не надо > 100%'); // на это ещё не расчитано
+			} else if (deg > 360) { // РµСЃР»Рё Р±РѕР»СЊС€Рµ 100%
+				alert ('РЅРµ РЅР°РґРѕ > 100%'); // РЅР° СЌС‚Рѕ РµС‰С‘ РЅРµ СЂР°СЃС‡РёС‚Р°РЅРѕ
 				return false;
-			} else if (deg >= 180) { // если больше или равно 50%
-				circleB[i].style.zIndex = '9'; // раставляеv z-index
+			} else if (deg >= 180) { // РµСЃР»Рё Р±РѕР»СЊС€Рµ РёР»Рё СЂР°РІРЅРѕ 50%
+				circleB[i].style.zIndex = '9'; // СЂР°СЃС‚Р°РІР»СЏРµv z-index
 				valve[i].style.zIndex = '5';
 				podlo[i].style.zIndex = '6';
 				circleA[i].style.setProperty('z-index', "7", "important");
 
-				circleB[i].style.animationName = 'circle__before'; // даём нужные анимации
+				circleB[i].style.animationName = 'circle__before'; // РґР°С‘Рј РЅСѓР¶РЅС‹Рµ Р°РЅРёРјР°С†РёРё
 				valve[i].style.animationName = 'circle__valve';
 				after[i].style.animationName = 'circle__after';
 			};
@@ -1142,22 +1291,22 @@
 	};
 	circlePercent ();
 
-	// МОЖНО ДОРОБОТАТЬ В СЛЕДУЮЩЕМ ПРОЕКТЕ, МОЖЕТ НАКОПЛЮСЬ ОПЫТА...
-	//появление анимации кругов при скроде до определённой координаты
+	// РњРћР–РќРћ Р”РћР РћР‘РћРўРђРўР¬ Р’ РЎР›Р•Р”РЈР®Р©Р•Рњ РџР РћР•РљРўР•, РњРћР–Р•Рў РќРђРљРћРџР›Р®РЎР¬ РћРџР«РўРђ...
+	//РїРѕСЏРІР»РµРЅРёРµ Р°РЅРёРјР°С†РёРё РєСЂСѓРіРѕРІ РїСЂРё СЃРєСЂРѕРґРµ РґРѕ РѕРїСЂРµРґРµР»С‘РЅРЅРѕР№ РєРѕРѕСЂРґРёРЅР°С‚С‹
 
 	// let circleRow = document.querySelector('.skills__row')
-	// let circleCord = circleRow.offsetTop +  (circleRow.offsetHeight - 20) / 2 // 20 ненужный padding
+	// let circleCord = circleRow.offsetTop +  (circleRow.offsetHeight - 20) / 2 // 20 РЅРµРЅСѓР¶РЅС‹Р№ padding
 	// let clienHeigt = document.documentElement.clientHeight
 
 	// if (window.pageYOffset + clienHeigt >= circleCord) {
-	//     // console.log ('давай') 
-	//     //Если вспомню то лучше выделить зону и если экран попадает на эту зону, то анимация срабатывает, но как это сделать??? %^% !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	//     // console.log ('РґР°РІР°Р№') 
+	//     //Р•СЃР»Рё РІСЃРїРѕРјРЅСЋ С‚Рѕ Р»СѓС‡С€Рµ РІС‹РґРµР»РёС‚СЊ Р·РѕРЅСѓ Рё РµСЃР»Рё СЌРєСЂР°РЅ РїРѕРїР°РґР°РµС‚ РЅР° СЌС‚Сѓ Р·РѕРЅСѓ, С‚Рѕ Р°РЅРёРјР°С†РёСЏ СЃСЂР°Р±Р°С‚С‹РІР°РµС‚, РЅРѕ РєР°Рє СЌС‚Рѕ СЃРґРµР»Р°С‚СЊ??? %^% !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 	//     circlePercent()
 	// }
 	// window.addEventListener('scroll', function() {
 	//     if (window.pageYOffset + clienHeigt >= circleCord) {
-	//         // console.log ('давай')
+	//         // console.log ('РґР°РІР°Р№')
 
 	//         circlePercent()
 	//     }
@@ -1166,8 +1315,7 @@
 }
 //========================================================================================================================================================
 
-
-//===<--МАИИМПУТ ИЛИ ИНПУСЫ С ПОВЕРХНОСНЫМИ СТИЛЯМИ-->=====================================================================================================================================================
+//===<--РњРђРРРњРџРЈРў РР›Р РРќРџРЈРЎР« РЎ РџРћР’Р•Р РҐРќРћРЎРќР«РњР РЎРўРР›РЇРњР-->=====================================================================================================================================================
 {
 	//HTML
 	<div class='myinput'>
@@ -1235,26 +1383,26 @@
 	}
 
 	//JS 
-	// Стили для placeholder в input =========================================================================================
+	// РЎС‚РёР»Рё РґР»СЏ placeholder РІ input =========================================================================================
 	/*
-		Чтоб использовать скрипт надо:
-		1) Копировать блок в HTML
-		2) Установить стилии CSS
-		3) Ширина, высота и все стили настраиваются в CSS
+		Р§С‚РѕР± РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРєСЂРёРїС‚ РЅР°РґРѕ:
+		1) РљРѕРїРёСЂРѕРІР°С‚СЊ Р±Р»РѕРє РІ HTML
+		2) РЈСЃС‚Р°РЅРѕРІРёС‚СЊ СЃС‚РёР»РёРё CSS
+		3) РЁРёСЂРёРЅР°, РІС‹СЃРѕС‚Р° Рё РІСЃРµ СЃС‚РёР»Рё РЅР°СЃС‚СЂР°РёРІР°СЋС‚СЃСЏ РІ CSS
 	*/
 	function myInput () {
-		let myInput = document.querySelectorAll('.myinput'), // находим все блоки майинпут
-		inputPlaceholder = document.querySelectorAll('.myinput__placeholder'), // в них пласхолдер
-		input = document.querySelectorAll('.myinput__input'); // и сам тег импут
+		let myInput = document.querySelectorAll('.myinput'), // РЅР°С…РѕРґРёРј РІСЃРµ Р±Р»РѕРєРё РјР°Р№РёРЅРїСѓС‚
+		inputPlaceholder = document.querySelectorAll('.myinput__placeholder'), // РІ РЅРёС… РїР»Р°СЃС…РѕР»РґРµСЂ
+		input = document.querySelectorAll('.myinput__input'); // Рё СЃР°Рј С‚РµРі РёРјРїСѓС‚
 
-		let arrPlac = []; // создаём массив куда поместим всё что находится в placeholder
-		for (let i = 0; i < myInput.length; i++) { // проходимя по каждому блоку майимпут
-			arrPlac.push(`${inputPlaceholder[i].innerHTML}`); // добавляем в массив контент placeholder
-			myInput[i].addEventListener('input', function() { // устанавливаем каждому омпуту обработчик 'input'
-				if (input[i].value != '') { // если пользоватьль что-то пишет то...
-					inputPlaceholder[i].innerHTML = ''; // быстро вырубаем содержимое placeholder
-				} else { // если пользоватьель ещё ничего не написал или всё стёр то...
-					inputPlaceholder[i].innerHTML = `${arrPlac[i]}`; // очень быстро вставляем собержимое placeholder
+		let arrPlac = []; // СЃРѕР·РґР°С‘Рј РјР°СЃСЃРёРІ РєСѓРґР° РїРѕРјРµСЃС‚РёРј РІСЃС‘ С‡С‚Рѕ РЅР°С…РѕРґРёС‚СЃСЏ РІ placeholder
+		for (let i = 0; i < myInput.length; i++) { // РїСЂРѕС…РѕРґРёРјСЏ РїРѕ РєР°Р¶РґРѕРјСѓ Р±Р»РѕРєСѓ РјР°Р№РёРјРїСѓС‚
+			arrPlac.push(`${inputPlaceholder[i].innerHTML}`); // РґРѕР±Р°РІР»СЏРµРј РІ РјР°СЃСЃРёРІ РєРѕРЅС‚РµРЅС‚ placeholder
+			myInput[i].addEventListener('input', function() { // СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј РєР°Р¶РґРѕРјСѓ РѕРјРїСѓС‚Сѓ РѕР±СЂР°Р±РѕС‚С‡РёРє 'input'
+				if (input[i].value != '') { // РµСЃР»Рё РїРѕР»СЊР·РѕРІР°С‚СЊР»СЊ С‡С‚Рѕ-С‚Рѕ РїРёС€РµС‚ С‚Рѕ...
+					inputPlaceholder[i].innerHTML = ''; // Р±С‹СЃС‚СЂРѕ РІС‹СЂСѓР±Р°РµРј СЃРѕРґРµСЂР¶РёРјРѕРµ placeholder
+				} else { // РµСЃР»Рё РїРѕР»СЊР·РѕРІР°С‚СЊРµР»СЊ РµС‰С‘ РЅРёС‡РµРіРѕ РЅРµ РЅР°РїРёСЃР°Р» РёР»Рё РІСЃС‘ СЃС‚С‘СЂ С‚Рѕ...
+					inputPlaceholder[i].innerHTML = `${arrPlac[i]}`; // РѕС‡РµРЅСЊ Р±С‹СЃС‚СЂРѕ РІСЃС‚Р°РІР»СЏРµРј СЃРѕР±РµСЂР¶РёРјРѕРµ placeholder
 				};
 			});
 		};
@@ -1264,164 +1412,63 @@
 }
 //========================================================================================================================================================
 
-
-//===<--ПРИЦЕПЛЕНИЕ МЕНЮ ПРИ СКРОЛЛЕ ВНИЗ-->=====================================================================================================================================================
+//===<--РџР•Р Р•РљР›Р®Р§РђР›РљРђ РљРћРќРўР•РќРўРђ РЎ РњР•РќР® РќРђ Р’Р•Р РҐРЈ-->=====================================================================================================================================================
 {
-	// прицепление меню при скроле вниз =========================================================================================
-	function fixHed () {
-		let header = document.querySelector('header'), // находим хедер
-			hedCord = header.offsetTop; // находим верхную левую координату хедера
-		function fh (cordHed) { // функция проверки 
-			if (window.pageYOffset > cordHed) { // если верхняя координата окна больше координаты меню то...
-				header.style.cssText = 'position:fixed; top:0px;'; // прицкпляем heder сверху
-			} else { // если верхняя координата окна меньше координаты меню то...
-				header.style.cssText = 'position:absolute;'; // пользователь находится вверху
-			};
-		};
-		fh (hedCord) // передаём её в функцию
-		window.addEventListener('scroll', function() { // при прокрутки страницы
-			fh (hedCord); // обновляем состояние условия
-		});
-	};
-	fixHed();
-	// ==========================================================================================================
-}
-//========================================================================================================================================================
-
-
-//===<--ПEРEКЛЮЧEНИE АКТИВОВ У ХЕДЕРА-->=====================================================================================================================================================
-{
-	// Переключалка активных элементах у хедера при нажатии =========================================================================================
-	let headerMenu = document.querySelector('.header__menu') // находим меню хедера
-	function activMenuAitems () {
-		headerMenu.addEventListener('click', function(event) { // при клике на это меню...
-			headMenuActive (event.target, event.currentTarget); // передаём в функцию элемент куда нажали и на чём был обработчик
-		});
-		function headMenuActive(et, ec) { // запускаем проверочную функцию
-			if (et.tagName != 'A') return; // если это не сыллка, то не надо нам
-			if (ec.querySelector('.menu__link_active') == null) { // если изначально нет активов то...
-				event.preventDefault(); // вырубаем действие по умолчанию
-				et.classList.add('menu__link_active'); // даём нажатому актив
-			} else { // если изначально есть актив то...
-				ec.querySelector('.menu__link_active').classList.remove('menu__link_active'); // удаляем у него актив
-				event.preventDefault(); // вырубаем действие по умолчанию
-				et.classList.add('menu__link_active'); // даём класс актив
-			};
-		};
-	};
-	activMenuAitems();
-	// ==========================================================================================================
-}
-//========================================================================================================================================================
-
-
-//===<--ЗАМЕНА АКТИВО МЕНЮ ПРИ СКОЛЛЕ-->=====================================================================================================================================================
-{
-	// Подмена активов хедела при скроле к секции =========================================================================================
-	/*
-		Чтоб использовать скрипт надо:
-		1) Иметь меню нужного плана
-		2) поставить якорь на ссылку и на элемент
-		<a href="#home" class="menu__link">Home</a>
-		<div class='team' id='home'></div>
-	*/
-	let headerRow = document.querySelector('.header__row'), // находим оболочку меню которая даёт высоту при fixed
-	heightFixedMedu = headerRow.offsetHeight; // отслеживаем высоту fixed меню
-
-	function activMenuZone() {
-		let aHrefAll = document.querySelectorAll('.menu__list>li>a[href*="#"]'), // находим все ссылки главного меню
-			arrHref = [], // создаём массив для href всех ссылок
-			zoneAllArr = []; // создаём массив для зон
-
-		for (let i = 0; i < aHrefAll.length; i++) { // проходимся по каждой сслыки
-			arrHref.push(aHrefAll[i].getAttribute('href')); // помещяем в массив href
-			zoneAllArr.push(document.querySelector(arrHref[i])); // ниходим все зоны по хрефам ссылок
-		};
-		
-		window.addEventListener('scroll', function() { // при скролле...
-			heightFixedMedu = headerRow.offsetHeight; // обновляем высоту fixed меню
-			fullHeigth = window.pageYOffset + heightFixedMedu; // координата окна сверху +  высотра прекреплённого хедера
-		
-			for (let i = 0; i < aHrefAll.length; i++) { // проходимся по каждой координатной области зон
-				// если верхняя кордината экрана больше или равно верхней координаты какой либо зоны и если верхняя кордината экрана
-				// меньше или равно нижней координаты зоны то... (если мы попали в оду из зон)
-				if (fullHeigth >= zoneAllArr[i].offsetTop && fullHeigth <= zoneAllArr[i].offsetTop + zoneAllArr[i].offsetHeight) {
-					let linkAct = headerMenu.querySelector(`a[href*="${zoneAllArr[i].getAttribute('id')}"]`); // находим якорь этой зоны
-		
-					let linkLastAct = headerMenu.querySelector('.menu__link_active'); // находим последнюю активную зону в хедере
-					if (linkLastAct == null) { // если изначально не активных то...
-						linkAct.classList.add('menu__link_active'); // даём актив ссылки сейчасной зоны
-					} else { // если есть активные то...
-						linkLastAct.classList.remove('menu__link_active'); // удаляем последний актив
-						linkAct.classList.add('menu__link_active'); // даём актив ссылки сейчасной зоны
-					};
-				};
-			};
-		});
-	};
-	activMenuZone();
-	// ==========================================================================================================
-}
-//========================================================================================================================================================
-
-
-//===<--ПЕРЕКЛЮЧАЛКА КОНТЕНТА С МЕНЮ НА ВЕРХУ-->=====================================================================================================================================================
-{
-	// Переключалка контента с меню =========================================================================================
+	// РџРµСЂРµРєР»СЋС‡Р°Р»РєР° РєРѕРЅС‚РµРЅС‚Р° СЃ РјРµРЅСЋ =========================================================================================
 	/* 
-		Чтоб использовать скрипт надо:
-		1) иметь меню с конпками или ссылками
-		2) ставить контент группами и у нах должна быть общая оболочка
+		Р§С‚РѕР± РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРєСЂРёРїС‚ РЅР°РґРѕ:
+		1) РёРјРµС‚СЊ РјРµРЅСЋ СЃ РєРѕРЅРїРєР°РјРё РёР»Рё СЃСЃС‹Р»РєР°РјРё
+		2) СЃС‚Р°РІРёС‚СЊ РєРѕРЅС‚РµРЅС‚ РіСЂСѓРїРїР°РјРё Рё Сѓ РЅР°С… РґРѕР»Р¶РЅР° Р±С‹С‚СЊ РѕР±С‰Р°СЏ РѕР±РѕР»РѕС‡РєР°
 	*/
-	let navList = document.querySelector('.navbar__list'), // нходим оболочку переключалок
-		navItemsAll = navList.querySelectorAll('.navbar__link'), // находим все ссылки или кноки меню
-		contentRow = document.querySelector('.portfolio__body'), // находим большой контейнер со всеми контейнерами меню
-		portfolioRowAll = document.querySelectorAll('.portfolio__row'); // находим все конейнеры с содержимым
+	let navList = document.querySelector('.navbar__list'), // РЅС…РѕРґРёРј РѕР±РѕР»РѕС‡РєСѓ РїРµСЂРµРєР»СЋС‡Р°Р»РѕРє
+		navItemsAll = navList.querySelectorAll('.navbar__link'), // РЅР°С…РѕРґРёРј РІСЃРµ СЃСЃС‹Р»РєРё РёР»Рё РєРЅРѕРєРё РјРµРЅСЋ
+		contentRow = document.querySelector('.portfolio__body'), // РЅР°С…РѕРґРёРј Р±РѕР»СЊС€РѕР№ РєРѕРЅС‚РµР№РЅРµСЂ СЃРѕ РІСЃРµРјРё РєРѕРЅС‚РµР№РЅРµСЂР°РјРё РјРµРЅСЋ
+		portfolioRowAll = document.querySelectorAll('.portfolio__row'); // РЅР°С…РѕРґРёРј РІСЃРµ РєРѕРЅРµР№РЅРµСЂС‹ СЃ СЃРѕРґРµСЂР¶РёРјС‹Рј
 
 	function contentswitchMenu() {
-		navList.addEventListener('click', function(event) { // при клике на один из пунктов
+		navList.addEventListener('click', function(event) { // РїСЂРё РєР»РёРєРµ РЅР° РѕРґРёРЅ РёР· РїСѓРЅРєС‚РѕРІ
 			// alert(event.target.tagName)
-			if (event.target.tagName != 'A') return // если не ссылка, то не надо
-			event.preventDefault(); // отменяем дейстиве по умолчанию
-			linkActive(event.target, event.currentTarget); // запускаем функцию в которую передаём куда нажали и сам контейнер
-			for (let i = 0; i < navList.children.length; i++) { // проходимся по всем li контейнера конопок переключения
-				// если 1 из содержимых совпало с содержимым клика то... 
+			if (event.target.tagName != 'A') return // РµСЃР»Рё РЅРµ СЃСЃС‹Р»РєР°, С‚Рѕ РЅРµ РЅР°РґРѕ
+			event.preventDefault(); // РѕС‚РјРµРЅСЏРµРј РґРµР№СЃС‚РёРІРµ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
+			linkActive(event.target, event.currentTarget); // Р·Р°РїСѓСЃРєР°РµРј С„СѓРЅРєС†РёСЋ РІ РєРѕС‚РѕСЂСѓСЋ РїРµСЂРµРґР°С‘Рј РєСѓРґР° РЅР°Р¶Р°Р»Рё Рё СЃР°Рј РєРѕРЅС‚РµР№РЅРµСЂ
+			for (let i = 0; i < navList.children.length; i++) { // РїСЂРѕС…РѕРґРёРјСЃСЏ РїРѕ РІСЃРµРј li РєРѕРЅС‚РµР№РЅРµСЂР° РєРѕРЅРѕРїРѕРє РїРµСЂРµРєР»СЋС‡РµРЅРёСЏ
+				// РµСЃР»Рё 1 РёР· СЃРѕРґРµСЂР¶РёРјС‹С… СЃРѕРІРїР°Р»Рѕ СЃ СЃРѕРґРµСЂР¶РёРјС‹Рј РєР»РёРєР° С‚Рѕ... 
 				if (navItemsAll[i].textContent == event.target.textContent) {
-					portfolioRowActive(i); // мы передаём туда номер этого пункта меню
+					portfolioRowActive(i); // РјС‹ РїРµСЂРµРґР°С‘Рј С‚СѓРґР° РЅРѕРјРµСЂ СЌС‚РѕРіРѕ РїСѓРЅРєС‚Р° РјРµРЅСЋ
 				};
 			};
 		});
 		
 		function linkActive(et, ec) {
-			let prevesAcrive = ec.querySelector('.navbar__link_active'); // если есть активная менюшка то...
+			let prevesAcrive = ec.querySelector('.navbar__link_active'); // РµСЃР»Рё РµСЃС‚СЊ Р°РєС‚РёРІРЅР°СЏ РјРµРЅСЋС€РєР° С‚Рѕ...
 			if (prevesAcrive) {
-				prevesAcrive.classList.remove('navbar__link_active'); // удаляем у нё класс актив
-				et.classList.add('navbar__link_active'); // даём актив нажатому
-			} else { // если нету...
-				et.classList.add('navbar__link_active'); // просто даём актив нажатому
+				prevesAcrive.classList.remove('navbar__link_active'); // СѓРґР°Р»СЏРµРј Сѓ РЅС‘ РєР»Р°СЃСЃ Р°РєС‚РёРІ
+				et.classList.add('navbar__link_active'); // РґР°С‘Рј Р°РєС‚РёРІ РЅР°Р¶Р°С‚РѕРјСѓ
+			} else { // РµСЃР»Рё РЅРµС‚Сѓ...
+				et.classList.add('navbar__link_active'); // РїСЂРѕСЃС‚Рѕ РґР°С‘Рј Р°РєС‚РёРІ РЅР°Р¶Р°С‚РѕРјСѓ
 			};
 		};
 		
 		function portfolioRowActive(i) {
-			let activPortfolioRow = contentRow.querySelector('.portfolio__row_active'); // находим активный класс
-			if (portfolioRowAll[i] == undefined) { // если зона не создана то...
-				if (activPortfolioRow) { // проверяем есть ли активная зона
-					activPortfolioRow.classList.remove('portfolio__row_active'); // удалем у самого первого элемента класс актив
-					return false; // ничё не делаем
-				} else { // если нету активного то...
-					return false; // ничё не делаем
+			let activPortfolioRow = contentRow.querySelector('.portfolio__row_active'); // РЅР°С…РѕРґРёРј Р°РєС‚РёРІРЅС‹Р№ РєР»Р°СЃСЃ
+			if (portfolioRowAll[i] == undefined) { // РµСЃР»Рё Р·РѕРЅР° РЅРµ СЃРѕР·РґР°РЅР° С‚Рѕ...
+				if (activPortfolioRow) { // РїСЂРѕРІРµСЂСЏРµРј РµСЃС‚СЊ Р»Рё Р°РєС‚РёРІРЅР°СЏ Р·РѕРЅР°
+					activPortfolioRow.classList.remove('portfolio__row_active'); // СѓРґР°Р»РµРј Сѓ СЃР°РјРѕРіРѕ РїРµСЂРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РєР»Р°СЃСЃ Р°РєС‚РёРІ
+					return false; // РЅРёС‡С‘ РЅРµ РґРµР»Р°РµРј
+				} else { // РµСЃР»Рё РЅРµС‚Сѓ Р°РєС‚РёРІРЅРѕРіРѕ С‚Рѕ...
+					return false; // РЅРёС‡С‘ РЅРµ РґРµР»Р°РµРј
 				}
 			}
-			if (activPortfolioRow) { // если есть предыдущий актив то...
-				activPortfolioRow.classList.remove('portfolio__row_active'); // удалем у самого первого элемента класс актив
-				portfolioRowAll[i].classList.add('portfolio__row_active'); // добавляем текущему
-			} else { // если у предыдущего нету актива то...
-				if (portfolioRowAll[i]) { // проверяем существует ли эта зона вообще
-					portfolioRowAll[i].classList.add('portfolio__row_active'); // если да, то даём актив текущему
-				} else if (portfolioRowAll[i] == null) { // если зоны нету то...
-					return false; // ничё не делаем
-				} else { // на всякий случай 
-					return false; // тоже ничё не делаем
+			if (activPortfolioRow) { // РµСЃР»Рё РµСЃС‚СЊ РїСЂРµРґС‹РґСѓС‰РёР№ Р°РєС‚РёРІ С‚Рѕ...
+				activPortfolioRow.classList.remove('portfolio__row_active'); // СѓРґР°Р»РµРј Сѓ СЃР°РјРѕРіРѕ РїРµСЂРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р° РєР»Р°СЃСЃ Р°РєС‚РёРІ
+				portfolioRowAll[i].classList.add('portfolio__row_active'); // РґРѕР±Р°РІР»СЏРµРј С‚РµРєСѓС‰РµРјСѓ
+			} else { // РµСЃР»Рё Сѓ РїСЂРµРґС‹РґСѓС‰РµРіРѕ РЅРµС‚Сѓ Р°РєС‚РёРІР° С‚Рѕ...
+				if (portfolioRowAll[i]) { // РїСЂРѕРІРµСЂСЏРµРј СЃСѓС‰РµСЃС‚РІСѓРµС‚ Р»Рё СЌС‚Р° Р·РѕРЅР° РІРѕРѕР±С‰Рµ
+					portfolioRowAll[i].classList.add('portfolio__row_active'); // РµСЃР»Рё РґР°, С‚Рѕ РґР°С‘Рј Р°РєС‚РёРІ С‚РµРєСѓС‰РµРјСѓ
+				} else if (portfolioRowAll[i] == null) { // РµСЃР»Рё Р·РѕРЅС‹ РЅРµС‚Сѓ С‚Рѕ...
+					return false; // РЅРёС‡С‘ РЅРµ РґРµР»Р°РµРј
+				} else { // РЅР° РІСЃСЏРєРёР№ СЃР»СѓС‡Р°Р№ 
+					return false; // С‚РѕР¶Рµ РЅРёС‡С‘ РЅРµ РґРµР»Р°РµРј
 				};
 			};
 		};
@@ -1431,109 +1478,108 @@
 }
 //========================================================================================================================================================
 
-
-//===<--ВЫРАВНИВАНИЕ КОНТЕНТА В ФУЛЛСКРИНЕ ПО ЦЕНТРУ НЕ ЗАВИСЕМО ТО ПАДДИНГОВ - ТО ЧТО НАДО :)-->=====================================================================================================================================================
+//===<--Р’Р«Р РђР’РќРР’РђРќРР• РљРћРќРўР•РќРўРђ Р’ Р¤РЈР›Р›РЎРљР РРќР• РџРћ Р¦Р•РќРўР РЈ РќР• Р—РђР’РРЎР•РњРћ РўРћ РџРђР”Р”РРќР“РћР’ - РўРћ Р§РўРћ РќРђР”Рћ :)-->=====================================================================================================================================================
 {
 	/* 
-		Чтоб использовать скрипт надо:
-		1) лучше использовать с выравнивалкой
-		2) иметь фуллскрин или чёт тип того
-		3) может чёт ещё надо, хз :?
+		Р§С‚РѕР± РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРєСЂРёРїС‚ РЅР°РґРѕ:
+		1) Р»СѓС‡С€Рµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃ РІС‹СЂР°РІРЅРёРІР°Р»РєРѕР№
+		2) РёРјРµС‚СЊ С„СѓР»Р»СЃРєСЂРёРЅ РёР»Рё С‡С‘С‚ С‚РёРї С‚РѕРіРѕ
+		3) РјРѕР¶РµС‚ С‡С‘С‚ РµС‰С‘ РЅР°РґРѕ, С…Р· :?
 
-		Недочёты:
-		1) знать высоту контента
-		2) может случайно зависнуть в небе - это связано с отрицательным margin
-		3) нужно знать точное пространнство для него
-		4) при фиксированним меню нельзя отступать то хедера, надо чё-то придумать ;) ...
-		5) хедер надо делать не абсолютным это большой минус, надо думать что с этим делать
-		6) надо знать чёткую высоту хереа, а то когда она уменьшается не то значение
-		7) можно убрать копипасту :()
-		8) чего-то может не хватать или надо запускать с выравнялкой
+		РќРµРґРѕС‡С‘С‚С‹:
+		1) Р·РЅР°С‚СЊ РІС‹СЃРѕС‚Сѓ РєРѕРЅС‚РµРЅС‚Р°
+		2) РјРѕР¶РµС‚ СЃР»СѓС‡Р°Р№РЅРѕ Р·Р°РІРёСЃРЅСѓС‚СЊ РІ РЅРµР±Рµ - СЌС‚Рѕ СЃРІСЏР·Р°РЅРѕ СЃ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹Рј margin
+		3) РЅСѓР¶РЅРѕ Р·РЅР°С‚СЊ С‚РѕС‡РЅРѕРµ РїСЂРѕСЃС‚СЂР°РЅРЅСЃС‚РІРѕ РґР»СЏ РЅРµРіРѕ
+		4) РїСЂРё С„РёРєСЃРёСЂРѕРІР°РЅРЅРёРј РјРµРЅСЋ РЅРµР»СЊР·СЏ РѕС‚СЃС‚СѓРїР°С‚СЊ С‚Рѕ С…РµРґРµСЂР°, РЅР°РґРѕ С‡С‘-С‚Рѕ РїСЂРёРґСѓРјР°С‚СЊ ;) ...
+		5) С…РµРґРµСЂ РЅР°РґРѕ РґРµР»Р°С‚СЊ РЅРµ Р°Р±СЃРѕР»СЋС‚РЅС‹Рј СЌС‚Рѕ Р±РѕР»СЊС€РѕР№ РјРёРЅСѓСЃ, РЅР°РґРѕ РґСѓРјР°С‚СЊ С‡С‚Рѕ СЃ СЌС‚РёРј РґРµР»Р°С‚СЊ
+		6) РЅР°РґРѕ Р·РЅР°С‚СЊ С‡С‘С‚РєСѓСЋ РІС‹СЃРѕС‚Сѓ С…РµСЂРµР°, Р° С‚Рѕ РєРѕРіРґР° РѕРЅР° СѓРјРµРЅСЊС€Р°РµС‚СЃСЏ РЅРµ С‚Рѕ Р·РЅР°С‡РµРЅРёРµ
+		7) РјРѕР¶РЅРѕ СѓР±СЂР°С‚СЊ РєРѕРїРёРїР°СЃС‚Сѓ :()
+		8) С‡РµРіРѕ-С‚Рѕ РјРѕР¶РµС‚ РЅРµ С…РІР°С‚Р°С‚СЊ РёР»Рё РЅР°РґРѕ Р·Р°РїСѓСЃРєР°С‚СЊ СЃ РІС‹СЂР°РІРЅСЏР»РєРѕР№
 		9) 
 	*/
 
-	// работа с бургер меню при том, когда они по центру
-	function tranNu(Mt, Mb, Pt, Pb) { // функция интепритирует данные (пример: вход-'1234px' выход-'1234)
-		let MtN = +(Mt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
-			MbN = +(Mb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
-			PtN = +(Pt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
-			PbN = +(Pb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)); // переводим строку с px в число без px
+	// СЂР°Р±РѕС‚Р° СЃ Р±СѓСЂРіРµСЂ РјРµРЅСЋ РїСЂРё С‚РѕРј, РєРѕРіРґР° РѕРЅРё РїРѕ С†РµРЅС‚СЂСѓ
+	function tranNu(Mt, Mb, Pt, Pb) { // С„СѓРЅРєС†РёСЏ РёРЅС‚РµРїСЂРёС‚РёСЂСѓРµС‚ РґР°РЅРЅС‹Рµ (РїСЂРёРјРµСЂ: РІС…РѕРґ-'1234px' РІС‹С…РѕРґ-'1234)
+		let MtN = +(Mt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
+			MbN = +(Mb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
+			PtN = +(Pt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
+			PbN = +(Pb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)); // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
 
-		let t = PtN + MtN, //  находим высоту от контента с верху 
-			b = PbN + MbN, //  находим высоту от контента с низу 
-			sum = t + b, // складываем высоты
-			sum2 = sum / 2; // и делим на 2
+		let t = PtN + MtN, //  РЅР°С…РѕРґРёРј РІС‹СЃРѕС‚Сѓ РѕС‚ РєРѕРЅС‚РµРЅС‚Р° СЃ РІРµСЂС…Сѓ 
+			b = PbN + MbN, //  РЅР°С…РѕРґРёРј РІС‹СЃРѕС‚Сѓ РѕС‚ РєРѕРЅС‚РµРЅС‚Р° СЃ РЅРёР·Сѓ 
+			sum = t + b, // СЃРєР»Р°РґС‹РІР°РµРј РІС‹СЃРѕС‚С‹
+			sum2 = sum / 2; // Рё РґРµР»РёРј РЅР° 2
 
-		if (MbN <= 0) { // если нижний мардин auto 0
-			if (MtN <= 0) { // проверяем : мардин топ меньше 0? Соприконулась ли граница с верху с топ падингом 
-				firstChildLi.style.marginTop = 0 + 'px'; // если да, то больше марджин топ не надо трогать
-			} else { // если нет, то...
-				//	!!!  НУЖНО ЗНАТЬ ВЫСОТУ САМОГО КОНТЕНТА БЕЗ МАРДЖИНОВ И ПАДДИНГОВ  !!!
-				// в скобке нужно вычитать хедер, чтобы высота экрана работала с контентом
-				// 105 это для контента... a + a + ....
+		if (MbN <= 0) { // РµСЃР»Рё РЅРёР¶РЅРёР№ РјР°СЂРґРёРЅ auto 0
+			if (MtN <= 0) { // РїСЂРѕРІРµСЂСЏРµРј : РјР°СЂРґРёРЅ С‚РѕРї РјРµРЅСЊС€Рµ 0? РЎРѕРїСЂРёРєРѕРЅСѓР»Р°СЃСЊ Р»Рё РіСЂР°РЅРёС†Р° СЃ РІРµСЂС…Сѓ СЃ С‚РѕРї РїР°РґРёРЅРіРѕРј 
+				firstChildLi.style.marginTop = 0 + 'px'; // РµСЃР»Рё РґР°, С‚Рѕ Р±РѕР»СЊС€Рµ РјР°СЂРґР¶РёРЅ С‚РѕРї РЅРµ РЅР°РґРѕ С‚СЂРѕРіР°С‚СЊ
+			} else { // РµСЃР»Рё РЅРµС‚, С‚Рѕ...
+				//	!!!  РќРЈР–РќРћ Р—РќРђРўР¬ Р’Р«РЎРћРўРЈ РЎРђРњРћР“Рћ РљРћРќРўР•РќРўРђ Р‘Р•Р— РњРђР Р”Р–РРќРћР’ Р РџРђР”Р”РРќР“РћР’  !!!
+				// РІ СЃРєРѕР±РєРµ РЅСѓР¶РЅРѕ РІС‹С‡РёС‚Р°С‚СЊ С…РµРґРµСЂ, С‡С‚РѕР±С‹ РІС‹СЃРѕС‚Р° СЌРєСЂР°РЅР° СЂР°Р±РѕС‚Р°Р»Р° СЃ РєРѕРЅС‚РµРЅС‚РѕРј
+				// 105 СЌС‚Рѕ РґР»СЏ РєРѕРЅС‚РµРЅС‚Р°... a + a + ....
 				
-				// вычетаем и всех высоты эрана высоту контента и делим ёё на 2 и отнимает падинг топ
+				// РІС‹С‡РµС‚Р°РµРј Рё РІСЃРµС… РІС‹СЃРѕС‚С‹ СЌСЂР°РЅР° РІС‹СЃРѕС‚Сѓ РєРѕРЅС‚РµРЅС‚Р° Рё РґРµР»РёРј С‘С‘ РЅР° 2 Рё РѕС‚РЅРёРјР°РµС‚ РїР°РґРёРЅРі С‚РѕРї
 				firstChildLi.style.marginTop = (document.documentElement.clientHeight - 305) / 2 - PtN + 'px';
 			};
-		} else { // если ещё есть марджин, то...
-			firstChildLi.style.marginTop = sum2 - PtN  + 'px'; // даём первому центрирующий марджин
+		} else { // РµСЃР»Рё РµС‰С‘ РµСЃС‚СЊ РјР°СЂРґР¶РёРЅ, С‚Рѕ...
+			firstChildLi.style.marginTop = sum2 - PtN  + 'px'; // РґР°С‘Рј РїРµСЂРІРѕРјСѓ С†РµРЅС‚СЂРёСЂСѓСЋС‰РёР№ РјР°СЂРґР¶РёРЅ
 		};
 	};
 
-	if (document.documentElement.clientWidth <= 756) { // если меню бургер, то...
-		let firstMarginTopLi = firstChildLiStyle.marginTop, // нахдим МТ
-			lastMarginBottomLi =  lastChildLiStyle.marginBottom, // нахдим МБ
-			firstPaddingTopLi = firstChildLiStyle.paddingTop, // нахдим ПТ
-			lastPaddingBottomLi = lastChildLiStyle.paddingBottom; // нахдим ПИ
+	if (document.documentElement.clientWidth <= 756) { // РµСЃР»Рё РјРµРЅСЋ Р±СѓСЂРіРµСЂ, С‚Рѕ...
+		let firstMarginTopLi = firstChildLiStyle.marginTop, // РЅР°С…РґРёРј РњРў
+			lastMarginBottomLi =  lastChildLiStyle.marginBottom, // РЅР°С…РґРёРј РњР‘
+			firstPaddingTopLi = firstChildLiStyle.paddingTop, // РЅР°С…РґРёРј РџРў
+			lastPaddingBottomLi = lastChildLiStyle.paddingBottom; // РЅР°С…РґРёРј РџР
 
 		// console.log ('marginTOP =' + firstMarginTopLi + '  ' + 'marginBottom' + lastMarginBottomLi)
 		tranNu(firstMarginTopLi, lastMarginBottomLi, firstPaddingTopLi, lastPaddingBottomLi);
-	} else { // если не меню бургер, то...
-		firstChildLi.style.marginTop = 0 + 'px'; // то не надо давать ему не нужный марджин топ
+	} else { // РµСЃР»Рё РЅРµ РјРµРЅСЋ Р±СѓСЂРіРµСЂ, С‚Рѕ...
+		firstChildLi.style.marginTop = 0 + 'px'; // С‚Рѕ РЅРµ РЅР°РґРѕ РґР°РІР°С‚СЊ РµРјСѓ РЅРµ РЅСѓР¶РЅС‹Р№ РјР°СЂРґР¶РёРЅ С‚РѕРї
 	};
 	
-	// контент по центру
-	function tranBox(Mt, Mb, Pt, Pb) { // функция интепритирует данные (пример: вход-'1234px' выход-'1234)
-		let MtN = +(Mt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
-			MbN = +(Mb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
-			PtN = +(Pt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // переводим строку с px в число без px
-			PbN = +(Pb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)); // переводим строку с px в число без px
+	// РєРѕРЅС‚РµРЅС‚ РїРѕ С†РµРЅС‚СЂСѓ
+	function tranBox(Mt, Mb, Pt, Pb) { // С„СѓРЅРєС†РёСЏ РёРЅС‚РµРїСЂРёС‚РёСЂСѓРµС‚ РґР°РЅРЅС‹Рµ (РїСЂРёРјРµСЂ: РІС…РѕРґ-'1234px' РІС‹С…РѕРґ-'1234)
+		let MtN = +(Mt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
+			MbN = +(Mb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
+			PtN = +(Pt.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)), // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
+			PbN = +(Pb.match(/\d+\.\d+|\d+|-\d+\.\d+|-\d+/)); // РїРµСЂРµРІРѕРґРёРј СЃС‚СЂРѕРєСѓ СЃ px РІ С‡РёСЃР»Рѕ Р±РµР· px
 
-		let t = PtN + MtN, //  находим высоту от контента с верху 
-			b = PbN + MbN, //  находим высоту от контента с низу 
-			sum = t + b, // складываем высоты
-			sum2 = sum / 2; // и делим на 2
+		let t = PtN + MtN, //  РЅР°С…РѕРґРёРј РІС‹СЃРѕС‚Сѓ РѕС‚ РєРѕРЅС‚РµРЅС‚Р° СЃ РІРµСЂС…Сѓ 
+			b = PbN + MbN, //  РЅР°С…РѕРґРёРј РІС‹СЃРѕС‚Сѓ РѕС‚ РєРѕРЅС‚РµРЅС‚Р° СЃ РЅРёР·Сѓ 
+			sum = t + b, // СЃРєР»Р°РґС‹РІР°РµРј РІС‹СЃРѕС‚С‹
+			sum2 = sum / 2; // Рё РґРµР»РёРј РЅР° 2
 
-		if (MbN <= 0) { // если нижний мардин auto 0
-			if (MtN <= 0) { // проверяем : мардин топ меньше 0? Соприконулась ли граница с верху с топ падингом 
-				startBox.style.marginTop = 0 + 'px'; // если да, то больше марджин топ не надо трогать
-			} else { // если нет, то...
-				// 100 ЭТО ВЫСОТА ХЕДЕРА, ОН С НИМ КОНТАКТИРУЕТ
+		if (MbN <= 0) { // РµСЃР»Рё РЅРёР¶РЅРёР№ РјР°СЂРґРёРЅ auto 0
+			if (MtN <= 0) { // РїСЂРѕРІРµСЂСЏРµРј : РјР°СЂРґРёРЅ С‚РѕРї РјРµРЅСЊС€Рµ 0? РЎРѕРїСЂРёРєРѕРЅСѓР»Р°СЃСЊ Р»Рё РіСЂР°РЅРёС†Р° СЃ РІРµСЂС…Сѓ СЃ С‚РѕРї РїР°РґРёРЅРіРѕРј 
+				startBox.style.marginTop = 0 + 'px'; // РµСЃР»Рё РґР°, С‚Рѕ Р±РѕР»СЊС€Рµ РјР°СЂРґР¶РёРЅ С‚РѕРї РЅРµ РЅР°РґРѕ С‚СЂРѕРіР°С‚СЊ
+			} else { // РµСЃР»Рё РЅРµС‚, С‚Рѕ...
+				// 100 Р­РўРћ Р’Р«РЎРћРўРђ РҐР•Р”Р•Р Рђ, РћРќ РЎ РќРРњ РљРћРќРўРђРљРўРР РЈР•Рў
 
-				// вычетаем и всех высоты эрана высоту контента и делим ёё на 2 и отнимает падинг топ
+				// РІС‹С‡РµС‚Р°РµРј Рё РІСЃРµС… РІС‹СЃРѕС‚С‹ СЌСЂР°РЅР° РІС‹СЃРѕС‚Сѓ РєРѕРЅС‚РµРЅС‚Р° Рё РґРµР»РёРј С‘С‘ РЅР° 2 Рё РѕС‚РЅРёРјР°РµС‚ РїР°РґРёРЅРі С‚РѕРї
 				startBox.style.marginTop = (document.documentElement.clientHeight - 100 - bodyHeigth) / 2 - PtN + 'px';
 			};
-		} else { // если ещё есть марджин, то...
-			startBox.style.marginTop = sum2 - PtN  + 'px'; // даём первому центрирующий марджин
+		} else { // РµСЃР»Рё РµС‰С‘ РµСЃС‚СЊ РјР°СЂРґР¶РёРЅ, С‚Рѕ...
+			startBox.style.marginTop = sum2 - PtN  + 'px'; // РґР°С‘Рј РїРµСЂРІРѕРјСѓ С†РµРЅС‚СЂРёСЂСѓСЋС‰РёР№ РјР°СЂРґР¶РёРЅ
 		};
 	};
 
-	let startBody = document.querySelector('.start__body'), // находим контейнер в котором будет только контент
-		bodyHeigth = startBody.offsetHeight; // узнаём его высоту
+	let startBody = document.querySelector('.start__body'), // РЅР°С…РѕРґРёРј РєРѕРЅС‚РµР№РЅРµСЂ РІ РєРѕС‚РѕСЂРѕРј Р±СѓРґРµС‚ С‚РѕР»СЊРєРѕ РєРѕРЅС‚РµРЅС‚
+		bodyHeigth = startBody.offsetHeight; // СѓР·РЅР°С‘Рј РµРіРѕ РІС‹СЃРѕС‚Сѓ
 
-	let startBox = document.querySelector('.start__box'), // находим контейнер с падингами и марджинами
-		startBoxStyle = getComputedStyle(startBox); // унаём у нето всё стили
+	let startBox = document.querySelector('.start__box'), // РЅР°С…РѕРґРёРј РєРѕРЅС‚РµР№РЅРµСЂ СЃ РїР°РґРёРЅРіР°РјРё Рё РјР°СЂРґР¶РёРЅР°РјРё
+		startBoxStyle = getComputedStyle(startBox); // СѓРЅР°С‘Рј Сѓ РЅРµС‚Рѕ РІСЃС‘ СЃС‚РёР»Рё
 
-	let startBoxMarginTop = startBoxStyle.marginTop, // узнаём МТ
-		startBoxMarginBottom = startBoxStyle.marginBottom, // узнаём МБ
-		startBoxPaddingTop = startBoxStyle.paddingTop, // узнаём PT
-		startBoxPaddingBottom = startBoxStyle.paddingBottom;// узнаём PB
+	let startBoxMarginTop = startBoxStyle.marginTop, // СѓР·РЅР°С‘Рј РњРў
+		startBoxMarginBottom = startBoxStyle.marginBottom, // СѓР·РЅР°С‘Рј РњР‘
+		startBoxPaddingTop = startBoxStyle.paddingTop, // СѓР·РЅР°С‘Рј PT
+		startBoxPaddingBottom = startBoxStyle.paddingBottom;// СѓР·РЅР°С‘Рј PB
 
-	tranBox(startBoxMarginTop, startBoxMarginBottom, startBoxPaddingTop, startBoxPaddingBottom); // закидываем в печь
+	tranBox(startBoxMarginTop, startBoxMarginBottom, startBoxPaddingTop, startBoxPaddingBottom); // Р·Р°РєРёРґС‹РІР°РµРј РІ РїРµС‡СЊ
 
-	window.addEventListener('resize',function() { // следим за изменеием экрана
-		if (document.documentElement.clientWidth <= 756) { // если бургер, то...
-			firstMarginTopLi = firstChildLiStyle.marginTop; // обновляем данные по li
+	window.addEventListener('resize',function() { // СЃР»РµРґРёРј Р·Р° РёР·РјРµРЅРµРёРµРј СЌРєСЂР°РЅР°
+		if (document.documentElement.clientWidth <= 756) { // РµСЃР»Рё Р±СѓСЂРіРµСЂ, С‚Рѕ...
+			firstMarginTopLi = firstChildLiStyle.marginTop; // РѕР±РЅРѕРІР»СЏРµРј РґР°РЅРЅС‹Рµ РїРѕ li
 			lastMarginBottomLi =  lastChildLiStyle.marginBottom;
 			firstPaddingTopLi = firstChildLiStyle.paddingTop;
 			lastPaddingBottomLi = lastChildLiStyle.paddingBottom;
@@ -1541,11 +1587,11 @@
 			// console.log ('marginTOP =' + firstMarginTopLi + '  ' + 'marginBottom' + lastMarginBottomLi)
 			tranNu(firstMarginTopLi, lastMarginBottomLi, firstPaddingTopLi, lastPaddingBottomLi);
 
-		} else { // если не бургер...
-			firstChildLi.style.marginTop = 0 + 'px'; // не надо марждин
+		} else { // РµСЃР»Рё РЅРµ Р±СѓСЂРіРµСЂ...
+			firstChildLi.style.marginTop = 0 + 'px'; // РЅРµ РЅР°РґРѕ РјР°СЂР¶РґРёРЅ
 		};
 		
-		bodyHeigth = startBody.offsetHeight; // обновляем данные по блоку по центру...
+		bodyHeigth = startBody.offsetHeight; // РѕР±РЅРѕРІР»СЏРµРј РґР°РЅРЅС‹Рµ РїРѕ Р±Р»РѕРєСѓ РїРѕ С†РµРЅС‚СЂСѓ...
 		startBoxMarginTop = startBoxStyle.marginTop;
 		startBoxMarginBottom = startBoxStyle.marginBottom;
 		startBoxPaddingTop = startBoxStyle.paddingTop;
@@ -1556,3 +1602,106 @@
 //========================================================================================================================================================
 
 
+
+
+/*РЎРќРРџР•Р Р« Р”Р›РЇ Р“РћРўРћР’Р«РҐ Р­Р›Р•РњР•РќРўРћР’ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/ 
+	
+
+	//===<--slick-->=====================================================================================================================================================
+	{	
+		//HTML
+		<div class="slider">
+        	<div class="slider__item"></div>
+        	<div class="slider__item"></div>
+			<div class="slider__item"></div>
+			<div class="slider__item"></div>
+    	</div>
+
+		//CSS
+		{
+			/* РЎР»Р°Р№РґРµСЂ */
+			.slick-slider {
+
+			}
+			/* РЎР»Р°Р№РґРµСЂ Р·Р°РїСѓС‰РµРЅ */
+			.slick-slider.slick-initialized {
+
+			}
+			/* РЎР»Р°Р№РґРµСЂ СЃ С‚РѕС‡РєР°РјРё */
+			.slick-slider.slick-dotted {
+
+			}
+			/* РћРіСЂР°РЅРёС‡РёРІР°СЋС‰Р°СЏ РѕР±РѕР»РѕС‡РєР° */
+			.slick-list {
+				overflow: hidden;
+			}
+			/* Р›РµРЅС‚Р° СЃР»Р°Р№РґРѕРІ */
+			.slick-track {
+				display: flex;
+			}
+			/* РЎР»Р°Р№Рґ */
+			.slick-slide {
+
+			}
+			/* РЎР»Р°Р№Рґ Р°РєС‚РёРІРЅС‹Р№ (РїРѕРєР°Р·С‹РІР°РµС‚СЃСЏ) */
+			.slick-slide.slick-active{
+
+			}
+			/* РЎР»Р°Р№Рґ РѕСЃРЅРѕРІРЅРѕР№ */
+			.slick-slide.slick-current{
+
+			}
+			/* РЎР»Р°Р№Рґ РїРѕ С†РµРЅС‚СЂСѓ */
+			.slick-slide.slick-center{
+
+			}
+			/* РљР»РѕРЅРёСЂРѕРІР°РЅРЅС‹Р№ СЃР»Р°Р№Рґ */
+			.slick-slide.slick-cloned{
+
+			}
+			/* РЎС‚СЂРµР»РєР° */
+			.slick-arrow {
+
+			}
+			/* РЎС‚СЂРµР»РєР° РІР»РµРІРѕ */
+			.slick-arrow.slick-prev {
+
+			}
+			/* РЎС‚СЂРµР»РєР° РІРїСЂР°РІРѕ */
+			.slick-arrow.slick-next{
+
+			}
+			/* РЎС‚СЂРµР»РєР° РЅРµ Р°РєС‚РёРІРЅР°СЏ */
+			.slick-arrow.slick-disabled{
+
+			}
+			/* РўРѕС‡РєРё (Р±СѓР»РёС‚С‹) */
+			.slick-dots {
+
+			}
+			.slick-dots li{
+
+			}
+			/* РђРєС‚РёРІРЅР°СЏ С‚РѕС‡РєР° */
+			.slick-dots li.slick-active{
+
+			}
+			/* Р­Р»РµРјРµРЅС‚ С‚РѕС‡РєРё */
+			.slick-dots li button{
+
+			}
+		}
+		//JS
+		$('.slider').slick({
+			arrows: false, // РІРєР» РІС‹РєР» СЃС‚СЂРµР»РєРё
+			dots: true, // РІРєР» РІС‹РєР» С‚РѕС‡РєРё
+			infinite: true, // РјРѕР¶РЅРѕ Р»РёСЃС‚Р°С‚СЊ Р±РµСЃРєРѕРЅРµС‡РЅРѕ
+			slidesToShow: 1, // СЃРєРѕР»СЊРєРѕ РїРѕРєР°Р·С‹РІР°С‚СЊ СЃР»Р°Р№РґРѕРІ
+			slidesToScroll: 1, //  СЃРєРѕР»СЊРєРѕ СЃРєСЂРѕР»РёС‚СЊ СЃР»Р°Р№РґРѕРІ
+			fade: true, // Р°РЅРёРјР°С†РёСЏ РїРµСЂРµРєР»СЋС‡РµРЅРёСЏ
+		});
+	}
+	//========================================================================================================================================================
+	
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/ 
